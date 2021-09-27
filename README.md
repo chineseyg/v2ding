@@ -57,9 +57,9 @@ proxies:
   - {name: 🇬🇧 英国（20984） 41, server: 185.108.105.82, port: 34687, type: ss, cipher: aes-256-gcm, password: txmK9WhwP6WPhP7hqSBLVxpN}
   - {name: 🇬🇧 英国（20984） 42, server: 185.108.105.82, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
   - {name: 🇬🇧 英国（20984） 43, server: 185.108.105.82, port: 47121, type: ss, cipher: aes-256-gcm, password: CTK8GXFQgKYQErrghPJfZ6tk}
-  - {name: 🇬🇧 英国（感谢关注youtube：8度科技）, server: 195.181.171.233, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇬🇧 英国（感谢关注youtube：8度科技） 2, server: 84.17.41.83, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
-  - {name: 🇬🇧 英国（感谢关注youtube：8度科技） 3, server: 91.206.168.29, port: 49339, type: ss, cipher: aes-256-gcm, password: suucSeVLmt6PQKAP77NtGw9x}
+  - {name: 🇬🇧 英国（20984）, server: 195.181.171.233, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇬🇧 英国（20984） 2, server: 84.17.41.83, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+  - {name: 🇬🇧 英国（20984） 3, server: 91.206.168.29, port: 49339, type: ss, cipher: aes-256-gcm, password: suucSeVLmt6PQKAP77NtGw9x}
   - {name: 🇬🇧 英国 （20984）, server: 172.99.190.35, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
   - {name: 🇬🇧 英国 （20984） 2, server: 193.118.60.165, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
   - {name: 🇬🇧 英国 （20984） 3, server: 193.118.60.167, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
@@ -110,8 +110,8 @@ proxies:
   - {name: 🇹🇭 泰国 曼谷（20984 32, server: 27.131.164.94, port: 44742, type: ss, cipher: aes-256-gcm, password: QCStKzZ56SHBc4tL7stCEqqd}
   - {name: 🇨🇳 台湾（20984）2阅), server: 165.231.253.147, port: 34815, type: ss, cipher: aes-256-gcm, password: LkFAzkzXkSCRYa2CsRdL8cGb}
   - {name: 🇨🇳 台湾（20984）, server: 165.231.253.147, port: 32558, type: ss, cipher: aes-256-gcm, password: gJYzm3TLbdL495ryQptaJXQk}
-  - {name: 瑞典（感谢关注youtube：8度科技）, server: 45.83.91.133, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
-  - {name: 🇩🇪 瑞典 斯德哥尔摩（感谢关注youtube：8度科技）, server: 185.76.9.44, port: 38742, type: ss, cipher: aes-256-gcm, password: DKXfWwc4ebscpXTKpbt85rSH}
+  - {name: 瑞典（20984）, server: 45.83.91.133, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {name: 🇩🇪 瑞典 斯德哥尔摩（20984）, server: 185.76.9.44, port: 38742, type: ss, cipher: aes-256-gcm, password: DKXfWwc4ebscpXTKpbt85rSH}
   - {name: 葡萄牙 🇵🇹（20984）, server: 5.154.174.189, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
   - {name: 挪威（20984）, server: 46.29.218.6, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
   - {name: 🇿🇦 南非 约翰内斯堡（20984）, server: 172.107.233.234, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
@@ -138,21 +138,21 @@ proxies:
   - {name: 🇺🇸 美国（20984） 21, server: 104.244.211.141, port: 38742, type: ss, cipher: aes-256-gcm, password: DKXfWwc4ebscpXTKpbt85rSH}
   - {name: 🇺🇸 美国（20984） 22, server: 104.244.211.141, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
   - {name: 🇺🇸 美国（20984） 23, server: 104.244.211.141, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
-  - {name: 🇺🇸 美国 亚特兰大（感谢关注youtube：8度科技）, server: 66.115.147.89, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
-  - {name: 🇺🇸 美国 亚特兰大（感谢关注youtube：8度科技） 2, server: 66.115.154.131, port: 41676, type: ss, cipher: aes-256-gcm, password: z6pH3RyttkRWhJ5tpRyt6dYk}
-  - {name: 🇺🇸 美国 亚特兰大（感谢关注youtube：8度科技） 3, server: 66.115.177.136, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
-  - {name: 🇺🇸 美国 亚特兰大（感谢关注youtube：8度科技） 4, server: 66.115.177.136, port: 48938, type: ss, cipher: aes-256-gcm, password: 4ejJ8n5ddLuYDUHGXJre2ufJ}
-  - {name: 🇺🇸 美国 亚特兰大（感谢关注youtube：8度科技） 5, server: 66.115.177.136, port: 49339, type: ss, cipher: aes-256-gcm, password: suucSeVLmt6PQKAP77NtGw9x}
-  - {name: 🇺🇸 美国 亚特兰大（感谢关注youtube：8度科技） 6, server: 66.115.177.141, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: 🇺🇸 美国 亚特兰大（感谢关注youtube：8度科技） 7, server: 66.115.177.156, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
-  - {name: 🇺🇸 美国 亚特兰大（感谢关注youtube：8度科技） 8, server: 66.115.177.156, port: 48938, type: ss, cipher: aes-256-gcm, password: 4ejJ8n5ddLuYDUHGXJre2ufJ}
-  - {name: 🇺🇸 美国 亚特兰大（感谢关注youtube：8度科技） 9, server: 66.115.177.156, port: 49339, type: ss, cipher: aes-256-gcm, password: suucSeVLmt6PQKAP77NtGw9x}
-  - {name: 🇺🇸 美国 亚特兰大（感谢关注youtube：8度科技） 10, server: 66.115.177.156, port: 49396, type: ss, cipher: aes-256-gcm, password: BdRWC38L5JUDMTYNNxJGcUwB}
-  - {name: 🇺🇸 美国 亚特兰大 1（感谢关注youtube：8度科技）, server: 66.115.154.131, port: 50695, type: ss, cipher: aes-256-gcm, password: gqtwGu9bVreJqL3FTHSVKGzy}
+  - {name: 🇺🇸 美国 亚特兰大（20984）, server: 66.115.147.89, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {name: 🇺🇸 美国 亚特兰大（20984） 2, server: 66.115.154.131, port: 41676, type: ss, cipher: aes-256-gcm, password: z6pH3RyttkRWhJ5tpRyt6dYk}
+  - {name: 🇺🇸 美国 亚特兰大（20984） 3, server: 66.115.177.136, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+  - {name: 🇺🇸 美国 亚特兰大（20984） 4, server: 66.115.177.136, port: 48938, type: ss, cipher: aes-256-gcm, password: 4ejJ8n5ddLuYDUHGXJre2ufJ}
+  - {name: 🇺🇸 美国 亚特兰大（20984） 5, server: 66.115.177.136, port: 49339, type: ss, cipher: aes-256-gcm, password: suucSeVLmt6PQKAP77NtGw9x}
+  - {name: 🇺🇸 美国 亚特兰大（20984） 6, server: 66.115.177.141, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: 🇺🇸 美国 亚特兰大（20984） 7, server: 66.115.177.156, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+  - {name: 🇺🇸 美国 亚特兰大（20984） 8, server: 66.115.177.156, port: 48938, type: ss, cipher: aes-256-gcm, password: 4ejJ8n5ddLuYDUHGXJre2ufJ}
+  - {name: 🇺🇸 美国 亚特兰大（20984） 9, server: 66.115.177.156, port: 49339, type: ss, cipher: aes-256-gcm, password: suucSeVLmt6PQKAP77NtGw9x}
+  - {name: 🇺🇸 美国 亚特兰大（20984） 10, server: 66.115.177.156, port: 49396, type: ss, cipher: aes-256-gcm, password: BdRWC38L5JUDMTYNNxJGcUwB}
+  - {name: 🇺🇸 美国 亚特兰大 1（20984）, server: 66.115.154.131, port: 50695, type: ss, cipher: aes-256-gcm, password: gqtwGu9bVreJqL3FTHSVKGzy}
   - {name: 🇸🇬 美国 新泽西（感谢关注youtube：8度科, server: 45.133.193.221, port: 45948, type: ss, cipher: aes-256-gcm, password: j76EXqJcQhuQTr3EvUf7xaK9}
   - {name: 🇸🇬 美国 新泽西 （20984）, server: 172.104.206.241, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
   - {name: 🇺🇸 美国 纽约（20984）, server: 64.44.42.162, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
-  - {name: 🇺🇸 美国 密歇根（感谢关注youtube：8度科技）, server: 104.244.211.141, port: 49339, type: ss, cipher: aes-256-gcm, password: suucSeVLmt6PQKAP77NtGw9x}
+  - {name: 🇺🇸 美国 密歇根（20984）, server: 104.244.211.141, port: 49339, type: ss, cipher: aes-256-gcm, password: suucSeVLmt6PQKAP77NtGw9x}
   - {name: 🇺🇸 美国 密歇根（感谢关注youtube：8度科, server: 104.244.208.211, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
   - {name: 🇺🇸 美国 洛杉矶2（20984）, server: 198.147.22.87, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
   - {name: 🇺🇸 美国 加利福尼亚 （20984）, server: 45.79.122.28, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
@@ -160,17 +160,17 @@ proxies:
   - {name: 🇺🇸 美国 （20984） 2, server: 193.118.60.171, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
   - {name: 🇺🇸 美国 （20984） 3, server: 45.79.126.80, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
   - {name: 🇺🇸 美国 （20984） 4, server: 45.79.127.97, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 🇺🇸 洛杉矶（感谢关注youtube：8度科技）, server: 198.147.22.87, port: 35200, type: ss, cipher: aes-256-gcm, password: WBLAbN6AwtV5avBx73hFRLB3}
+  - {name: 🇺🇸 洛杉矶（20984）, server: 198.147.22.87, port: 35200, type: ss, cipher: aes-256-gcm, password: WBLAbN6AwtV5avBx73hFRLB3}
   - {name: 🇷🇴 罗马尼亚（20984）, server: 91.90.123.115, port: 49396, type: ss, cipher: aes-256-gcm, password: BdRWC38L5JUDMTYNNxJGcUwB}
-  - {name: 🇷🇴 罗马尼亚（感谢关注youtube：8度科技）, server: 193.29.106.61, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇷🇴 罗马尼亚（感谢关注youtube：8度科技） 2, server: 79.110.54.117, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: 🇷🇴 罗马尼亚（感谢关注youtube：8度科技） 3, server: 79.110.54.133, port: 49396, type: ss, cipher: aes-256-gcm, password: BdRWC38L5JUDMTYNNxJGcUwB}
-  - {name: 🇷🇴 罗马尼亚（感谢关注youtube：8度科技） 4, server: 91.90.123.115, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: 🇷🇴 罗马尼亚（20984）, server: 193.29.106.61, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇷🇴 罗马尼亚（20984） 2, server: 79.110.54.117, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: 🇷🇴 罗马尼亚（20984） 3, server: 79.110.54.133, port: 49396, type: ss, cipher: aes-256-gcm, password: BdRWC38L5JUDMTYNNxJGcUwB}
+  - {name: 🇷🇴 罗马尼亚（20984） 4, server: 91.90.123.115, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
   - {name: 🇷🇴 罗马尼亚 布加勒斯特9（群友橘子分享的节点）, server: 91.90.123.115, port: 44820, type: ss, cipher: aes-256-gcm, password: jspgz9G3VmvBMCgMUWLBaZHu}
-  - {name: 🇷🇴 罗马尼亚 布加勒斯特2（感谢关注youtube：8度科技）, server: 91.90.123.115, port: 48794, type: ss, cipher: aes-256-gcm, password: r9Q3adc3ru9sfBDPEj4yp6U6}
-  - {name: 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技）, server: 91.90.123.115, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技） 2, server: 91.90.123.115, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技） 3, server: 91.90.123.115, port: 46642, type: ss, cipher: aes-256-gcm, password: gYL83DQWXuDbxmZAVVtUTXaK}
+  - {name: 🇷🇴 罗马尼亚 布加勒斯特2（20984）, server: 91.90.123.115, port: 48794, type: ss, cipher: aes-256-gcm, password: r9Q3adc3ru9sfBDPEj4yp6U6}
+  - {name: 🇷🇴 罗马尼亚 布加勒斯特（20984）, server: 91.90.123.115, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 🇷🇴 罗马尼亚 布加勒斯特（20984） 2, server: 91.90.123.115, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: 🇷🇴 罗马尼亚 布加勒斯特（20984） 3, server: 91.90.123.115, port: 46642, type: ss, cipher: aes-256-gcm, password: gYL83DQWXuDbxmZAVVtUTXaK}
   - {name: 罗马（20984）, server: 193.29.107.237, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
   - {name: 罗马（20984） 2, server: 89.37.95.23, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
   - {name: 卢森堡（20984）, server: 185.153.151.60, port: 33148, type: ss, cipher: aes-256-gcm, password: CMduaFXddcQbwNAAs7xFDnc8}
@@ -184,7 +184,7 @@ proxies:
   - {name: 卢森堡（20984） 9, server: 185.153.151.60, port: 44539, type: ss, cipher: aes-256-gcm, password: r6hDrkP4Et6EENTS8Qy7Tcmg}
   - {name: 卢森堡（20984） 10, server: 185.153.151.60, port: 44236, type: ss, cipher: aes-256-gcm, password: FWrXcxPZjJxAN89xLgqY3Acp}
   - {name: 卢森堡（20984） 11, server: 185.153.151.60, port: 42304, type: ss, cipher: aes-256-gcm, password: p26v2JwhQVHDHsXk66fXt56r}
-  - {name: ‪捷克（感谢关注youtube：8度科技）, server: 89.187.168.39, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: ‪捷克（20984）, server: 89.187.168.39, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
   - {name: 加利福尼亚（20984）, server: 45.79.121.236, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
   - {name: 🇳🇱 荷兰（20984）, server: 188.95.55.114, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d}
   - {name: 🇳🇱 荷兰（20984） 2, server: 188.95.55.114, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
@@ -327,17 +327,17 @@ proxies:
   - {name: 🇫🇷 法国 马赛（20984 59, server: 185.166.84.81, port: 34687, type: ss, cipher: aes-256-gcm, password: txmK9WhwP6WPhP7hqSBLVxpN}
   - {name: 🇫🇷 法国 马赛（20984 60, server: 185.166.84.81, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
   - {name: 🇫🇷 法国 马赛（20984 61, server: 185.166.84.81, port: 46642, type: ss, cipher: aes-256-gcm, password: gYL83DQWXuDbxmZAVVtUTXaK}
-  - {name: 🇷🇺 俄罗斯（感谢关注youtube：8度科技）, server: 195.158.249.40, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 🇷🇺 俄罗斯（20984）, server: 195.158.249.40, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
   - {name: 🇩🇪 德国（20984）, server: 193.108.118.34, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 🇩🇪 德国（感谢关注youtube：8度科技）, server: 45.134.224.20, port: 42816, type: ss, cipher: aes-256-gcm, password: tBKBf4pVzNCFKdbPgvwrNXq3}
+  - {name: 🇩🇪 德国（20984）, server: 45.134.224.20, port: 42816, type: ss, cipher: aes-256-gcm, password: tBKBf4pVzNCFKdbPgvwrNXq3}
   - {name: 🇩🇪 德国 黑森（20984）, server: 145.239.1.175, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
   - {name: 🇩🇪 德国 法兰克福（感谢关注youtube：8度, server: 185.108.106.146, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
   - {name: 波兰 华沙（20984）, server: 51.77.52.206, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
   - {name: 波兰 华沙（20984） 2, server: 51.77.53.200, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 比利时（感谢关注youtube：8度科技）, server: 91.90.123.115, port: 44236, type: ss, cipher: aes-256-gcm, password: FWrXcxPZjJxAN89xLgqY3Acp}
+  - {name: 比利时（20984）, server: 91.90.123.115, port: 44236, type: ss, cipher: aes-256-gcm, password: FWrXcxPZjJxAN89xLgqY3Acp}
   - {name: 比利时 布鲁塞尔（20984）, server: 5.253.205.179, port: 49339, type: ss, cipher: aes-256-gcm, password: suucSeVLmt6PQKAP77NtGw9x}
-  - {name: 比利时 布鲁塞尔（感谢关注youtube：8度科技）, server: 185.232.21.51, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
-  - {name: 比利时 布鲁塞尔（感谢关注youtube：8度科技） 2, server: 5.253.205.101, port: 48938, type: ss, cipher: aes-256-gcm, password: 4ejJ8n5ddLuYDUHGXJre2ufJ}
+  - {name: 比利时 布鲁塞尔（20984）, server: 185.232.21.51, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+  - {name: 比利时 布鲁塞尔（20984） 2, server: 5.253.205.101, port: 48938, type: ss, cipher: aes-256-gcm, password: 4ejJ8n5ddLuYDUHGXJre2ufJ}
   - {name: 🇧🇷 巴西 圣保罗（20984）, server: 128.14.222.201, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
   - {name: 🇧🇷 巴西 圣保罗（20984） 2, server: 128.14.222.215, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
   - {name: 🇧🇷 巴西 圣保罗（20984） 3, server: 128.14.222.218, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
@@ -390,8 +390,8 @@ proxies:
   - {name: 🇦🇺 澳大利亚（20984） 2, server: 172.105.174.182, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
   - {name: 🇦🇹 奥地利 维也纳（20984）, server: 5.253.207.51, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
   - {name: 🇦🇹 奥地利 维也纳（20984） 2, server: 5.253.207.53, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
-  - {name: 🇦🇹 奥地利 维也纳（感谢关注youtube：8度科技）, server: 5.253.207.85, port: 49396, type: ss, cipher: aes-256-gcm, password: BdRWC38L5JUDMTYNNxJGcUwB}
-  - {name: 埃及（感谢关注youtube：8度科技）, server: 185.108.106.146, port: 45746, type: ss, cipher: aes-256-gcm, password: wEsFcHCvbL4eJkL4DZQa7RgR}
+  - {name: 🇦🇹 奥地利 维也纳（20984）, server: 5.253.207.85, port: 49396, type: ss, cipher: aes-256-gcm, password: BdRWC38L5JUDMTYNNxJGcUwB}
+  - {name: 埃及（20984）, server: 185.108.106.146, port: 45746, type: ss, cipher: aes-256-gcm, password: wEsFcHCvbL4eJkL4DZQa7RgR}
   - {name: 阿塞拜疆（20984）, server: 62.212.239.51, port: 42304, type: ss, cipher: aes-256-gcm, password: p26v2JwhQVHDHsXk66fXt56r}
   - {name: 阿塞拜疆（20984） 2, server: 62.212.239.51, port: 48794, type: ss, cipher: aes-256-gcm, password: r9Q3adc3ru9sfBDPEj4yp6U6}
   - {name: 阿塞拜疆（20984） 3, server: 62.212.239.51, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
@@ -406,7 +406,7 @@ proxies:
   - {name: ZZ（20984）, server: 91.205.230.160, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
   - {name: 🇺🇸 US（20984）, server: 148.72.169.209, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
   - {name: 🇺🇸 US（20984） 2, server: 45.129.32.8, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
-  - {name: （感谢关注youtube：8度科技）, server: 104.244.208.211, port: 48938, type: ss, cipher: aes-256-gcm, password: 4ejJ8n5ddLuYDUHGXJre2ufJ}
+  - {name: （20984）, server: 104.244.208.211, port: 48938, type: ss, cipher: aes-256-gcm, password: 4ejJ8n5ddLuYDUHGXJre2ufJ}
   - {name: 🇸🇬 SG（20984）, server: 54.251.230.216, port: 18332, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
   - {name: 🇸🇬 新加坡11 （20984）, server: 13.213.251.185, port: 18331, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
   - {name: RS（20984）, server: 152.89.160.213, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
@@ -461,7 +461,7 @@ proxies:
   - {name: （20984） 9, server: ss3.ssrsub.one, port: 10443, type: ss, cipher: aes-128-gcm, password: suo.yt/ssrsub}
   - {name: 🇨🇦 加拿大6（20984）, server: 198.8.92.84, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
   - {name: 🇨🇦 加拿大5（20984）, server: 146.70.27.37, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
-  - {name: 🇺🇸 Brussels（感谢关注youtube：8度科技）, server: 5.253.205.227, port: 48938, type: ss, cipher: aes-256-gcm, password: 4ejJ8n5ddLuYDUHGXJre2ufJ}
+  - {name: 🇺🇸 Brussels（20984）, server: 5.253.205.227, port: 48938, type: ss, cipher: aes-256-gcm, password: 4ejJ8n5ddLuYDUHGXJre2ufJ}
   - {name: 🇧🇪 BE（20984）, server: 89.249.73.197, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
   - {name: 🇧🇪 BE（20984） 2, server: 91.90.123.163, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
   - {name: 🇧🇪 _BE_比利时（20984）, server: 91.90.123.115, port: 47027, type: ss, cipher: aes-256-gcm, password: Vt5pBJFwdtNB26cJbTXxm88Z}
@@ -470,8 +470,8 @@ proxies:
   - {name: 🇺🇸 us（20984） 2, server: 167.88.63.82, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
   - {name: 🇺🇸 us（20984） 3, server: 167.88.63.99, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
   - {name: 🇺🇸 us（20984） 4, server: 38.107.226.146, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 🇺🇸 US（感谢关注youtube：8度科技）, server: 199.10.64.163, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 🇺🇸 US（感谢关注youtube：8度科技） 2, server: 66.115.154.131, port: 47027, type: ss, cipher: aes-256-gcm, password: Vt5pBJFwdtNB26cJbTXxm88Z}
+  - {name: 🇺🇸 US（20984）, server: 199.10.64.163, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 🇺🇸 US（20984） 2, server: 66.115.154.131, port: 47027, type: ss, cipher: aes-256-gcm, password: Vt5pBJFwdtNB26cJbTXxm88Z}
   - {name: 🇺🇸 US 🇺🇸（20984）, server: 64.44.42.60, port: 45948, type: ss, cipher: aes-256-gcm, password: j76EXqJcQhuQTr3EvUf7xaK9}
   - {name: 🇺🇸 US 🇺🇸（20984） 2, server: 64.44.42.60, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
   - {name: 🇺🇸 US 🇺🇸（20984） 3, server: 66.115.154.131, port: 46642, type: ss, cipher: aes-256-gcm, password: gYL83DQWXuDbxmZAVVtUTXaK}
@@ -529,7 +529,7 @@ proxies:
   - {name: ca（20984） 4, server: 134.195.196.97, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
   - {name: ca（20984） 5, server: 134.195.198.95, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
   - {name: BA（20984）, server: 185.212.111.6, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
-  - {name: 🇩🇪 德国（感谢关注youtube：8度科技） 2, server: 194.195.124.174, port: 4443, type: trojan, password: 7x42LetRa0, skip-cert-verify: false}
+  - {name: 🇩🇪 德国（20984） 2, server: 194.195.124.174, port: 4443, type: trojan, password: 7x42LetRa0, skip-cert-verify: false}
   - {name: 🇨🇳 TW（20984）, server: tw-tpe-hc-tr.cdn.savoy.click, port: 2443, type: trojan, password: UiLPqefVfielqkDjEwBV, sni: tw-tpe-hc-tr.cdn.savoy.click, skip-cert-verify: false}
   - {name: 🇭🇰 HK（20984） 10, server: agals04.cloudddns.icu, port: 992, type: trojan, password: f45d308f-d9bc-3954-982f-40883392fb8e, sni: agals04.cloudddns.icu, skip-cert-verify: false}
 proxy-groups:
@@ -590,9 +590,9 @@ proxy-groups:
       - 🇬🇧 英国（20984） 41
       - 🇬🇧 英国（20984） 42
       - 🇬🇧 英国（20984） 43
-      - 🇬🇧 英国（感谢关注youtube：8度科技）
-      - 🇬🇧 英国（感谢关注youtube：8度科技） 2
-      - 🇬🇧 英国（感谢关注youtube：8度科技） 3
+      - 🇬🇧 英国（20984）
+      - 🇬🇧 英国（20984） 2
+      - 🇬🇧 英国（20984） 3
       - 🇬🇧 英国 （20984）
       - 🇬🇧 英国 （20984） 2
       - 🇬🇧 英国 （20984） 3
@@ -643,8 +643,8 @@ proxy-groups:
       - 🇹🇭 泰国 曼谷（20984 32
       - 🇨🇳 台湾（20984）2阅)
       - 🇨🇳 台湾（20984）
-      - 瑞典（感谢关注youtube：8度科技）
-      - 🇩🇪 瑞典 斯德哥尔摩（感谢关注youtube：8度科技）
+      - 瑞典（20984）
+      - 🇩🇪 瑞典 斯德哥尔摩（20984）
       - 葡萄牙 🇵🇹（20984）
       - 挪威（20984）
       - 🇿🇦 南非 约翰内斯堡（20984）
@@ -671,21 +671,21 @@ proxy-groups:
       - 🇺🇸 美国（20984） 21
       - 🇺🇸 美国（20984） 22
       - 🇺🇸 美国（20984） 23
-      - 🇺🇸 美国 亚特兰大（感谢关注youtube：8度科技）
-      - 🇺🇸 美国 亚特兰大（感谢关注youtube：8度科技） 2
-      - 🇺🇸 美国 亚特兰大（感谢关注youtube：8度科技） 3
-      - 🇺🇸 美国 亚特兰大（感谢关注youtube：8度科技） 4
-      - 🇺🇸 美国 亚特兰大（感谢关注youtube：8度科技） 5
-      - 🇺🇸 美国 亚特兰大（感谢关注youtube：8度科技） 6
-      - 🇺🇸 美国 亚特兰大（感谢关注youtube：8度科技） 7
-      - 🇺🇸 美国 亚特兰大（感谢关注youtube：8度科技） 8
-      - 🇺🇸 美国 亚特兰大（感谢关注youtube：8度科技） 9
-      - 🇺🇸 美国 亚特兰大（感谢关注youtube：8度科技） 10
-      - 🇺🇸 美国 亚特兰大 1（感谢关注youtube：8度科技）
+      - 🇺🇸 美国 亚特兰大（20984）
+      - 🇺🇸 美国 亚特兰大（20984） 2
+      - 🇺🇸 美国 亚特兰大（20984） 3
+      - 🇺🇸 美国 亚特兰大（20984） 4
+      - 🇺🇸 美国 亚特兰大（20984） 5
+      - 🇺🇸 美国 亚特兰大（20984） 6
+      - 🇺🇸 美国 亚特兰大（20984） 7
+      - 🇺🇸 美国 亚特兰大（20984） 8
+      - 🇺🇸 美国 亚特兰大（20984） 9
+      - 🇺🇸 美国 亚特兰大（20984） 10
+      - 🇺🇸 美国 亚特兰大 1（20984）
       - 🇸🇬 美国 新泽西（感谢关注youtube：8度科
       - 🇸🇬 美国 新泽西 （20984）
       - 🇺🇸 美国 纽约（20984）
-      - 🇺🇸 美国 密歇根（感谢关注youtube：8度科技）
+      - 🇺🇸 美国 密歇根（20984）
       - 🇺🇸 美国 密歇根（感谢关注youtube：8度科
       - 🇺🇸 美国 洛杉矶2（20984）
       - 🇺🇸 美国 加利福尼亚 （20984）
@@ -693,17 +693,17 @@ proxy-groups:
       - 🇺🇸 美国 （20984） 2
       - 🇺🇸 美国 （20984） 3
       - 🇺🇸 美国 （20984） 4
-      - 🇺🇸 洛杉矶（感谢关注youtube：8度科技）
+      - 🇺🇸 洛杉矶（20984）
       - 🇷🇴 罗马尼亚（20984）
-      - 🇷🇴 罗马尼亚（感谢关注youtube：8度科技）
-      - 🇷🇴 罗马尼亚（感谢关注youtube：8度科技） 2
-      - 🇷🇴 罗马尼亚（感谢关注youtube：8度科技） 3
-      - 🇷🇴 罗马尼亚（感谢关注youtube：8度科技） 4
+      - 🇷🇴 罗马尼亚（20984）
+      - 🇷🇴 罗马尼亚（20984） 2
+      - 🇷🇴 罗马尼亚（20984） 3
+      - 🇷🇴 罗马尼亚（20984） 4
       - 🇷🇴 罗马尼亚 布加勒斯特9（群友橘子分享的节点）
-      - 🇷🇴 罗马尼亚 布加勒斯特2（感谢关注youtube：8度科技）
-      - 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技）
-      - 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技） 2
-      - 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技） 3
+      - 🇷🇴 罗马尼亚 布加勒斯特2（20984）
+      - 🇷🇴 罗马尼亚 布加勒斯特（20984）
+      - 🇷🇴 罗马尼亚 布加勒斯特（20984） 2
+      - 🇷🇴 罗马尼亚 布加勒斯特（20984） 3
       - 罗马（20984）
       - 罗马（20984） 2
       - 卢森堡（20984）
@@ -717,7 +717,7 @@ proxy-groups:
       - 卢森堡（20984） 9
       - 卢森堡（20984） 10
       - 卢森堡（20984） 11
-      - ‪捷克（感谢关注youtube：8度科技）
+      - ‪捷克（20984）
       - 加利福尼亚（20984）
       - 🇳🇱 荷兰（20984）
       - 🇳🇱 荷兰（20984） 2
@@ -860,17 +860,17 @@ proxy-groups:
       - 🇫🇷 法国 马赛（20984 59
       - 🇫🇷 法国 马赛（20984 60
       - 🇫🇷 法国 马赛（20984 61
-      - 🇷🇺 俄罗斯（感谢关注youtube：8度科技）
+      - 🇷🇺 俄罗斯（20984）
       - 🇩🇪 德国（20984）
-      - 🇩🇪 德国（感谢关注youtube：8度科技）
+      - 🇩🇪 德国（20984）
       - 🇩🇪 德国 黑森（20984）
       - 🇩🇪 德国 法兰克福（感谢关注youtube：8度
       - 波兰 华沙（20984）
       - 波兰 华沙（20984） 2
-      - 比利时（感谢关注youtube：8度科技）
+      - 比利时（20984）
       - 比利时 布鲁塞尔（20984）
-      - 比利时 布鲁塞尔（感谢关注youtube：8度科技）
-      - 比利时 布鲁塞尔（感谢关注youtube：8度科技） 2
+      - 比利时 布鲁塞尔（20984）
+      - 比利时 布鲁塞尔（20984） 2
       - 🇧🇷 巴西 圣保罗（20984）
       - 🇧🇷 巴西 圣保罗（20984） 2
       - 🇧🇷 巴西 圣保罗（20984） 3
@@ -923,8 +923,8 @@ proxy-groups:
       - 🇦🇺 澳大利亚（20984） 2
       - 🇦🇹 奥地利 维也纳（20984）
       - 🇦🇹 奥地利 维也纳（20984） 2
-      - 🇦🇹 奥地利 维也纳（感谢关注youtube：8度科技）
-      - 埃及（感谢关注youtube：8度科技）
+      - 🇦🇹 奥地利 维也纳（20984）
+      - 埃及（20984）
       - 阿塞拜疆（20984）
       - 阿塞拜疆（20984） 2
       - 阿塞拜疆（20984） 3
@@ -939,7 +939,7 @@ proxy-groups:
       - ZZ（20984）
       - 🇺🇸 US（20984）
       - 🇺🇸 US（20984） 2
-      - （感谢关注youtube：8度科技）
+      - （20984）
       - 🇸🇬 SG（20984）
       - 🇸🇬 新加坡11 （20984）
       - RS（20984）
@@ -994,7 +994,7 @@ proxy-groups:
       - （20984） 9
       - 🇨🇦 加拿大6（20984）
       - 🇨🇦 加拿大5（20984）
-      - 🇺🇸 Brussels（感谢关注youtube：8度科技）
+      - 🇺🇸 Brussels（20984）
       - 🇧🇪 BE（20984）
       - 🇧🇪 BE（20984） 2
       - 🇧🇪 _BE_比利时（20984）
@@ -1003,8 +1003,8 @@ proxy-groups:
       - 🇺🇸 us（20984） 2
       - 🇺🇸 us（20984） 3
       - 🇺🇸 us（20984） 4
-      - 🇺🇸 US（感谢关注youtube：8度科技）
-      - 🇺🇸 US（感谢关注youtube：8度科技） 2
+      - 🇺🇸 US（20984）
+      - 🇺🇸 US（20984） 2
       - 🇺🇸 US 🇺🇸（20984）
       - 🇺🇸 US 🇺🇸（20984） 2
       - 🇺🇸 US 🇺🇸（20984） 3
@@ -1062,7 +1062,7 @@ proxy-groups:
       - ca（20984） 4
       - ca（20984） 5
       - BA（20984）
-      - 🇩🇪 德国（感谢关注youtube：8度科技） 2
+      - 🇩🇪 德国（20984） 2
       - 🇨🇳 TW（20984）
       - 🇭🇰 HK（20984） 10
   - name: ♻️ 自动选择
@@ -1122,9 +1122,9 @@ proxy-groups:
       - 🇬🇧 英国（20984） 41
       - 🇬🇧 英国（20984） 42
       - 🇬🇧 英国（20984） 43
-      - 🇬🇧 英国（感谢关注youtube：8度科技）
-      - 🇬🇧 英国（感谢关注youtube：8度科技） 2
-      - 🇬🇧 英国（感谢关注youtube：8度科技） 3
+      - 🇬🇧 英国（20984）
+      - 🇬🇧 英国（20984） 2
+      - 🇬🇧 英国（20984） 3
       - 🇬🇧 英国 （20984）
       - 🇬🇧 英国 （20984） 2
       - 🇬🇧 英国 （20984） 3
@@ -1175,8 +1175,8 @@ proxy-groups:
       - 🇹🇭 泰国 曼谷（20984 32
       - 🇨🇳 台湾（20984）2阅)
       - 🇨🇳 台湾（20984）
-      - 瑞典（感谢关注youtube：8度科技）
-      - 🇩🇪 瑞典 斯德哥尔摩（感谢关注youtube：8度科技）
+      - 瑞典（20984）
+      - 🇩🇪 瑞典 斯德哥尔摩（20984）
       - 葡萄牙 🇵🇹（20984）
       - 挪威（20984）
       - 🇿🇦 南非 约翰内斯堡（20984）
@@ -1203,21 +1203,21 @@ proxy-groups:
       - 🇺🇸 美国（20984） 21
       - 🇺🇸 美国（20984） 22
       - 🇺🇸 美国（20984） 23
-      - 🇺🇸 美国 亚特兰大（感谢关注youtube：8度科技）
-      - 🇺🇸 美国 亚特兰大（感谢关注youtube：8度科技） 2
-      - 🇺🇸 美国 亚特兰大（感谢关注youtube：8度科技） 3
-      - 🇺🇸 美国 亚特兰大（感谢关注youtube：8度科技） 4
-      - 🇺🇸 美国 亚特兰大（感谢关注youtube：8度科技） 5
-      - 🇺🇸 美国 亚特兰大（感谢关注youtube：8度科技） 6
-      - 🇺🇸 美国 亚特兰大（感谢关注youtube：8度科技） 7
-      - 🇺🇸 美国 亚特兰大（感谢关注youtube：8度科技） 8
-      - 🇺🇸 美国 亚特兰大（感谢关注youtube：8度科技） 9
-      - 🇺🇸 美国 亚特兰大（感谢关注youtube：8度科技） 10
-      - 🇺🇸 美国 亚特兰大 1（感谢关注youtube：8度科技）
+      - 🇺🇸 美国 亚特兰大（20984）
+      - 🇺🇸 美国 亚特兰大（20984） 2
+      - 🇺🇸 美国 亚特兰大（20984） 3
+      - 🇺🇸 美国 亚特兰大（20984） 4
+      - 🇺🇸 美国 亚特兰大（20984） 5
+      - 🇺🇸 美国 亚特兰大（20984） 6
+      - 🇺🇸 美国 亚特兰大（20984） 7
+      - 🇺🇸 美国 亚特兰大（20984） 8
+      - 🇺🇸 美国 亚特兰大（20984） 9
+      - 🇺🇸 美国 亚特兰大（20984） 10
+      - 🇺🇸 美国 亚特兰大 1（20984）
       - 🇸🇬 美国 新泽西（感谢关注youtube：8度科
       - 🇸🇬 美国 新泽西 （20984）
       - 🇺🇸 美国 纽约（20984）
-      - 🇺🇸 美国 密歇根（感谢关注youtube：8度科技）
+      - 🇺🇸 美国 密歇根（20984）
       - 🇺🇸 美国 密歇根（感谢关注youtube：8度科
       - 🇺🇸 美国 洛杉矶2（20984）
       - 🇺🇸 美国 加利福尼亚 （20984）
@@ -1225,17 +1225,17 @@ proxy-groups:
       - 🇺🇸 美国 （20984） 2
       - 🇺🇸 美国 （20984） 3
       - 🇺🇸 美国 （20984） 4
-      - 🇺🇸 洛杉矶（感谢关注youtube：8度科技）
+      - 🇺🇸 洛杉矶（20984）
       - 🇷🇴 罗马尼亚（20984）
-      - 🇷🇴 罗马尼亚（感谢关注youtube：8度科技）
-      - 🇷🇴 罗马尼亚（感谢关注youtube：8度科技） 2
-      - 🇷🇴 罗马尼亚（感谢关注youtube：8度科技） 3
-      - 🇷🇴 罗马尼亚（感谢关注youtube：8度科技） 4
+      - 🇷🇴 罗马尼亚（20984）
+      - 🇷🇴 罗马尼亚（20984） 2
+      - 🇷🇴 罗马尼亚（20984） 3
+      - 🇷🇴 罗马尼亚（20984） 4
       - 🇷🇴 罗马尼亚 布加勒斯特9（群友橘子分享的节点）
-      - 🇷🇴 罗马尼亚 布加勒斯特2（感谢关注youtube：8度科技）
-      - 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技）
-      - 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技） 2
-      - 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技） 3
+      - 🇷🇴 罗马尼亚 布加勒斯特2（20984）
+      - 🇷🇴 罗马尼亚 布加勒斯特（20984）
+      - 🇷🇴 罗马尼亚 布加勒斯特（20984） 2
+      - 🇷🇴 罗马尼亚 布加勒斯特（20984） 3
       - 罗马（20984）
       - 罗马（20984） 2
       - 卢森堡（20984）
@@ -1249,7 +1249,7 @@ proxy-groups:
       - 卢森堡（20984） 9
       - 卢森堡（20984） 10
       - 卢森堡（20984） 11
-      - ‪捷克（感谢关注youtube：8度科技）
+      - ‪捷克（20984）
       - 加利福尼亚（20984）
       - 🇳🇱 荷兰（20984）
       - 🇳🇱 荷兰（20984） 2
@@ -1392,17 +1392,17 @@ proxy-groups:
       - 🇫🇷 法国 马赛（20984 59
       - 🇫🇷 法国 马赛（20984 60
       - 🇫🇷 法国 马赛（20984 61
-      - 🇷🇺 俄罗斯（感谢关注youtube：8度科技）
+      - 🇷🇺 俄罗斯（20984）
       - 🇩🇪 德国（20984）
-      - 🇩🇪 德国（感谢关注youtube：8度科技）
+      - 🇩🇪 德国（20984）
       - 🇩🇪 德国 黑森（20984）
       - 🇩🇪 德国 法兰克福（感谢关注youtube：8度
       - 波兰 华沙（20984）
       - 波兰 华沙（20984） 2
-      - 比利时（感谢关注youtube：8度科技）
+      - 比利时（20984）
       - 比利时 布鲁塞尔（20984）
-      - 比利时 布鲁塞尔（感谢关注youtube：8度科技）
-      - 比利时 布鲁塞尔（感谢关注youtube：8度科技） 2
+      - 比利时 布鲁塞尔（20984）
+      - 比利时 布鲁塞尔（20984） 2
       - 🇧🇷 巴西 圣保罗（20984）
       - 🇧🇷 巴西 圣保罗（20984） 2
       - 🇧🇷 巴西 圣保罗（20984） 3
@@ -1455,8 +1455,8 @@ proxy-groups:
       - 🇦🇺 澳大利亚（20984） 2
       - 🇦🇹 奥地利 维也纳（20984）
       - 🇦🇹 奥地利 维也纳（20984） 2
-      - 🇦🇹 奥地利 维也纳（感谢关注youtube：8度科技）
-      - 埃及（感谢关注youtube：8度科技）
+      - 🇦🇹 奥地利 维也纳（20984）
+      - 埃及（20984）
       - 阿塞拜疆（20984）
       - 阿塞拜疆（20984） 2
       - 阿塞拜疆（20984） 3
@@ -1471,7 +1471,7 @@ proxy-groups:
       - ZZ（20984）
       - 🇺🇸 US（20984）
       - 🇺🇸 US（20984） 2
-      - （感谢关注youtube：8度科技）
+      - （20984）
       - 🇸🇬 SG（20984）
       - 🇸🇬 新加坡11 （20984）
       - RS（20984）
@@ -1526,7 +1526,7 @@ proxy-groups:
       - （20984） 9
       - 🇨🇦 加拿大6（20984）
       - 🇨🇦 加拿大5（20984）
-      - 🇺🇸 Brussels（感谢关注youtube：8度科技）
+      - 🇺🇸 Brussels（20984）
       - 🇧🇪 BE（20984）
       - 🇧🇪 BE（20984） 2
       - 🇧🇪 _BE_比利时（20984）
@@ -1535,8 +1535,8 @@ proxy-groups:
       - 🇺🇸 us（20984） 2
       - 🇺🇸 us（20984） 3
       - 🇺🇸 us（20984） 4
-      - 🇺🇸 US（感谢关注youtube：8度科技）
-      - 🇺🇸 US（感谢关注youtube：8度科技） 2
+      - 🇺🇸 US（20984）
+      - 🇺🇸 US（20984） 2
       - 🇺🇸 US 🇺🇸（20984）
       - 🇺🇸 US 🇺🇸（20984） 2
       - 🇺🇸 US 🇺🇸（20984） 3
@@ -1594,7 +1594,7 @@ proxy-groups:
       - ca（20984） 4
       - ca（20984） 5
       - BA（20984）
-      - 🇩🇪 德国（感谢关注youtube：8度科技） 2
+      - 🇩🇪 德国（20984） 2
       - 🇨🇳 TW（20984）
       - 🇭🇰 HK（20984） 10
   - name: 🌍 国外媒体
@@ -1655,9 +1655,9 @@ proxy-groups:
       - 🇬🇧 英国（20984） 41
       - 🇬🇧 英国（20984） 42
       - 🇬🇧 英国（20984） 43
-      - 🇬🇧 英国（感谢关注youtube：8度科技）
-      - 🇬🇧 英国（感谢关注youtube：8度科技） 2
-      - 🇬🇧 英国（感谢关注youtube：8度科技） 3
+      - 🇬🇧 英国（20984）
+      - 🇬🇧 英国（20984） 2
+      - 🇬🇧 英国（20984） 3
       - 🇬🇧 英国 （20984）
       - 🇬🇧 英国 （20984） 2
       - 🇬🇧 英国 （20984） 3
@@ -1708,8 +1708,8 @@ proxy-groups:
       - 🇹🇭 泰国 曼谷（20984 32
       - 🇨🇳 台湾（20984）2阅)
       - 🇨🇳 台湾（20984）
-      - 瑞典（感谢关注youtube：8度科技）
-      - 🇩🇪 瑞典 斯德哥尔摩（感谢关注youtube：8度科技）
+      - 瑞典（20984）
+      - 🇩🇪 瑞典 斯德哥尔摩（20984）
       - 葡萄牙 🇵🇹（20984）
       - 挪威（20984）
       - 🇿🇦 南非 约翰内斯堡（20984）
@@ -1736,21 +1736,21 @@ proxy-groups:
       - 🇺🇸 美国（20984） 21
       - 🇺🇸 美国（20984） 22
       - 🇺🇸 美国（20984） 23
-      - 🇺🇸 美国 亚特兰大（感谢关注youtube：8度科技）
-      - 🇺🇸 美国 亚特兰大（感谢关注youtube：8度科技） 2
-      - 🇺🇸 美国 亚特兰大（感谢关注youtube：8度科技） 3
-      - 🇺🇸 美国 亚特兰大（感谢关注youtube：8度科技） 4
-      - 🇺🇸 美国 亚特兰大（感谢关注youtube：8度科技） 5
-      - 🇺🇸 美国 亚特兰大（感谢关注youtube：8度科技） 6
-      - 🇺🇸 美国 亚特兰大（感谢关注youtube：8度科技） 7
-      - 🇺🇸 美国 亚特兰大（感谢关注youtube：8度科技） 8
-      - 🇺🇸 美国 亚特兰大（感谢关注youtube：8度科技） 9
-      - 🇺🇸 美国 亚特兰大（感谢关注youtube：8度科技） 10
-      - 🇺🇸 美国 亚特兰大 1（感谢关注youtube：8度科技）
+      - 🇺🇸 美国 亚特兰大（20984）
+      - 🇺🇸 美国 亚特兰大（20984） 2
+      - 🇺🇸 美国 亚特兰大（20984） 3
+      - 🇺🇸 美国 亚特兰大（20984） 4
+      - 🇺🇸 美国 亚特兰大（20984） 5
+      - 🇺🇸 美国 亚特兰大（20984） 6
+      - 🇺🇸 美国 亚特兰大（20984） 7
+      - 🇺🇸 美国 亚特兰大（20984） 8
+      - 🇺🇸 美国 亚特兰大（20984） 9
+      - 🇺🇸 美国 亚特兰大（20984） 10
+      - 🇺🇸 美国 亚特兰大 1（20984）
       - 🇸🇬 美国 新泽西（感谢关注youtube：8度科
       - 🇸🇬 美国 新泽西 （20984）
       - 🇺🇸 美国 纽约（20984）
-      - 🇺🇸 美国 密歇根（感谢关注youtube：8度科技）
+      - 🇺🇸 美国 密歇根（20984）
       - 🇺🇸 美国 密歇根（感谢关注youtube：8度科
       - 🇺🇸 美国 洛杉矶2（20984）
       - 🇺🇸 美国 加利福尼亚 （20984）
@@ -1758,17 +1758,17 @@ proxy-groups:
       - 🇺🇸 美国 （20984） 2
       - 🇺🇸 美国 （20984） 3
       - 🇺🇸 美国 （20984） 4
-      - 🇺🇸 洛杉矶（感谢关注youtube：8度科技）
+      - 🇺🇸 洛杉矶（20984）
       - 🇷🇴 罗马尼亚（20984）
-      - 🇷🇴 罗马尼亚（感谢关注youtube：8度科技）
-      - 🇷🇴 罗马尼亚（感谢关注youtube：8度科技） 2
-      - 🇷🇴 罗马尼亚（感谢关注youtube：8度科技） 3
-      - 🇷🇴 罗马尼亚（感谢关注youtube：8度科技） 4
+      - 🇷🇴 罗马尼亚（20984）
+      - 🇷🇴 罗马尼亚（20984） 2
+      - 🇷🇴 罗马尼亚（20984） 3
+      - 🇷🇴 罗马尼亚（20984） 4
       - 🇷🇴 罗马尼亚 布加勒斯特9（群友橘子分享的节点）
-      - 🇷🇴 罗马尼亚 布加勒斯特2（感谢关注youtube：8度科技）
-      - 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技）
-      - 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技） 2
-      - 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技） 3
+      - 🇷🇴 罗马尼亚 布加勒斯特2（20984）
+      - 🇷🇴 罗马尼亚 布加勒斯特（20984）
+      - 🇷🇴 罗马尼亚 布加勒斯特（20984） 2
+      - 🇷🇴 罗马尼亚 布加勒斯特（20984） 3
       - 罗马（20984）
       - 罗马（20984） 2
       - 卢森堡（20984）
@@ -1782,7 +1782,7 @@ proxy-groups:
       - 卢森堡（20984） 9
       - 卢森堡（20984） 10
       - 卢森堡（20984） 11
-      - ‪捷克（感谢关注youtube：8度科技）
+      - ‪捷克（20984）
       - 加利福尼亚（20984）
       - 🇳🇱 荷兰（20984）
       - 🇳🇱 荷兰（20984） 2
@@ -1925,17 +1925,17 @@ proxy-groups:
       - 🇫🇷 法国 马赛（20984 59
       - 🇫🇷 法国 马赛（20984 60
       - 🇫🇷 法国 马赛（20984 61
-      - 🇷🇺 俄罗斯（感谢关注youtube：8度科技）
+      - 🇷🇺 俄罗斯（20984）
       - 🇩🇪 德国（20984）
-      - 🇩🇪 德国（感谢关注youtube：8度科技）
+      - 🇩🇪 德国（20984）
       - 🇩🇪 德国 黑森（20984）
       - 🇩🇪 德国 法兰克福（感谢关注youtube：8度
       - 波兰 华沙（20984）
       - 波兰 华沙（20984） 2
-      - 比利时（感谢关注youtube：8度科技）
+      - 比利时（20984）
       - 比利时 布鲁塞尔（20984）
-      - 比利时 布鲁塞尔（感谢关注youtube：8度科技）
-      - 比利时 布鲁塞尔（感谢关注youtube：8度科技） 2
+      - 比利时 布鲁塞尔（20984）
+      - 比利时 布鲁塞尔（20984） 2
       - 🇧🇷 巴西 圣保罗（20984）
       - 🇧🇷 巴西 圣保罗（20984） 2
       - 🇧🇷 巴西 圣保罗（20984） 3
@@ -1988,8 +1988,8 @@ proxy-groups:
       - 🇦🇺 澳大利亚（20984） 2
       - 🇦🇹 奥地利 维也纳（20984）
       - 🇦🇹 奥地利 维也纳（20984） 2
-      - 🇦🇹 奥地利 维也纳（感谢关注youtube：8度科技）
-      - 埃及（感谢关注youtube：8度科技）
+      - 🇦🇹 奥地利 维也纳（20984）
+      - 埃及（20984）
       - 阿塞拜疆（20984）
       - 阿塞拜疆（20984） 2
       - 阿塞拜疆（20984） 3
@@ -2004,7 +2004,7 @@ proxy-groups:
       - ZZ（20984）
       - 🇺🇸 US（20984）
       - 🇺🇸 US（20984） 2
-      - （感谢关注youtube：8度科技）
+      - （20984）
       - 🇸🇬 SG（20984）
       - 🇸🇬 新加坡11 （20984）
       - RS（20984）
@@ -2059,7 +2059,7 @@ proxy-groups:
       - （20984） 9
       - 🇨🇦 加拿大6（20984）
       - 🇨🇦 加拿大5（20984）
-      - 🇺🇸 Brussels（感谢关注youtube：8度科技）
+      - 🇺🇸 Brussels（20984）
       - 🇧🇪 BE（20984）
       - 🇧🇪 BE（20984） 2
       - 🇧🇪 _BE_比利时（20984）
@@ -2068,8 +2068,8 @@ proxy-groups:
       - 🇺🇸 us（20984） 2
       - 🇺🇸 us（20984） 3
       - 🇺🇸 us（20984） 4
-      - 🇺🇸 US（感谢关注youtube：8度科技）
-      - 🇺🇸 US（感谢关注youtube：8度科技） 2
+      - 🇺🇸 US（20984）
+      - 🇺🇸 US（20984） 2
       - 🇺🇸 US 🇺🇸（20984）
       - 🇺🇸 US 🇺🇸（20984） 2
       - 🇺🇸 US 🇺🇸（20984） 3
@@ -2127,7 +2127,7 @@ proxy-groups:
       - ca（20984） 4
       - ca（20984） 5
       - BA（20984）
-      - 🇩🇪 德国（感谢关注youtube：8度科技） 2
+      - 🇩🇪 德国（20984） 2
       - 🇨🇳 TW（20984）
       - 🇭🇰 HK（20984） 10
   - name: 🌏 国内媒体
@@ -2194,9 +2194,9 @@ proxy-groups:
       - 🇬🇧 英国（20984） 41
       - 🇬🇧 英国（20984） 42
       - 🇬🇧 英国（20984） 43
-      - 🇬🇧 英国（感谢关注youtube：8度科技）
-      - 🇬🇧 英国（感谢关注youtube：8度科技） 2
-      - 🇬🇧 英国（感谢关注youtube：8度科技） 3
+      - 🇬🇧 英国（20984）
+      - 🇬🇧 英国（20984） 2
+      - 🇬🇧 英国（20984） 3
       - 🇬🇧 英国 （20984）
       - 🇬🇧 英国 （20984） 2
       - 🇬🇧 英国 （20984） 3
@@ -2247,8 +2247,8 @@ proxy-groups:
       - 🇹🇭 泰国 曼谷（20984 32
       - 🇨🇳 台湾（20984）2阅)
       - 🇨🇳 台湾（20984）
-      - 瑞典（感谢关注youtube：8度科技）
-      - 🇩🇪 瑞典 斯德哥尔摩（感谢关注youtube：8度科技）
+      - 瑞典（20984）
+      - 🇩🇪 瑞典 斯德哥尔摩（20984）
       - 葡萄牙 🇵🇹（20984）
       - 挪威（20984）
       - 🇿🇦 南非 约翰内斯堡（20984）
@@ -2275,21 +2275,21 @@ proxy-groups:
       - 🇺🇸 美国（20984） 21
       - 🇺🇸 美国（20984） 22
       - 🇺🇸 美国（20984） 23
-      - 🇺🇸 美国 亚特兰大（感谢关注youtube：8度科技）
-      - 🇺🇸 美国 亚特兰大（感谢关注youtube：8度科技） 2
-      - 🇺🇸 美国 亚特兰大（感谢关注youtube：8度科技） 3
-      - 🇺🇸 美国 亚特兰大（感谢关注youtube：8度科技） 4
-      - 🇺🇸 美国 亚特兰大（感谢关注youtube：8度科技） 5
-      - 🇺🇸 美国 亚特兰大（感谢关注youtube：8度科技） 6
-      - 🇺🇸 美国 亚特兰大（感谢关注youtube：8度科技） 7
-      - 🇺🇸 美国 亚特兰大（感谢关注youtube：8度科技） 8
-      - 🇺🇸 美国 亚特兰大（感谢关注youtube：8度科技） 9
-      - 🇺🇸 美国 亚特兰大（感谢关注youtube：8度科技） 10
-      - 🇺🇸 美国 亚特兰大 1（感谢关注youtube：8度科技）
+      - 🇺🇸 美国 亚特兰大（20984）
+      - 🇺🇸 美国 亚特兰大（20984） 2
+      - 🇺🇸 美国 亚特兰大（20984） 3
+      - 🇺🇸 美国 亚特兰大（20984） 4
+      - 🇺🇸 美国 亚特兰大（20984） 5
+      - 🇺🇸 美国 亚特兰大（20984） 6
+      - 🇺🇸 美国 亚特兰大（20984） 7
+      - 🇺🇸 美国 亚特兰大（20984） 8
+      - 🇺🇸 美国 亚特兰大（20984） 9
+      - 🇺🇸 美国 亚特兰大（20984） 10
+      - 🇺🇸 美国 亚特兰大 1（20984）
       - 🇸🇬 美国 新泽西（感谢关注youtube：8度科
       - 🇸🇬 美国 新泽西 （20984）
       - 🇺🇸 美国 纽约（20984）
-      - 🇺🇸 美国 密歇根（感谢关注youtube：8度科技）
+      - 🇺🇸 美国 密歇根（20984）
       - 🇺🇸 美国 密歇根（感谢关注youtube：8度科
       - 🇺🇸 美国 洛杉矶2（20984）
       - 🇺🇸 美国 加利福尼亚 （20984）
@@ -2297,17 +2297,17 @@ proxy-groups:
       - 🇺🇸 美国 （20984） 2
       - 🇺🇸 美国 （20984） 3
       - 🇺🇸 美国 （20984） 4
-      - 🇺🇸 洛杉矶（感谢关注youtube：8度科技）
+      - 🇺🇸 洛杉矶（20984）
       - 🇷🇴 罗马尼亚（20984）
-      - 🇷🇴 罗马尼亚（感谢关注youtube：8度科技）
-      - 🇷🇴 罗马尼亚（感谢关注youtube：8度科技） 2
-      - 🇷🇴 罗马尼亚（感谢关注youtube：8度科技） 3
-      - 🇷🇴 罗马尼亚（感谢关注youtube：8度科技） 4
+      - 🇷🇴 罗马尼亚（20984）
+      - 🇷🇴 罗马尼亚（20984） 2
+      - 🇷🇴 罗马尼亚（20984） 3
+      - 🇷🇴 罗马尼亚（20984） 4
       - 🇷🇴 罗马尼亚 布加勒斯特9（群友橘子分享的节点）
-      - 🇷🇴 罗马尼亚 布加勒斯特2（感谢关注youtube：8度科技）
-      - 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技）
-      - 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技） 2
-      - 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技） 3
+      - 🇷🇴 罗马尼亚 布加勒斯特2（20984）
+      - 🇷🇴 罗马尼亚 布加勒斯特（20984）
+      - 🇷🇴 罗马尼亚 布加勒斯特（20984） 2
+      - 🇷🇴 罗马尼亚 布加勒斯特（20984） 3
       - 罗马（20984）
       - 罗马（20984） 2
       - 卢森堡（20984）
@@ -2321,7 +2321,7 @@ proxy-groups:
       - 卢森堡（20984） 9
       - 卢森堡（20984） 10
       - 卢森堡（20984） 11
-      - ‪捷克（感谢关注youtube：8度科技）
+      - ‪捷克（20984）
       - 加利福尼亚（20984）
       - 🇳🇱 荷兰（20984）
       - 🇳🇱 荷兰（20984） 2
@@ -2464,17 +2464,17 @@ proxy-groups:
       - 🇫🇷 法国 马赛（20984 59
       - 🇫🇷 法国 马赛（20984 60
       - 🇫🇷 法国 马赛（20984 61
-      - 🇷🇺 俄罗斯（感谢关注youtube：8度科技）
+      - 🇷🇺 俄罗斯（20984）
       - 🇩🇪 德国（20984）
-      - 🇩🇪 德国（感谢关注youtube：8度科技）
+      - 🇩🇪 德国（20984）
       - 🇩🇪 德国 黑森（20984）
       - 🇩🇪 德国 法兰克福（感谢关注youtube：8度
       - 波兰 华沙（20984）
       - 波兰 华沙（20984） 2
-      - 比利时（感谢关注youtube：8度科技）
+      - 比利时（20984）
       - 比利时 布鲁塞尔（20984）
-      - 比利时 布鲁塞尔（感谢关注youtube：8度科技）
-      - 比利时 布鲁塞尔（感谢关注youtube：8度科技） 2
+      - 比利时 布鲁塞尔（20984）
+      - 比利时 布鲁塞尔（20984） 2
       - 🇧🇷 巴西 圣保罗（20984）
       - 🇧🇷 巴西 圣保罗（20984） 2
       - 🇧🇷 巴西 圣保罗（20984） 3
@@ -2527,8 +2527,8 @@ proxy-groups:
       - 🇦🇺 澳大利亚（20984） 2
       - 🇦🇹 奥地利 维也纳（20984）
       - 🇦🇹 奥地利 维也纳（20984） 2
-      - 🇦🇹 奥地利 维也纳（感谢关注youtube：8度科技）
-      - 埃及（感谢关注youtube：8度科技）
+      - 🇦🇹 奥地利 维也纳（20984）
+      - 埃及（20984）
       - 阿塞拜疆（20984）
       - 阿塞拜疆（20984） 2
       - 阿塞拜疆（20984） 3
@@ -2543,7 +2543,7 @@ proxy-groups:
       - ZZ（20984）
       - 🇺🇸 US（20984）
       - 🇺🇸 US（20984） 2
-      - （感谢关注youtube：8度科技）
+      - （20984）
       - 🇸🇬 SG（20984）
       - 🇸🇬 新加坡11 （20984）
       - RS（20984）
@@ -2598,7 +2598,7 @@ proxy-groups:
       - （20984） 9
       - 🇨🇦 加拿大6（20984）
       - 🇨🇦 加拿大5（20984）
-      - 🇺🇸 Brussels（感谢关注youtube：8度科技）
+      - 🇺🇸 Brussels（20984）
       - 🇧🇪 BE（20984）
       - 🇧🇪 BE（20984） 2
       - 🇧🇪 _BE_比利时（20984）
@@ -2607,8 +2607,8 @@ proxy-groups:
       - 🇺🇸 us（20984） 2
       - 🇺🇸 us（20984） 3
       - 🇺🇸 us（20984） 4
-      - 🇺🇸 US（感谢关注youtube：8度科技）
-      - 🇺🇸 US（感谢关注youtube：8度科技） 2
+      - 🇺🇸 US（20984）
+      - 🇺🇸 US（20984） 2
       - 🇺🇸 US 🇺🇸（20984）
       - 🇺🇸 US 🇺🇸（20984） 2
       - 🇺🇸 US 🇺🇸（20984） 3
@@ -2666,7 +2666,7 @@ proxy-groups:
       - ca（20984） 4
       - ca（20984） 5
       - BA（20984）
-      - 🇩🇪 德国（感谢关注youtube：8度科技） 2
+      - 🇩🇪 德国（20984） 2
       - 🇨🇳 TW（20984）
       - 🇭🇰 HK（20984） 10
   - name: 📲 电报信息
@@ -2726,9 +2726,9 @@ proxy-groups:
       - 🇬🇧 英国（20984） 41
       - 🇬🇧 英国（20984） 42
       - 🇬🇧 英国（20984） 43
-      - 🇬🇧 英国（感谢关注youtube：8度科技）
-      - 🇬🇧 英国（感谢关注youtube：8度科技） 2
-      - 🇬🇧 英国（感谢关注youtube：8度科技） 3
+      - 🇬🇧 英国（20984）
+      - 🇬🇧 英国（20984） 2
+      - 🇬🇧 英国（20984） 3
       - 🇬🇧 英国 （20984）
       - 🇬🇧 英国 （20984） 2
       - 🇬🇧 英国 （20984） 3
@@ -2779,8 +2779,8 @@ proxy-groups:
       - 🇹🇭 泰国 曼谷（20984 32
       - 🇨🇳 台湾（20984）2阅)
       - 🇨🇳 台湾（20984）
-      - 瑞典（感谢关注youtube：8度科技）
-      - 🇩🇪 瑞典 斯德哥尔摩（感谢关注youtube：8度科技）
+      - 瑞典（20984）
+      - 🇩🇪 瑞典 斯德哥尔摩（20984）
       - 葡萄牙 🇵🇹（20984）
       - 挪威（20984）
       - 🇿🇦 南非 约翰内斯堡（20984）
@@ -2807,21 +2807,21 @@ proxy-groups:
       - 🇺🇸 美国（20984） 21
       - 🇺🇸 美国（20984） 22
       - 🇺🇸 美国（20984） 23
-      - 🇺🇸 美国 亚特兰大（感谢关注youtube：8度科技）
-      - 🇺🇸 美国 亚特兰大（感谢关注youtube：8度科技） 2
-      - 🇺🇸 美国 亚特兰大（感谢关注youtube：8度科技） 3
-      - 🇺🇸 美国 亚特兰大（感谢关注youtube：8度科技） 4
-      - 🇺🇸 美国 亚特兰大（感谢关注youtube：8度科技） 5
-      - 🇺🇸 美国 亚特兰大（感谢关注youtube：8度科技） 6
-      - 🇺🇸 美国 亚特兰大（感谢关注youtube：8度科技） 7
-      - 🇺🇸 美国 亚特兰大（感谢关注youtube：8度科技） 8
-      - 🇺🇸 美国 亚特兰大（感谢关注youtube：8度科技） 9
-      - 🇺🇸 美国 亚特兰大（感谢关注youtube：8度科技） 10
-      - 🇺🇸 美国 亚特兰大 1（感谢关注youtube：8度科技）
+      - 🇺🇸 美国 亚特兰大（20984）
+      - 🇺🇸 美国 亚特兰大（20984） 2
+      - 🇺🇸 美国 亚特兰大（20984） 3
+      - 🇺🇸 美国 亚特兰大（20984） 4
+      - 🇺🇸 美国 亚特兰大（20984） 5
+      - 🇺🇸 美国 亚特兰大（20984） 6
+      - 🇺🇸 美国 亚特兰大（20984） 7
+      - 🇺🇸 美国 亚特兰大（20984） 8
+      - 🇺🇸 美国 亚特兰大（20984） 9
+      - 🇺🇸 美国 亚特兰大（20984） 10
+      - 🇺🇸 美国 亚特兰大 1（20984）
       - 🇸🇬 美国 新泽西（感谢关注youtube：8度科
       - 🇸🇬 美国 新泽西 （20984）
       - 🇺🇸 美国 纽约（20984）
-      - 🇺🇸 美国 密歇根（感谢关注youtube：8度科技）
+      - 🇺🇸 美国 密歇根（20984）
       - 🇺🇸 美国 密歇根（感谢关注youtube：8度科
       - 🇺🇸 美国 洛杉矶2（20984）
       - 🇺🇸 美国 加利福尼亚 （20984）
@@ -2829,17 +2829,17 @@ proxy-groups:
       - 🇺🇸 美国 （20984） 2
       - 🇺🇸 美国 （20984） 3
       - 🇺🇸 美国 （20984） 4
-      - 🇺🇸 洛杉矶（感谢关注youtube：8度科技）
+      - 🇺🇸 洛杉矶（20984）
       - 🇷🇴 罗马尼亚（20984）
-      - 🇷🇴 罗马尼亚（感谢关注youtube：8度科技）
-      - 🇷🇴 罗马尼亚（感谢关注youtube：8度科技） 2
-      - 🇷🇴 罗马尼亚（感谢关注youtube：8度科技） 3
-      - 🇷🇴 罗马尼亚（感谢关注youtube：8度科技） 4
+      - 🇷🇴 罗马尼亚（20984）
+      - 🇷🇴 罗马尼亚（20984） 2
+      - 🇷🇴 罗马尼亚（20984） 3
+      - 🇷🇴 罗马尼亚（20984） 4
       - 🇷🇴 罗马尼亚 布加勒斯特9（群友橘子分享的节点）
-      - 🇷🇴 罗马尼亚 布加勒斯特2（感谢关注youtube：8度科技）
-      - 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技）
-      - 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技） 2
-      - 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技） 3
+      - 🇷🇴 罗马尼亚 布加勒斯特2（20984）
+      - 🇷🇴 罗马尼亚 布加勒斯特（20984）
+      - 🇷🇴 罗马尼亚 布加勒斯特（20984） 2
+      - 🇷🇴 罗马尼亚 布加勒斯特（20984） 3
       - 罗马（20984）
       - 罗马（20984） 2
       - 卢森堡（20984）
@@ -2853,7 +2853,7 @@ proxy-groups:
       - 卢森堡（20984） 9
       - 卢森堡（20984） 10
       - 卢森堡（20984） 11
-      - ‪捷克（感谢关注youtube：8度科技）
+      - ‪捷克（20984）
       - 加利福尼亚（20984）
       - 🇳🇱 荷兰（20984）
       - 🇳🇱 荷兰（20984） 2
@@ -2996,17 +2996,17 @@ proxy-groups:
       - 🇫🇷 法国 马赛（20984 59
       - 🇫🇷 法国 马赛（20984 60
       - 🇫🇷 法国 马赛（20984 61
-      - 🇷🇺 俄罗斯（感谢关注youtube：8度科技）
+      - 🇷🇺 俄罗斯（20984）
       - 🇩🇪 德国（20984）
-      - 🇩🇪 德国（感谢关注youtube：8度科技）
+      - 🇩🇪 德国（20984）
       - 🇩🇪 德国 黑森（20984）
       - 🇩🇪 德国 法兰克福（感谢关注youtube：8度
       - 波兰 华沙（20984）
       - 波兰 华沙（20984） 2
-      - 比利时（感谢关注youtube：8度科技）
+      - 比利时（20984）
       - 比利时 布鲁塞尔（20984）
-      - 比利时 布鲁塞尔（感谢关注youtube：8度科技）
-      - 比利时 布鲁塞尔（感谢关注youtube：8度科技） 2
+      - 比利时 布鲁塞尔（20984）
+      - 比利时 布鲁塞尔（20984） 2
       - 🇧🇷 巴西 圣保罗（20984）
       - 🇧🇷 巴西 圣保罗（20984） 2
       - 🇧🇷 巴西 圣保罗（20984） 3
@@ -3059,8 +3059,8 @@ proxy-groups:
       - 🇦🇺 澳大利亚（20984） 2
       - 🇦🇹 奥地利 维也纳（20984）
       - 🇦🇹 奥地利 维也纳（20984） 2
-      - 🇦🇹 奥地利 维也纳（感谢关注youtube：8度科技）
-      - 埃及（感谢关注youtube：8度科技）
+      - 🇦🇹 奥地利 维也纳（20984）
+      - 埃及（20984）
       - 阿塞拜疆（20984）
       - 阿塞拜疆（20984） 2
       - 阿塞拜疆（20984） 3
@@ -3075,7 +3075,7 @@ proxy-groups:
       - ZZ（20984）
       - 🇺🇸 US（20984）
       - 🇺🇸 US（20984） 2
-      - （感谢关注youtube：8度科技）
+      - （20984）
       - 🇸🇬 SG（20984）
       - 🇸🇬 新加坡11 （20984）
       - RS（20984）
@@ -3130,7 +3130,7 @@ proxy-groups:
       - （20984） 9
       - 🇨🇦 加拿大6（20984）
       - 🇨🇦 加拿大5（20984）
-      - 🇺🇸 Brussels（感谢关注youtube：8度科技）
+      - 🇺🇸 Brussels（20984）
       - 🇧🇪 BE（20984）
       - 🇧🇪 BE（20984） 2
       - 🇧🇪 _BE_比利时（20984）
@@ -3139,8 +3139,8 @@ proxy-groups:
       - 🇺🇸 us（20984） 2
       - 🇺🇸 us（20984） 3
       - 🇺🇸 us（20984） 4
-      - 🇺🇸 US（感谢关注youtube：8度科技）
-      - 🇺🇸 US（感谢关注youtube：8度科技） 2
+      - 🇺🇸 US（20984）
+      - 🇺🇸 US（20984） 2
       - 🇺🇸 US 🇺🇸（20984）
       - 🇺🇸 US 🇺🇸（20984） 2
       - 🇺🇸 US 🇺🇸（20984） 3
@@ -3198,7 +3198,7 @@ proxy-groups:
       - ca（20984） 4
       - ca（20984） 5
       - BA（20984）
-      - 🇩🇪 德国（感谢关注youtube：8度科技） 2
+      - 🇩🇪 德国（20984） 2
       - 🇨🇳 TW（20984）
       - 🇭🇰 HK（20984） 10
   - name: 🍎 苹果服务
@@ -3259,9 +3259,9 @@ proxy-groups:
       - 🇬🇧 英国（20984） 41
       - 🇬🇧 英国（20984） 42
       - 🇬🇧 英国（20984） 43
-      - 🇬🇧 英国（感谢关注youtube：8度科技）
-      - 🇬🇧 英国（感谢关注youtube：8度科技） 2
-      - 🇬🇧 英国（感谢关注youtube：8度科技） 3
+      - 🇬🇧 英国（20984）
+      - 🇬🇧 英国（20984） 2
+      - 🇬🇧 英国（20984） 3
       - 🇬🇧 英国 （20984）
       - 🇬🇧 英国 （20984） 2
       - 🇬🇧 英国 （20984） 3
@@ -3312,8 +3312,8 @@ proxy-groups:
       - 🇹🇭 泰国 曼谷（20984 32
       - 🇨🇳 台湾（20984）2阅)
       - 🇨🇳 台湾（20984）
-      - 瑞典（感谢关注youtube：8度科技）
-      - 🇩🇪 瑞典 斯德哥尔摩（感谢关注youtube：8度科技）
+      - 瑞典（20984）
+      - 🇩🇪 瑞典 斯德哥尔摩（20984）
       - 葡萄牙 🇵🇹（20984）
       - 挪威（20984）
       - 🇿🇦 南非 约翰内斯堡（20984）
@@ -3340,21 +3340,21 @@ proxy-groups:
       - 🇺🇸 美国（20984） 21
       - 🇺🇸 美国（20984） 22
       - 🇺🇸 美国（20984） 23
-      - 🇺🇸 美国 亚特兰大（感谢关注youtube：8度科技）
-      - 🇺🇸 美国 亚特兰大（感谢关注youtube：8度科技） 2
-      - 🇺🇸 美国 亚特兰大（感谢关注youtube：8度科技） 3
-      - 🇺🇸 美国 亚特兰大（感谢关注youtube：8度科技） 4
-      - 🇺🇸 美国 亚特兰大（感谢关注youtube：8度科技） 5
-      - 🇺🇸 美国 亚特兰大（感谢关注youtube：8度科技） 6
-      - 🇺🇸 美国 亚特兰大（感谢关注youtube：8度科技） 7
-      - 🇺🇸 美国 亚特兰大（感谢关注youtube：8度科技） 8
-      - 🇺🇸 美国 亚特兰大（感谢关注youtube：8度科技） 9
-      - 🇺🇸 美国 亚特兰大（感谢关注youtube：8度科技） 10
-      - 🇺🇸 美国 亚特兰大 1（感谢关注youtube：8度科技）
+      - 🇺🇸 美国 亚特兰大（20984）
+      - 🇺🇸 美国 亚特兰大（20984） 2
+      - 🇺🇸 美国 亚特兰大（20984） 3
+      - 🇺🇸 美国 亚特兰大（20984） 4
+      - 🇺🇸 美国 亚特兰大（20984） 5
+      - 🇺🇸 美国 亚特兰大（20984） 6
+      - 🇺🇸 美国 亚特兰大（20984） 7
+      - 🇺🇸 美国 亚特兰大（20984） 8
+      - 🇺🇸 美国 亚特兰大（20984） 9
+      - 🇺🇸 美国 亚特兰大（20984） 10
+      - 🇺🇸 美国 亚特兰大 1（20984）
       - 🇸🇬 美国 新泽西（感谢关注youtube：8度科
       - 🇸🇬 美国 新泽西 （20984）
       - 🇺🇸 美国 纽约（20984）
-      - 🇺🇸 美国 密歇根（感谢关注youtube：8度科技）
+      - 🇺🇸 美国 密歇根（20984）
       - 🇺🇸 美国 密歇根（感谢关注youtube：8度科
       - 🇺🇸 美国 洛杉矶2（20984）
       - 🇺🇸 美国 加利福尼亚 （20984）
@@ -3362,17 +3362,17 @@ proxy-groups:
       - 🇺🇸 美国 （20984） 2
       - 🇺🇸 美国 （20984） 3
       - 🇺🇸 美国 （20984） 4
-      - 🇺🇸 洛杉矶（感谢关注youtube：8度科技）
+      - 🇺🇸 洛杉矶（20984）
       - 🇷🇴 罗马尼亚（20984）
-      - 🇷🇴 罗马尼亚（感谢关注youtube：8度科技）
-      - 🇷🇴 罗马尼亚（感谢关注youtube：8度科技） 2
-      - 🇷🇴 罗马尼亚（感谢关注youtube：8度科技） 3
-      - 🇷🇴 罗马尼亚（感谢关注youtube：8度科技） 4
+      - 🇷🇴 罗马尼亚（20984）
+      - 🇷🇴 罗马尼亚（20984） 2
+      - 🇷🇴 罗马尼亚（20984） 3
+      - 🇷🇴 罗马尼亚（20984） 4
       - 🇷🇴 罗马尼亚 布加勒斯特9（群友橘子分享的节点）
-      - 🇷🇴 罗马尼亚 布加勒斯特2（感谢关注youtube：8度科技）
-      - 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技）
-      - 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技） 2
-      - 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技） 3
+      - 🇷🇴 罗马尼亚 布加勒斯特2（20984）
+      - 🇷🇴 罗马尼亚 布加勒斯特（20984）
+      - 🇷🇴 罗马尼亚 布加勒斯特（20984） 2
+      - 🇷🇴 罗马尼亚 布加勒斯特（20984） 3
       - 罗马（20984）
       - 罗马（20984） 2
       - 卢森堡（20984）
@@ -3386,7 +3386,7 @@ proxy-groups:
       - 卢森堡（20984） 9
       - 卢森堡（20984） 10
       - 卢森堡（20984） 11
-      - ‪捷克（感谢关注youtube：8度科技）
+      - ‪捷克（20984）
       - 加利福尼亚（20984）
       - 🇳🇱 荷兰（20984）
       - 🇳🇱 荷兰（20984） 2
@@ -3529,17 +3529,17 @@ proxy-groups:
       - 🇫🇷 法国 马赛（20984 59
       - 🇫🇷 法国 马赛（20984 60
       - 🇫🇷 法国 马赛（20984 61
-      - 🇷🇺 俄罗斯（感谢关注youtube：8度科技）
+      - 🇷🇺 俄罗斯（20984）
       - 🇩🇪 德国（20984）
-      - 🇩🇪 德国（感谢关注youtube：8度科技）
+      - 🇩🇪 德国（20984）
       - 🇩🇪 德国 黑森（20984）
       - 🇩🇪 德国 法兰克福（感谢关注youtube：8度
       - 波兰 华沙（20984）
       - 波兰 华沙（20984） 2
-      - 比利时（感谢关注youtube：8度科技）
+      - 比利时（20984）
       - 比利时 布鲁塞尔（20984）
-      - 比利时 布鲁塞尔（感谢关注youtube：8度科技）
-      - 比利时 布鲁塞尔（感谢关注youtube：8度科技） 2
+      - 比利时 布鲁塞尔（20984）
+      - 比利时 布鲁塞尔（20984） 2
       - 🇧🇷 巴西 圣保罗（20984）
       - 🇧🇷 巴西 圣保罗（20984） 2
       - 🇧🇷 巴西 圣保罗（20984） 3
@@ -3592,8 +3592,8 @@ proxy-groups:
       - 🇦🇺 澳大利亚（20984） 2
       - 🇦🇹 奥地利 维也纳（20984）
       - 🇦🇹 奥地利 维也纳（20984） 2
-      - 🇦🇹 奥地利 维也纳（感谢关注youtube：8度科技）
-      - 埃及（感谢关注youtube：8度科技）
+      - 🇦🇹 奥地利 维也纳（20984）
+      - 埃及（20984）
       - 阿塞拜疆（20984）
       - 阿塞拜疆（20984） 2
       - 阿塞拜疆（20984） 3
@@ -3608,7 +3608,7 @@ proxy-groups:
       - ZZ（20984）
       - 🇺🇸 US（20984）
       - 🇺🇸 US（20984） 2
-      - （感谢关注youtube：8度科技）
+      - （20984）
       - 🇸🇬 SG（20984）
       - 🇸🇬 新加坡11 （20984）
       - RS（20984）
@@ -3663,7 +3663,7 @@ proxy-groups:
       - （20984） 9
       - 🇨🇦 加拿大6（20984）
       - 🇨🇦 加拿大5（20984）
-      - 🇺🇸 Brussels（感谢关注youtube：8度科技）
+      - 🇺🇸 Brussels（20984）
       - 🇧🇪 BE（20984）
       - 🇧🇪 BE（20984） 2
       - 🇧🇪 _BE_比利时（20984）
@@ -3672,8 +3672,8 @@ proxy-groups:
       - 🇺🇸 us（20984） 2
       - 🇺🇸 us（20984） 3
       - 🇺🇸 us（20984） 4
-      - 🇺🇸 US（感谢关注youtube：8度科技）
-      - 🇺🇸 US（感谢关注youtube：8度科技） 2
+      - 🇺🇸 US（20984）
+      - 🇺🇸 US（20984） 2
       - 🇺🇸 US 🇺🇸（20984）
       - 🇺🇸 US 🇺🇸（20984） 2
       - 🇺🇸 US 🇺🇸（20984） 3
@@ -3731,7 +3731,7 @@ proxy-groups:
       - ca（20984） 4
       - ca（20984） 5
       - BA（20984）
-      - 🇩🇪 德国（感谢关注youtube：8度科技） 2
+      - 🇩🇪 德国（20984） 2
       - 🇨🇳 TW（20984）
       - 🇭🇰 HK（20984） 10
   - name: 🎯 全球直连
@@ -3801,9 +3801,9 @@ proxy-groups:
       - 🇬🇧 英国（20984） 41
       - 🇬🇧 英国（20984） 42
       - 🇬🇧 英国（20984） 43
-      - 🇬🇧 英国（感谢关注youtube：8度科技）
-      - 🇬🇧 英国（感谢关注youtube：8度科技） 2
-      - 🇬🇧 英国（感谢关注youtube：8度科技） 3
+      - 🇬🇧 英国（20984）
+      - 🇬🇧 英国（20984） 2
+      - 🇬🇧 英国（20984） 3
       - 🇬🇧 英国 （20984）
       - 🇬🇧 英国 （20984） 2
       - 🇬🇧 英国 （20984） 3
@@ -3854,8 +3854,8 @@ proxy-groups:
       - 🇹🇭 泰国 曼谷（20984 32
       - 🇨🇳 台湾（20984）2阅)
       - 🇨🇳 台湾（20984）
-      - 瑞典（感谢关注youtube：8度科技）
-      - 🇩🇪 瑞典 斯德哥尔摩（感谢关注youtube：8度科技）
+      - 瑞典（20984）
+      - 🇩🇪 瑞典 斯德哥尔摩（20984）
       - 葡萄牙 🇵🇹（20984）
       - 挪威（20984）
       - 🇿🇦 南非 约翰内斯堡（20984）
@@ -3882,21 +3882,21 @@ proxy-groups:
       - 🇺🇸 美国（20984） 21
       - 🇺🇸 美国（20984） 22
       - 🇺🇸 美国（20984） 23
-      - 🇺🇸 美国 亚特兰大（感谢关注youtube：8度科技）
-      - 🇺🇸 美国 亚特兰大（感谢关注youtube：8度科技） 2
-      - 🇺🇸 美国 亚特兰大（感谢关注youtube：8度科技） 3
-      - 🇺🇸 美国 亚特兰大（感谢关注youtube：8度科技） 4
-      - 🇺🇸 美国 亚特兰大（感谢关注youtube：8度科技） 5
-      - 🇺🇸 美国 亚特兰大（感谢关注youtube：8度科技） 6
-      - 🇺🇸 美国 亚特兰大（感谢关注youtube：8度科技） 7
-      - 🇺🇸 美国 亚特兰大（感谢关注youtube：8度科技） 8
-      - 🇺🇸 美国 亚特兰大（感谢关注youtube：8度科技） 9
-      - 🇺🇸 美国 亚特兰大（感谢关注youtube：8度科技） 10
-      - 🇺🇸 美国 亚特兰大 1（感谢关注youtube：8度科技）
+      - 🇺🇸 美国 亚特兰大（20984）
+      - 🇺🇸 美国 亚特兰大（20984） 2
+      - 🇺🇸 美国 亚特兰大（20984） 3
+      - 🇺🇸 美国 亚特兰大（20984） 4
+      - 🇺🇸 美国 亚特兰大（20984） 5
+      - 🇺🇸 美国 亚特兰大（20984） 6
+      - 🇺🇸 美国 亚特兰大（20984） 7
+      - 🇺🇸 美国 亚特兰大（20984） 8
+      - 🇺🇸 美国 亚特兰大（20984） 9
+      - 🇺🇸 美国 亚特兰大（20984） 10
+      - 🇺🇸 美国 亚特兰大 1（20984）
       - 🇸🇬 美国 新泽西（感谢关注youtube：8度科
       - 🇸🇬 美国 新泽西 （20984）
       - 🇺🇸 美国 纽约（20984）
-      - 🇺🇸 美国 密歇根（感谢关注youtube：8度科技）
+      - 🇺🇸 美国 密歇根（20984）
       - 🇺🇸 美国 密歇根（感谢关注youtube：8度科
       - 🇺🇸 美国 洛杉矶2（20984）
       - 🇺🇸 美国 加利福尼亚 （20984）
@@ -3904,17 +3904,17 @@ proxy-groups:
       - 🇺🇸 美国 （20984） 2
       - 🇺🇸 美国 （20984） 3
       - 🇺🇸 美国 （20984） 4
-      - 🇺🇸 洛杉矶（感谢关注youtube：8度科技）
+      - 🇺🇸 洛杉矶（20984）
       - 🇷🇴 罗马尼亚（20984）
-      - 🇷🇴 罗马尼亚（感谢关注youtube：8度科技）
-      - 🇷🇴 罗马尼亚（感谢关注youtube：8度科技） 2
-      - 🇷🇴 罗马尼亚（感谢关注youtube：8度科技） 3
-      - 🇷🇴 罗马尼亚（感谢关注youtube：8度科技） 4
+      - 🇷🇴 罗马尼亚（20984）
+      - 🇷🇴 罗马尼亚（20984） 2
+      - 🇷🇴 罗马尼亚（20984） 3
+      - 🇷🇴 罗马尼亚（20984） 4
       - 🇷🇴 罗马尼亚 布加勒斯特9（群友橘子分享的节点）
-      - 🇷🇴 罗马尼亚 布加勒斯特2（感谢关注youtube：8度科技）
-      - 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技）
-      - 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技） 2
-      - 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技） 3
+      - 🇷🇴 罗马尼亚 布加勒斯特2（20984）
+      - 🇷🇴 罗马尼亚 布加勒斯特（20984）
+      - 🇷🇴 罗马尼亚 布加勒斯特（20984） 2
+      - 🇷🇴 罗马尼亚 布加勒斯特（20984） 3
       - 罗马（20984）
       - 罗马（20984） 2
       - 卢森堡（20984）
@@ -3928,7 +3928,7 @@ proxy-groups:
       - 卢森堡（20984） 9
       - 卢森堡（20984） 10
       - 卢森堡（20984） 11
-      - ‪捷克（感谢关注youtube：8度科技）
+      - ‪捷克（20984）
       - 加利福尼亚（20984）
       - 🇳🇱 荷兰（20984）
       - 🇳🇱 荷兰（20984） 2
@@ -4071,17 +4071,17 @@ proxy-groups:
       - 🇫🇷 法国 马赛（20984 59
       - 🇫🇷 法国 马赛（20984 60
       - 🇫🇷 法国 马赛（20984 61
-      - 🇷🇺 俄罗斯（感谢关注youtube：8度科技）
+      - 🇷🇺 俄罗斯（20984）
       - 🇩🇪 德国（20984）
-      - 🇩🇪 德国（感谢关注youtube：8度科技）
+      - 🇩🇪 德国（20984）
       - 🇩🇪 德国 黑森（20984）
       - 🇩🇪 德国 法兰克福（感谢关注youtube：8度
       - 波兰 华沙（20984）
       - 波兰 华沙（20984） 2
-      - 比利时（感谢关注youtube：8度科技）
+      - 比利时（20984）
       - 比利时 布鲁塞尔（20984）
-      - 比利时 布鲁塞尔（感谢关注youtube：8度科技）
-      - 比利时 布鲁塞尔（感谢关注youtube：8度科技） 2
+      - 比利时 布鲁塞尔（20984）
+      - 比利时 布鲁塞尔（20984） 2
       - 🇧🇷 巴西 圣保罗（20984）
       - 🇧🇷 巴西 圣保罗（20984） 2
       - 🇧🇷 巴西 圣保罗（20984） 3
@@ -4134,8 +4134,8 @@ proxy-groups:
       - 🇦🇺 澳大利亚（20984） 2
       - 🇦🇹 奥地利 维也纳（20984）
       - 🇦🇹 奥地利 维也纳（20984） 2
-      - 🇦🇹 奥地利 维也纳（感谢关注youtube：8度科技）
-      - 埃及（感谢关注youtube：8度科技）
+      - 🇦🇹 奥地利 维也纳（20984）
+      - 埃及（20984）
       - 阿塞拜疆（20984）
       - 阿塞拜疆（20984） 2
       - 阿塞拜疆（20984） 3
@@ -4150,7 +4150,7 @@ proxy-groups:
       - ZZ（20984）
       - 🇺🇸 US（20984）
       - 🇺🇸 US（20984） 2
-      - （感谢关注youtube：8度科技）
+      - （20984）
       - 🇸🇬 SG（20984）
       - 🇸🇬 新加坡11 （20984）
       - RS（20984）
@@ -4205,7 +4205,7 @@ proxy-groups:
       - （20984） 9
       - 🇨🇦 加拿大6（20984）
       - 🇨🇦 加拿大5（20984）
-      - 🇺🇸 Brussels（感谢关注youtube：8度科技）
+      - 🇺🇸 Brussels（20984）
       - 🇧🇪 BE（20984）
       - 🇧🇪 BE（20984） 2
       - 🇧🇪 _BE_比利时（20984）
@@ -4214,8 +4214,8 @@ proxy-groups:
       - 🇺🇸 us（20984） 2
       - 🇺🇸 us（20984） 3
       - 🇺🇸 us（20984） 4
-      - 🇺🇸 US（感谢关注youtube：8度科技）
-      - 🇺🇸 US（感谢关注youtube：8度科技） 2
+      - 🇺🇸 US（20984）
+      - 🇺🇸 US（20984） 2
       - 🇺🇸 US 🇺🇸（20984）
       - 🇺🇸 US 🇺🇸（20984） 2
       - 🇺🇸 US 🇺🇸（20984） 3
@@ -4273,7 +4273,7 @@ proxy-groups:
       - ca（20984） 4
       - ca（20984） 5
       - BA（20984）
-      - 🇩🇪 德国（感谢关注youtube：8度科技） 2
+      - 🇩🇪 德国（20984） 2
       - 🇨🇳 TW（20984）
       - 🇭🇰 HK（20984） 10
 rules:

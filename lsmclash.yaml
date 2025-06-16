@@ -13,6 +13,12 @@ proxies:
   - {name: 🇸🇬 六扇门SG06, server: 103.14.77.62, port: 43358, type: vmess, uuid: 0bd06e8d-fa30-4685-b06a-44245ee1e4a5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
   - {name: 🇸🇬 六扇门SG07, server: 103.14.76.189, port: 10684, type: vless, uuid: ba20cb72-6984-47e3-a940-9d9f8b69fd50, tls: true, tfo: false, flow: xtls-rprx-vision, skip-cert-verify: false, reality-opts: {public-key: Oz-rE93UMAbAGe4lgio3eQ8ONH0b89Pz3OtYzEuc-Tc}, servername: www.iij.ad.jp, client-fingerprint: chrome, network: tcp}
   - {name: 🇸🇬 六扇门SG08, server: www.visa.com.tw, port: 443, type: vmess, uuid: ba20cb72-6984-47e3-a940-9d9f8b69fd50, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: question-paperback-drop-vista.trycloudflare.com, network: ws, ws-opts: {path: "/vmess-argo?ed=2048", headers: {Host: question-paperback-drop-vista.trycloudflare.com}}}
+  - {name: 🇸🇬 六扇门SG09, server: 103.14.76.193, port: 52771, type: vless, uuid: 3e9100ba-bf7e-4071-9fb2-c536076d6a46, tls: true, tfo: false, flow: xtls-rprx-vision, skip-cert-verify: false, reality-opts: {public-key: hq3ceTxvNiOmyNcXInlTiqNXDTi6oZKhJnVtVhMmnRs}, servername: www.iij.ad.jp, client-fingerprint: chrome, network: tcp}
+  - {name: 🇸🇬 六扇门SG10, server: www.visa.com.tw, port: 443, type: vmess, uuid: 3e9100ba-bf7e-4071-9fb2-c536076d6a46, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: questions-lenders-electoral-puppy.trycloudflare.com, network: ws, ws-opts: {path: "/vmess-argo?ed=2048", headers: {Host: questions-lenders-electoral-puppy.trycloudflare.com}}}
+  - {name: 🇸🇬 六扇门SG11, server: 103.14.76.198, port: 31096, type: vless, uuid: 3b263cb5-b358-4b29-99d3-6fe61645bff2, tls: true, tfo: false, flow: xtls-rprx-vision, skip-cert-verify: false, reality-opts: {public-key: GJ7XYAf4GxV7p5i_NLTvnTe5CarYqyxn0KMzR1bRpSM}, servername: www.iij.ad.jp, client-fingerprint: chrome, network: tcp}
+  - {name: 🇸🇬 六扇门SG12, server: www.visa.com.tw, port: 443, type: vmess, uuid: 3b263cb5-b358-4b29-99d3-6fe61645bff2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: banner-speeches-blair-biblical.trycloudflare.com, network: ws, ws-opts: {path: "/vmess-argo?ed=2048", headers: {Host: banner-speeches-blair-biblical.trycloudflare.com}}}
+  - {name: 🇸🇬 六扇门SG13, server: 103.14.77.17, port: 1079, type: vless, uuid: 150e9d92-fea2-4429-807a-c7dbc2afe6dd, tls: true, tfo: false, flow: xtls-rprx-vision, skip-cert-verify: false, reality-opts: {public-key: IjEhUJPxYhZ8NMtRAYC6OR3VtnpMQteASeatGCPCdWI}, servername: www.iij.ad.jp, client-fingerprint: chrome, network: tcp}
+  - {name: 🇸🇬 六扇门SG14, server: www.visa.com.tw, port: 443, type: vmess, uuid: 150e9d92-fea2-4429-807a-c7dbc2afe6dd, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: vat-travesti-abs-tax.trycloudflare.com, network: ws, ws-opts: {path: "/vmess-argo?ed=2048", headers: {Host: vat-travesti-abs-tax.trycloudflare.com}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -27,6 +33,12 @@ proxy-groups:
       - 🇸🇬 六扇门SG06
       - 🇸🇬 六扇门SG07
       - 🇸🇬 六扇门SG08
+      - 🇸🇬 六扇门SG09
+      - 🇸🇬 六扇门SG10
+      - 🇸🇬 六扇门SG11
+      - 🇸🇬 六扇门SG12
+      - 🇸🇬 六扇门SG13
+      - 🇸🇬 六扇门SG14
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -41,6 +53,12 @@ proxy-groups:
       - 🇸🇬 六扇门SG06
       - 🇸🇬 六扇门SG07
       - 🇸🇬 六扇门SG08
+      - 🇸🇬 六扇门SG09
+      - 🇸🇬 六扇门SG10
+      - 🇸🇬 六扇门SG11
+      - 🇸🇬 六扇门SG12
+      - 🇸🇬 六扇门SG13
+      - 🇸🇬 六扇门SG14
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -66,6 +84,12 @@ proxy-groups:
       - 🇸🇬 六扇门SG06
       - 🇸🇬 六扇门SG07
       - 🇸🇬 六扇门SG08
+      - 🇸🇬 六扇门SG09
+      - 🇸🇬 六扇门SG10
+      - 🇸🇬 六扇门SG11
+      - 🇸🇬 六扇门SG12
+      - 🇸🇬 六扇门SG13
+      - 🇸🇬 六扇门SG14
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连

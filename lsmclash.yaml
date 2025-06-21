@@ -19,6 +19,16 @@ proxies:
   - {name: 🇸🇬 六扇门SG12, server: www.visa.com.tw, port: 443, type: vmess, uuid: 3b263cb5-b358-4b29-99d3-6fe61645bff2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: banner-speeches-blair-biblical.trycloudflare.com, network: ws, ws-opts: {path: "/vmess-argo?ed=2048", headers: {Host: banner-speeches-blair-biblical.trycloudflare.com}}}
   - {name: 🇸🇬 六扇门SG13, server: 103.14.77.17, port: 1079, type: vless, uuid: 150e9d92-fea2-4429-807a-c7dbc2afe6dd, tls: true, tfo: false, flow: xtls-rprx-vision, skip-cert-verify: false, reality-opts: {public-key: IjEhUJPxYhZ8NMtRAYC6OR3VtnpMQteASeatGCPCdWI}, servername: www.iij.ad.jp, client-fingerprint: chrome, network: tcp}
   - {name: 🇸🇬 六扇门SG14, server: www.visa.com.tw, port: 443, type: vmess, uuid: 150e9d92-fea2-4429-807a-c7dbc2afe6dd, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: vat-travesti-abs-tax.trycloudflare.com, network: ws, ws-opts: {path: "/vmess-argo?ed=2048", headers: {Host: vat-travesti-abs-tax.trycloudflare.com}}}
+  - {name: 高速节点①, server: 104.19.0.0, port: 80, type: vless, uuid: 7cb38fe8-2900-4f53-827e-baff9b2f796a, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: orange-firefly-73ee.xhwyggg.workers.dev}}}
+  - {name: 高速节点②, server: 104.26.9.223, port: 80, type: vless, uuid: 7cb38fe8-2900-4f53-827e-baff9b2f796a, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: orange-firefly-73ee.xhwyggg.workers.dev}}}
+  - {name: 高速节点③, server: 104.26.8.19, port: 80, type: vless, uuid: 7cb38fe8-2900-4f53-827e-baff9b2f796a, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: orange-firefly-73ee.xhwyggg.workers.dev}}}
+  - {name: 高速节点④, server: 104.19.248.76, port: 80, type: vless, uuid: 7cb38fe8-2900-4f53-827e-baff9b2f796a, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: orange-firefly-73ee.xhwyggg.workers.dev}}}
+  - {name: 高速节点⑤, server: time.is, port: 80, type: vless, uuid: 7cb38fe8-2900-4f53-827e-baff9b2f796a, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: orange-firefly-73ee.xhwyggg.workers.dev}}}
+  - {name: 高速节点⑥, server: www.whatismyip.com, port: 80, type: vless, uuid: 7cb38fe8-2900-4f53-827e-baff9b2f796a, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: orange-firefly-73ee.xhwyggg.workers.dev}}}
+  - {name: 高速节点⑦, server: 104.18.167.4, port: 8080, type: vless, uuid: 7cb38fe8-2900-4f53-827e-baff9b2f796a, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: orange-firefly-73ee.xhwyggg.workers.dev}}}
+  - {name: 高速节点⑧, server: 104.18.174.9, port: 8880, type: vless, uuid: 7cb38fe8-2900-4f53-827e-baff9b2f796a, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: orange-firefly-73ee.xhwyggg.workers.dev}}}
+  - {name: 高速节点⑨, server: 104.26.15.58, port: 80, type: vless, uuid: 7cb38fe8-2900-4f53-827e-baff9b2f796a, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: orange-firefly-73ee.xhwyggg.workers.dev}}}
+  - {name: 高速节点⑩, server: 104.26.13.121, port: 80, type: vless, uuid: 7cb38fe8-2900-4f53-827e-baff9b2f796a, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: orange-firefly-73ee.xhwyggg.workers.dev}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -39,6 +49,16 @@ proxy-groups:
       - 🇸🇬 六扇门SG12
       - 🇸🇬 六扇门SG13
       - 🇸🇬 六扇门SG14
+      - 高速节点①
+      - 高速节点②
+      - 高速节点③
+      - 高速节点④
+      - 高速节点⑤
+      - 高速节点⑥
+      - 高速节点⑦
+      - 高速节点⑧
+      - 高速节点⑨
+      - 高速节点⑩
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -59,6 +79,16 @@ proxy-groups:
       - 🇸🇬 六扇门SG12
       - 🇸🇬 六扇门SG13
       - 🇸🇬 六扇门SG14
+      - 高速节点①
+      - 高速节点②
+      - 高速节点③
+      - 高速节点④
+      - 高速节点⑤
+      - 高速节点⑥
+      - 高速节点⑦
+      - 高速节点⑧
+      - 高速节点⑨
+      - 高速节点⑩
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -90,6 +120,16 @@ proxy-groups:
       - 🇸🇬 六扇门SG12
       - 🇸🇬 六扇门SG13
       - 🇸🇬 六扇门SG14
+      - 高速节点①
+      - 高速节点②
+      - 高速节点③
+      - 高速节点④
+      - 高速节点⑤
+      - 高速节点⑥
+      - 高速节点⑦
+      - 高速节点⑧
+      - 高速节点⑨
+      - 高速节点⑩
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连

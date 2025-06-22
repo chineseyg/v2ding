@@ -19,16 +19,36 @@ proxies:
   - {name: 🇸🇬 六扇门SG12, server: www.visa.com.tw, port: 443, type: vmess, uuid: 3b263cb5-b358-4b29-99d3-6fe61645bff2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: banner-speeches-blair-biblical.trycloudflare.com, network: ws, ws-opts: {path: "/vmess-argo?ed=2048", headers: {Host: banner-speeches-blair-biblical.trycloudflare.com}}}
   - {name: 🇸🇬 六扇门SG13, server: 103.14.77.17, port: 1079, type: vless, uuid: 150e9d92-fea2-4429-807a-c7dbc2afe6dd, tls: true, tfo: false, flow: xtls-rprx-vision, skip-cert-verify: false, reality-opts: {public-key: IjEhUJPxYhZ8NMtRAYC6OR3VtnpMQteASeatGCPCdWI}, servername: www.iij.ad.jp, client-fingerprint: chrome, network: tcp}
   - {name: 🇸🇬 六扇门SG14, server: www.visa.com.tw, port: 443, type: vmess, uuid: 150e9d92-fea2-4429-807a-c7dbc2afe6dd, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: vat-travesti-abs-tax.trycloudflare.com, network: ws, ws-opts: {path: "/vmess-argo?ed=2048", headers: {Host: vat-travesti-abs-tax.trycloudflare.com}}}
-  - {name: 高速节点①, server: 104.19.0.0, port: 80, type: vless, uuid: 7cb38fe8-2900-4f53-827e-baff9b2f796a, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: orange-firefly-73ee.xhwyggg.workers.dev}}}
-  - {name: 高速节点②, server: 104.26.9.223, port: 80, type: vless, uuid: 7cb38fe8-2900-4f53-827e-baff9b2f796a, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: orange-firefly-73ee.xhwyggg.workers.dev}}}
-  - {name: 高速节点③, server: 104.26.8.19, port: 80, type: vless, uuid: 7cb38fe8-2900-4f53-827e-baff9b2f796a, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: orange-firefly-73ee.xhwyggg.workers.dev}}}
-  - {name: 高速节点④, server: 104.19.248.76, port: 80, type: vless, uuid: 7cb38fe8-2900-4f53-827e-baff9b2f796a, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: orange-firefly-73ee.xhwyggg.workers.dev}}}
-  - {name: 高速节点⑤, server: time.is, port: 80, type: vless, uuid: 7cb38fe8-2900-4f53-827e-baff9b2f796a, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: orange-firefly-73ee.xhwyggg.workers.dev}}}
-  - {name: 高速节点⑥, server: www.whatismyip.com, port: 80, type: vless, uuid: 7cb38fe8-2900-4f53-827e-baff9b2f796a, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: orange-firefly-73ee.xhwyggg.workers.dev}}}
-  - {name: 高速节点⑦, server: 104.18.167.4, port: 8080, type: vless, uuid: 7cb38fe8-2900-4f53-827e-baff9b2f796a, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: orange-firefly-73ee.xhwyggg.workers.dev}}}
-  - {name: 高速节点⑧, server: 104.18.174.9, port: 8880, type: vless, uuid: 7cb38fe8-2900-4f53-827e-baff9b2f796a, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: orange-firefly-73ee.xhwyggg.workers.dev}}}
-  - {name: 高速节点⑨, server: 104.26.15.58, port: 80, type: vless, uuid: 7cb38fe8-2900-4f53-827e-baff9b2f796a, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: orange-firefly-73ee.xhwyggg.workers.dev}}}
-  - {name: 高速节点⑩, server: 104.26.13.121, port: 80, type: vless, uuid: 7cb38fe8-2900-4f53-827e-baff9b2f796a, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: orange-firefly-73ee.xhwyggg.workers.dev}}}
+  - {name: 高速节点Ⓐ, server: 104.19.0.0, port: 80, type: vless, uuid: 7cb38fe8-2900-4f53-827e-baff9b2f796a, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: orange-firefly-73ee.xhwyggg.workers.dev}}}
+  - {name: 高速节点Ⓑ, server: 104.26.9.223, port: 80, type: vless, uuid: 7cb38fe8-2900-4f53-827e-baff9b2f796a, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: orange-firefly-73ee.xhwyggg.workers.dev}}}
+  - {name: 高速节点Ⓒ, server: 104.26.8.19, port: 80, type: vless, uuid: 7cb38fe8-2900-4f53-827e-baff9b2f796a, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: orange-firefly-73ee.xhwyggg.workers.dev}}}
+  - {name: 高速节点Ⓓ, server: 104.19.248.76, port: 80, type: vless, uuid: 7cb38fe8-2900-4f53-827e-baff9b2f796a, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: orange-firefly-73ee.xhwyggg.workers.dev}}}
+  - {name: 高速节点Ⓔ, server: time.is, port: 80, type: vless, uuid: 7cb38fe8-2900-4f53-827e-baff9b2f796a, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: orange-firefly-73ee.xhwyggg.workers.dev}}}
+  - {name: 高速节点Ⓕ, server: www.whatismyip.com, port: 80, type: vless, uuid: 7cb38fe8-2900-4f53-827e-baff9b2f796a, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: orange-firefly-73ee.xhwyggg.workers.dev}}}
+  - {name: 高速节点Ⓖ, server: 104.18.167.4, port: 8080, type: vless, uuid: 7cb38fe8-2900-4f53-827e-baff9b2f796a, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: orange-firefly-73ee.xhwyggg.workers.dev}}}
+  - {name: 高速节点Ⓗ, server: 104.18.174.9, port: 8880, type: vless, uuid: 7cb38fe8-2900-4f53-827e-baff9b2f796a, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: orange-firefly-73ee.xhwyggg.workers.dev}}}
+  - {name: 高速节点Ⓘ, server: 104.26.15.58, port: 80, type: vless, uuid: 7cb38fe8-2900-4f53-827e-baff9b2f796a, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: orange-firefly-73ee.xhwyggg.workers.dev}}}
+  - {name: 高速节点Ⓙ, server: 104.26.13.121, port: 80, type: vless, uuid: 7cb38fe8-2900-4f53-827e-baff9b2f796a, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: orange-firefly-73ee.xhwyggg.workers.dev}}}
+  - {name: 高速节点Ⓚ, server: 209.141.47.127, port: 3234, type: hysteria2, password: 65a43b6e-19c5-4fab-b960-d110a07d66a4, auth: 65a43b6e-19c5-4fab-b960-d110a07d66a4, skip-cert-verify: false}
+  - {name: 高速节点Ⓠ, server: 185.213.23.226, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
+  - {name: 高速节点Ⓡ, server: 104.17.104.45, port: 80, type: vless, uuid: 9d6315f7-f272-4806-97c8-5fdaafad391e, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: lot.sosant.dpdns.org}}}
+  - {name: 高速节点Ⓢ, server: 104.16.103.250, port: 80, type: vless, uuid: 1f431db3-1918-4e7b-a855-c93485e11694, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: pari.parinazz.dpdns.org}}}
+  - {name: 高速节点Ⓣ, server: 91.193.58.155, port: 8880, type: vless, uuid: 63601f9f-7c67-4952-919a-1ef802b5a7ec, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: "/Telegram🇨🇳 @WangCai2 /?ed=2560", headers: {Host: steep.skyfigure.top}}}
+  - {name: 备用节点①, server: 198.41.197.66, port: 80, type: vless, uuid: 7cb38fe8-2900-4f53-827e-baff9b2f796a, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: orange-firefly-73ee.xhwyggg.workers.dev}}}
+  - {name: 备用节点②, server: 172.64.91.123, port: 80, type: vless, uuid: 7cb38fe8-2900-4f53-827e-baff9b2f796a, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: orange-firefly-73ee.xhwyggg.workers.dev}}}
+  - {name: 备用节点③, server: 173.245.59.254, port: 80, type: vless, uuid: 7cb38fe8-2900-4f53-827e-baff9b2f796a, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: orange-firefly-73ee.xhwyggg.workers.dev}}}
+  - {name: 备用节点④, server: 172.64.67.237, port: 80, type: vless, uuid: 7cb38fe8-2900-4f53-827e-baff9b2f796a, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: orange-firefly-73ee.xhwyggg.workers.dev}}}
+  - {name: 备用节点⑤, server: 162.159.10.196, port: 80, type: vless, uuid: 7cb38fe8-2900-4f53-827e-baff9b2f796a, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: orange-firefly-73ee.xhwyggg.workers.dev}}}
+  - {name: 备用节点⑥, server: 104.18.189.226, port: 80, type: vless, uuid: 7cb38fe8-2900-4f53-827e-baff9b2f796a, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: orange-firefly-73ee.xhwyggg.workers.dev}}}
+  - {name: 备用节点⑦, server: 172.64.229.91, port: 80, type: vless, uuid: 7cb38fe8-2900-4f53-827e-baff9b2f796a, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: orange-firefly-73ee.xhwyggg.workers.dev}}}
+  - {name: 备用节点⑧, server: 8.212.12.98, port: 80, type: vless, uuid: 7cb38fe8-2900-4f53-827e-baff9b2f796a, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: orange-firefly-73ee.xhwyggg.workers.dev}}}
+  - {name: 域用节点V1, server: www.visa.com, port: 80, type: vless, uuid: 7cb38fe8-2900-4f53-827e-baff9b2f796a, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: orange-firefly-73ee.xhwyggg.workers.dev}}}
+  - {name: 域用节点V2, server: cis.visa.com, port: 8080, type: vless, uuid: 7cb38fe8-2900-4f53-827e-baff9b2f796a, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: orange-firefly-73ee.xhwyggg.workers.dev}}}
+  - {name: 域用节点V3, server: africa.visa.com, port: 8880, type: vless, uuid: 7cb38fe8-2900-4f53-827e-baff9b2f796a, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: orange-firefly-73ee.xhwyggg.workers.dev}}}
+  - {name: 域用节点V4, server: www.visa.com.sg, port: 2052, type: vless, uuid: 7cb38fe8-2900-4f53-827e-baff9b2f796a, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: orange-firefly-73ee.xhwyggg.workers.dev}}}
+  - {name: 域用节点V5, server: www.visaeurope.at, port: 2082, type: vless, uuid: 7cb38fe8-2900-4f53-827e-baff9b2f796a, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: orange-firefly-73ee.xhwyggg.workers.dev}}}
+  - {name: 域用节点V6, server: www.visa.com.mt, port: 2086, type: vless, uuid: 7cb38fe8-2900-4f53-827e-baff9b2f796a, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: orange-firefly-73ee.xhwyggg.workers.dev}}}
+  - {name: 域用节点V7, server: qa.visamiddleeast.com, port: 2095, type: vless, uuid: 7cb38fe8-2900-4f53-827e-baff9b2f796a, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: orange-firefly-73ee.xhwyggg.workers.dev}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -49,16 +69,36 @@ proxy-groups:
       - 🇸🇬 六扇门SG12
       - 🇸🇬 六扇门SG13
       - 🇸🇬 六扇门SG14
-      - 高速节点①
-      - 高速节点②
-      - 高速节点③
-      - 高速节点④
-      - 高速节点⑤
-      - 高速节点⑥
-      - 高速节点⑦
-      - 高速节点⑧
-      - 高速节点⑨
-      - 高速节点⑩
+      - 高速节点Ⓐ
+      - 高速节点Ⓑ
+      - 高速节点Ⓒ
+      - 高速节点Ⓓ
+      - 高速节点Ⓔ
+      - 高速节点Ⓕ
+      - 高速节点Ⓖ
+      - 高速节点Ⓗ
+      - 高速节点Ⓘ
+      - 高速节点Ⓙ
+      - 高速节点Ⓚ
+      - 高速节点Ⓠ
+      - 高速节点Ⓡ
+      - 高速节点Ⓢ
+      - 高速节点Ⓣ
+      - 备用节点①
+      - 备用节点②
+      - 备用节点③
+      - 备用节点④
+      - 备用节点⑤
+      - 备用节点⑥
+      - 备用节点⑦
+      - 备用节点⑧
+      - 域用节点V1
+      - 域用节点V2
+      - 域用节点V3
+      - 域用节点V4
+      - 域用节点V5
+      - 域用节点V6
+      - 域用节点V7
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -79,16 +119,36 @@ proxy-groups:
       - 🇸🇬 六扇门SG12
       - 🇸🇬 六扇门SG13
       - 🇸🇬 六扇门SG14
-      - 高速节点①
-      - 高速节点②
-      - 高速节点③
-      - 高速节点④
-      - 高速节点⑤
-      - 高速节点⑥
-      - 高速节点⑦
-      - 高速节点⑧
-      - 高速节点⑨
-      - 高速节点⑩
+      - 高速节点Ⓐ
+      - 高速节点Ⓑ
+      - 高速节点Ⓒ
+      - 高速节点Ⓓ
+      - 高速节点Ⓔ
+      - 高速节点Ⓕ
+      - 高速节点Ⓖ
+      - 高速节点Ⓗ
+      - 高速节点Ⓘ
+      - 高速节点Ⓙ
+      - 高速节点Ⓚ
+      - 高速节点Ⓠ
+      - 高速节点Ⓡ
+      - 高速节点Ⓢ
+      - 高速节点Ⓣ
+      - 备用节点①
+      - 备用节点②
+      - 备用节点③
+      - 备用节点④
+      - 备用节点⑤
+      - 备用节点⑥
+      - 备用节点⑦
+      - 备用节点⑧
+      - 域用节点V1
+      - 域用节点V2
+      - 域用节点V3
+      - 域用节点V4
+      - 域用节点V5
+      - 域用节点V6
+      - 域用节点V7
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -120,16 +180,36 @@ proxy-groups:
       - 🇸🇬 六扇门SG12
       - 🇸🇬 六扇门SG13
       - 🇸🇬 六扇门SG14
-      - 高速节点①
-      - 高速节点②
-      - 高速节点③
-      - 高速节点④
-      - 高速节点⑤
-      - 高速节点⑥
-      - 高速节点⑦
-      - 高速节点⑧
-      - 高速节点⑨
-      - 高速节点⑩
+      - 高速节点Ⓐ
+      - 高速节点Ⓑ
+      - 高速节点Ⓒ
+      - 高速节点Ⓓ
+      - 高速节点Ⓔ
+      - 高速节点Ⓕ
+      - 高速节点Ⓖ
+      - 高速节点Ⓗ
+      - 高速节点Ⓘ
+      - 高速节点Ⓙ
+      - 高速节点Ⓚ
+      - 高速节点Ⓠ
+      - 高速节点Ⓡ
+      - 高速节点Ⓢ
+      - 高速节点Ⓣ
+      - 备用节点①
+      - 备用节点②
+      - 备用节点③
+      - 备用节点④
+      - 备用节点⑤
+      - 备用节点⑥
+      - 备用节点⑦
+      - 备用节点⑧
+      - 域用节点V1
+      - 域用节点V2
+      - 域用节点V3
+      - 域用节点V4
+      - 域用节点V5
+      - 域用节点V6
+      - 域用节点V7
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连

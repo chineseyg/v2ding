@@ -6,7 +6,7 @@
 43.202.56.51:39738#ICN Preferred Proxy
 38.207.182.156:39738LAX Preferred Proxy
 saas.sin.fan:2087#Miyu Preferred DNS
-youxuan.cf.090227.xyz:2087#CM Preferred DNS
+youxuan.cf.090227.xyz:2087#CMLiussss Preferred DNS
 cf.zhetengsha.eu.org:2087#Syi Preferred DNS
 cf.877774.xyz:2087#QMS Preferred DNS
 cf.tencentapp.cn:2087#Ktff Preferred DNS

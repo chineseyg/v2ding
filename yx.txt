@@ -1,3 +1,10 @@
+8.8.8.8:443#Hong 自定义
+38.207.165.63:39738#HKG Preferred Proxy
+47.79.39.107:39738#NRT Preferred Proxy
+43.160.196.64:39738#SIN Preferred Proxy
+166.88.98.36:39738#KIX Preferred Proxy
+43.202.56.51:39738#ICN Preferred Proxy
+38.207.182.156:39738LAX Preferred Proxy
 saas.sin.fan:2087#Miyu Preferred DNS
 youxuan.cf.090227.xyz:2087#CM Preferred DNS
 cf.zhetengsha.eu.org:2087#Syi Preferred DNS
@@ -12,9 +19,3 @@ cloudflare.182682.xyz:2087#Microtest Preferred DNS
 cfsaas.080112.xyz:2087#080112 Preferred DNS
 freeyx.cloudflare88.eu.org:2087#Freeyx Preferred DNS
 cloudflare-dl.byoip.top:2087#Fishcpy Preferred DNS
-38.207.165.63:39738#HKG Preferred Proxy
-47.79.39.107:39738#NRT Preferred Proxy
-43.160.196.64:39738#SIN Preferred Proxy
-166.88.98.36:39738#KIX Preferred Proxy
-43.202.56.51:39738#ICN Preferred Proxy
-38.207.182.156:39738LAX Preferred Proxy

@@ -4,10 +4,7 @@
 103.247.28.110:8444#HKG Preferred Proxy 3
 149.104.23.111:48361#HKG Preferred Proxy 4
 103.30.78.25:19666#HKG Preferred Proxy 5
-47.76.61.218:5483#HKG Preferred Proxy 6
-47.242.191.41:2056#HKG Preferred Proxy 7
-45.153.130.97:24057#HKG Preferred Proxy 8
-43.135.30.215:5700#HKG Preferred Proxy 9
+47.242.191.41:2056#HKG Preferred Proxy 6
 47.79.39.107:39738#NRT Preferred Proxy
 43.160.196.64:39738#SIN Preferred Proxy
 166.88.98.36:39738#KIX Preferred Proxy

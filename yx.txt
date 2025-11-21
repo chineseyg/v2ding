@@ -5,6 +5,10 @@
 149.104.23.111:48361#HKG Preferred Proxy 4
 103.30.78.25:19666#HKG Preferred Proxy 5
 47.242.191.41:2056#HKG Preferred Proxy 6
+122.116.105.15:995#TPE Preferred Proxy 1
+61.220.128.226:43#TPE Preferred Proxy 2
+118.169.83.19:31337#TPE Preferred Proxy 3
+61.223.207.47:12000#TPE Preferred Proxy 4
 47.79.39.107:39738#NRT Preferred Proxy
 43.160.196.64:39738#SIN Preferred Proxy
 166.88.98.36:39738#KIX Preferred Proxy

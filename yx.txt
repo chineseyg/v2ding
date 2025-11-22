@@ -4,10 +4,12 @@
 118.169.83.19:31337#TPE Preferred Proxy 2
 131.186.26.191:20032#ICN Preferred Proxy 1
 43.202.56.51:39738#ICN Preferred Proxy 2
-47.79.39.107:39738#NRT Preferred Proxy
+47.79.39.107:39738#NRT Preferred Proxy 1
+13.113.113.240:10015#NRT Preferred Proxy 2
+38.207.182.156:39738#LAX Preferred Proxy 1
+38.47.113.227:38318#LAX Preferred Proxy 2
 43.160.196.64:39738#SIN Preferred Proxy
 166.88.98.36:39738#KIX Preferred Proxy
-38.207.182.156:39738LAX Preferred Proxy
 saas.sin.fan:2087#Miyu Preferred DNS
 youxuan.cf.090227.xyz:2087#CMLiussss Preferred DNS
 cf.zhetengsha.eu.org:2087#Syi Preferred DNS

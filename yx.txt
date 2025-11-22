@@ -1,14 +1,12 @@
 8.8.8.8:443#Hong 自定义
 38.207.165.63:39738#HKG Preferred Proxy 1
-103.247.29.102:13551#HKG Preferred Proxy 2
-103.247.28.110:8444#HKG Preferred Proxy 3
-149.104.23.111:48361#HKG Preferred Proxy 4
-103.30.78.25:19666#HKG Preferred Proxy 5
-47.242.191.41:2056#HKG Preferred Proxy 6
-122.116.105.15:995#TPE Preferred Proxy 1
-61.220.128.226:43#TPE Preferred Proxy 2
-118.169.83.19:31337#TPE Preferred Proxy 3
-61.223.207.47:12000#TPE Preferred Proxy 4
+103.247.28.110:8444#HKG Preferred Proxy 2
+149.104.23.111:48361#HKG Preferred Proxy 3
+103.30.78.25:19666#HKG Preferred Proxy 4
+47.242.191.41:2056#HKG Preferred Proxy 5
+61.220.128.226:43#TPE Preferred Proxy 1
+118.169.83.19:31337#TPE Preferred Proxy 2
+61.223.207.47:12000#TPE Preferred Proxy 3
 47.79.39.107:39738#NRT Preferred Proxy
 43.160.196.64:39738#SIN Preferred Proxy
 166.88.98.36:39738#KIX Preferred Proxy
@@ -22,7 +20,6 @@ cf.tencentapp.cn:2087#Ktff Preferred DNS
 store.ubi.com:2087#Ubisoft Preferred DNS
 www.shopify.com:2087#Shopify Preferred DNS
 staticdelivery.nexusmods.com:2087#NexusMods Preferred DNS
-bestcf.top:2087#vps789 Preferred DNS
 fenliu.072103.xyz#Tree2 Preferred DNS
 cloudflare.182682.xyz:2087#Microtest Preferred DNS
 cfsaas.080112.xyz:2087#080112 Preferred DNS

@@ -1,13 +1,39 @@
-38.207.165.63:39738#HKG Preferred Proxy A
-103.247.28.110:8444#HKG Preferred Proxy B
-61.220.128.226:43#TPE Preferred Proxy A
-118.169.83.19:31337#TPE Preferred Proxy B
-131.186.26.191:20032#ICN Preferred Proxy A
-43.202.56.51:39738#ICN Preferred Proxy B
-47.79.39.107:39738#NRT Preferred Proxy
-38.207.182.156:39738#LAX Preferred Proxy
-43.160.196.64:39738#SIN Preferred Proxy
-166.88.98.36:39738#KIX Preferred Proxy
+43.100.85.234:39738#HKG Preferred Proxy 01
+154.3.34.36:13158#HKG Preferred Proxy 02
+154.3.34.39:1445#HKG Preferred Proxy 03
+47.238.4.4:39738#HKG Preferred Proxy 04
+43.100.86.119:39738#HKG Preferred Proxy 05
+43.100.91.87:39738#HKG Preferred Proxy 06
+16.162.192.30:39738#HKG Preferred Proxy 07
+47.243.8.9:39738#HKG Preferred Proxy 08
+47.242.35.85:39738#HKG Preferred Proxy 09
+47.243.60.131:39738#HKG Preferred Proxy 10
+47.243.29.191:39738#HKG Preferred Proxy 11
+43.160.250.162:39738#SG Preferred Proxy 01
+54.151.246.64:39738#SG Preferred Proxy 02
+54.251.14.177:39738#SG Preferred Proxy 03
+47.129.167.12:39738#SG Preferred Proxy 04
+185.115.207.147:39738#SG Preferred Proxy 05
+18.143.175.207:39738#SG Preferred Proxy 06
+103.117.103.175:54221#NRT Preferred Proxy 01
+47.79.41.114:39738#NRT Preferred Proxy 02
+47.79.39.107:39738#NRT Preferred Proxy 03
+8.216.95.3:39738#NRT Preferred Proxy 04
+8.216.95.9:39738#NRT Preferred Proxy 05
+8.221.138.234:39738#NRT Preferred Proxy 06
+47.91.31.4:39738#NRT Preferred Proxy 07
+103.214.169.204:39738#NRT Preferred Proxy 08
+47.79.39.107:39738#NRT Preferred Proxy 09
+154.17.234.23:38582#LAX Preferred Proxy 01
+154.21.92.57:12273#LAX Preferred Proxy 02
+154.17.27.102:56417#LAX Preferred Proxy 03
+154.17.29.218:45682#LAX Preferred Proxy 04
+154.17.24.195:22067#LAX Preferred Proxy 05
+154.17.27.29:443#LAX Preferred Proxy 06
+154.17.1.45:10931#LAX Preferred Proxy 07
+43.202.56.51:39738#ICN Preferred Proxy 01
+43.160.196.64:39738#SIN Preferred Proxy 01
+166.88.98.36:39738#KIX Preferred Proxy 01
 saas.sin.fan:2087#Miyu Preferred DNS
 youxuan.cf.090227.xyz:2087#CMLiussss Preferred DNS
 cf.zhetengsha.eu.org:2087#Syi Preferred DNS

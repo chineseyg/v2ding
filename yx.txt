@@ -1,3 +1,25 @@
+cloudflare.seeck.cn:443#♥Seeck三网通用线路♥
+ctcc.cloudflare.seeck.cn:443#♥Seeck电信专用线路♥
+cmcc.cloudflare.seeck.cn:443#♥Seeck移动专用线路♥
+cucc.cloudflare.seeck.cn:443#♥Seeck联通专用线路♥
+www.shopify.com:443#♥哄哄CDN线路 A♥
+www.ntu.edu.sg:443#♥哄哄CDN线路 B♥
+nexusmods.com:443#♥哄哄CDN线路 C♥
+www.cnae.top:443#♥哄哄CDN线路 D♥
+cdn.9889888.xyz:443#♥哄哄CDN线路 E♥
+yx.cloudflare.182682.xyz:443#♥哄哄CDN线路 F♥
+cloudflare.czkcdn.cn:443#♥哄哄CDN线路 G♥
+mfa.gov.ua:443#♥哄哄CDN线路 H♥
+saas.sin.fan:443#♥哄哄CDN线路 I♥
+cf.008500.xyz:443#♥哄哄CDN线路 J♥
+cf.877774.xyz:443#♥哄哄CDN线路 K♥
+cf.zhetengsha.eu.org:443#♥哄哄CDN线路 L♥
+sub.danfeng.eu.org:443#♥哄哄CDN线路 M♥
+cf.130519.xyz:443#♥哄哄CDN线路 N♥
+store.ubi.com:443#♥哄哄CDN线路 O♥
+cdns.doon.eu.org:443#♥哄哄CDN线路 P♥
+cf.090227.xyz:443#♥哄哄CDN线路 Q♥
+104.16.16.16:443#哄哄API线路US
 47.76.60.217:7444#哄哄API线路HKG1
 38.38.251.184:443#哄哄API线路HKG2
 149.104.30.91:443#哄哄API线路HKG3

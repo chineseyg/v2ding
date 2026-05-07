@@ -1,3 +1,3 @@
-vless://0e9394b4-ee85-4681-9b87-d57c80e10d27@104.194.68.142:60010?encryption=none&security=tls&sni=xgll.vvvv.ddns-ip.net&fp=chrome&alpn=http%2F1.1&insecure=1&allowInsecure=1&type=ws&host=xgll.vvvv.ddns-ip.net&path=%2F#vless
-trojan://666@104.194.68.142:60010?security=tls&sni=xgll.vvvv.ddns-ip.net&fp=chrome&alpn=http%2F1.1&insecure=1&allowInsecure=1&type=ws&host=xgll.vvvv.ddns-ip.net&path=%2F#trojan
-ss://bm9uZTow@104.194.68.142:60010?plugin=v2ray-plugin%3Bmode%3Dwebsocket%3Bhost%3Dxgll.vvvv.ddns-ip.net%3Bpath%3D%2F%3Btls%3Bmux%3D0#ss
+vless://0e9394b4-ee85-4681-9b87-d57c80e10d27@91.213.189.39:9443?encryption=none&security=tls&sni=xgll.vvvv.ddns-ip.net&fp=chrome&alpn=http%2F1.1&insecure=1&allowInsecure=1&type=ws&host=xgll.vvvv.ddns-ip.net&path=%2F#vless-hk
+trojan://666@141.98.199.222:9443?security=tls&sni=xgll.vvvv.ddns-ip.net&fp=chrome&alpn=http%2F1.1&insecure=1&allowInsecure=1&type=ws&host=xgll.vvvv.ddns-ip.net&path=%2F#trojan-sg
+ss://bm9uZTow@154.21.88.111:10001?plugin=v2ray-plugin%3Bmode%3Dwebsocket%3Bhost%3Dxgll.vvvv.ddns-ip.net%3Bpath%3D%2F%3Btls%3Bmux%3D0#ss-us

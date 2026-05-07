@@ -1,0 +1,3 @@
+vless://0e9394b4-ee85-4681-9b87-d57c80e10d27@cf.yfjc.sbs:2053/?type=ws&encryption=none&flow=&host=xgll.vvvv.ddns-ip.net&path=%2F&security=tls&sni=xgll.vvvv.ddns-ip.net&alpn=http%2F1.1&allowInsecure=1&fp=chrome#vless
+trojan://666@cf.yfjc.sbs:2053/?type=ws&host=xgll.vvvv.ddns-ip.net&path=%2F&security=tls&sni=xgll.vvvv.ddns-ip.net&alpn=http%2F1.1&allowInsecure=1&fp=chrome#trojan
+ss://bm9uZTow@cf.yfjc.sbs:2053?plugin=v2ray-plugin%3Bmode%3Dwebsocket%3Bhost%3Dxgll.vvvv.ddns-ip.net%3Bpath%3D%2F%3Btls%3Bmux%3D0#ss

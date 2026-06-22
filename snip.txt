@@ -1,9 +1,118 @@
-103.238.130.98:11443#HK
-103.238.130.85:61010#HK
-23.189.248.164:8694#HK
-191.101.132.174:15774#SG
-191.101.132.174:43814#SG
-23.189.248.132:22000#JP
-154.17.228.222:30000#US
-154.17.237.131:18700#US
-64.186.251.65:443#US
+131.143.240.219:50060#香港-AKILE LTD 01
+151.240.13.106:443#香港-ETO Networks Limited 02
+103.73.220.50:20443#香港-GoMami Networks 03
+191.101.132.164:443#香港-GoMami Networks 04
+131.143.241.182:50002#香港-Hytron Network Services Limited 05
+151.240.13.114:39180#香港-ISIF OU 06
+151.240.13.76:25567#香港-ISIF OU 07
+64.49.46.122:30704#香港-ISIF OU 08
+103.73.220.184:18443#香港-Nearoute Limited 09
+23.146.4.2:50502#香港-Neburst LLC 10
+23.146.4.20:25621#香港-Neburst LLC 11
+23.149.108.144:20514#香港-Neburst LLC 12
+23.149.108.148:45893#香港-Neburst LLC 13
+131.143.242.45:37598#香港-Prime Security Corp. 14
+23.249.18.144:8523#香港-Prime Security Corp. 15
+64.49.44.47:34327#香港-Prime Security Corp. 16
+131.143.241.164:443#香港-Sakura Link Limited 17
+131.143.241.180:443#香港-Sakura Link Limited 18
+131.143.241.81:443#香港-Sakura Link Limited 19
+87.83.104.65:10736#香港-Sakura Link Limited 20
+87.83.105.238:5320#香港-Sakura Link Limited 21
+87.83.105.24:10101#香港-Sakura Link Limited 22
+87.83.105.87:443#香港-Sakura Link Limited 23
+87.83.108.182:8443#香港-Sakura Link Limited 24
+151.242.164.227:41634#台湾-Akari Networks 01
+151.242.165.193:41634#台湾-Akari Networks 02
+154.16.248.234:20443#台湾-AKILE LTD 03
+166.0.199.161:11801#台湾-AKILE LTD 04
+82.152.91.11:5374#台湾-AKILE LTD 05
+140.235.39.192:443#台湾-ByteVirt LLC 06
+211.75.210.32:443#台湾-Data Communication Business Group 07
+211.75.210.33:443#台湾-Data Communication Business Group 08
+60.249.21.29:443#台湾-Data Communication Business Group 09
+60.249.21.30:443#台湾-Data Communication Business Group 10
+191.101.132.56:18458#台湾-GLOBAL COMMUNICATION NETWORK LIMITED 11
+131.143.241.251:50061#台湾-kbro CO. Ltd. 12
+191.101.132.203:21107#台湾-POLONETWORK LIMITED 13
+23.145.36.137:1003#台湾-Sky Digital Co., Ltd. 14
+54.180.233.241:443#韩国-Amazon.com, Inc. 01
+121.169.206.244:35342#韩国-Korea Telecom 02
+182.209.240.251:443#韩国-LG POWERCOMM 03
+20.196.146.15:10443#韩国-Microsoft Corporation 04
+114.110.181.49:443#韩国-NHNCLOUD 05
+131.186.24.124:587#韩国-Oracle Corporation 06
+132.226.169.245:587#韩国-Oracle Corporation 07
+144.24.67.138:25282#韩国-Oracle Corporation 08
+146.56.101.164:34237#韩国-Oracle Corporation 09
+152.67.223.108:8105#韩国-Oracle Corporation 10
+152.69.229.110:443#韩国-Oracle Corporation 11
+158.180.71.69:443#韩国-Oracle Corporation 12
+168.107.1.207:443#韩国-Oracle Corporation 13
+168.107.62.215:443#韩国-Oracle Corporation 14
+191.101.132.157:51032#韩国-Sakura Link Limited 15
+64.49.44.70:51346#韩国-Sakura Link Limited 16
+103.73.220.170:58213#韩国-SK Broadband Co Ltd 17
+43.164.191.51:443#韩国-Tencent Building, Kejizhongyi Avenue 18
+158.247.199.106:443#韩国-The Constant Company, LLC 19
+103.112.1.216:50007#新加坡-AKILE LTD 01
+151.244.134.69:23745#新加坡-Eons Data Communications Limited 02
+103.26.8.149:443#新加坡-GoMami Networks 03
+103.26.8.62:28890#新加坡-GoMami Networks 04
+140.235.10.219:443#新加坡-ISIF OU 05
+194.231.149.48:12801#新加坡-ISIF OU 06
+194.231.149.56:23236#新加坡-ISIF OU 07
+194.231.149.99:58990#新加坡-ISIF OU 08
+194.156.162.151:443#新加坡-Misaka Network, Inc. 09
+142.248.151.136:58709#新加坡-Onidel Pty Ltd 10
+87.83.107.118:19236#新加坡-Onidel Pty Ltd 11
+140.235.10.38:33381#新加坡-Prime Security Corp. 12
+23.249.27.136:23333#新加坡-Prime Security Corp. 13
+87.83.97.33:443#新加坡-Sakura Link Limited 14
+87.83.97.50:21245#新加坡-Sakura Link Limited 15
+103.26.8.186:23047#新加坡-Streamline Servers Pty Ltd 16
+131.143.240.22:10076#日本-Alice Networks Ltd 01
+103.117.102.31:16378#日本-DMIT Cloud Services 02
+154.31.114.55:443#日本-DMIT Cloud Services 03
+151.244.134.104:11071#日本-Eons Data Communications Limited 04
+142.248.150.105:61850#日本-ISIF OU 05
+142.248.150.69:30000#日本-ISIF OU 06
+31.58.223.210:443#日本-ISIF OU 07
+45.95.212.159:54444#日本-ISIF OU 08
+45.95.212.179:52113#日本-ISIF OU 09
+45.95.212.21:52136#日本-ISIF OU 10
+23.145.36.140:50132#日本-Neburst LLC 11
+23.145.36.45:42411#日本-Neburst LLC 12
+172.81.102.137:49260#日本-Prime Security Corp. 13
+172.81.102.14:61850#日本-Prime Security Corp. 14
+172.81.102.90:19000#日本-Prime Security Corp. 15
+23.249.25.235:51058#日本-Prime Security Corp. 16
+23.249.25.32:49660#日本-Prime Security Corp. 17
+23.249.25.69:443#日本-Prime Security Corp. 18
+82.40.32.92:443#日本-Prime Security Corp. 19
+142.248.151.249:19959#日本-Sakura Link Limited 20
+209.248.45.230:8443#日本-Sakura Link Limited 21
+31.58.223.73:6443#日本-Sakura Link Limited 22
+87.83.100.1:443#日本-Sakura Link Limited 23
+87.83.100.163:20938#日本-Sakura Link Limited 24
+87.83.101.139:443#日本-Sakura Link Limited 25
+154.17.11.232:443#美国-DMIT Cloud Services 01
+154.17.9.239:443#美国-DMIT Cloud Services 02
+154.21.89.97:443#美国-DMIT Cloud Services 03
+154.21.92.153:31017#美国-DMIT Cloud Services 04
+154.21.94.235:443#美国-DMIT Cloud Services 05
+154.26.188.57:443#美国-DMIT Cloud Services 06
+64.186.227.57:443#美国-DMIT Cloud Services 07
+64.186.229.106:443#美国-DMIT Cloud Services 08
+64.186.234.221:443#美国-DMIT Cloud Services 09
+64.186.242.43:443#美国-DMIT Cloud Services 10
+64.186.244.157:443#美国-DMIT Cloud Services 11
+64.186.247.120:443#美国-DMIT Cloud Services 12
+64.186.250.123:443#美国-DMIT Cloud Services 13
+64.186.254.26:443#美国-DMIT Cloud Services 14
+64.186.255.128:443#美国-DMIT Cloud Services 15
+69.63.195.162:8443#美国-DMIT Cloud Services 16
+69.63.197.94:443#美国-DMIT Cloud Services 17
+69.63.204.24:443#美国-DMIT Cloud Services 18
+69.63.209.127:443#美国-DMIT Cloud Services 19
+69.63.214.252:443#美国-DMIT Cloud Services 20

@@ -1,10 +1,8 @@
 23.149.108.183:443#HK - Neburst LLC
 64.90.29.97:443#HK - NetLab Global
-191.101.132.164:443#HK - GoMami Networks
 191.101.132.190:443#HK - GoMami Networks
 103.112.1.216:50007#SG - GoMami Networks
 103.26.8.149:443#SG - GoMami Networks
-172.237.84.250:443#SG - Akamai Connected Cloud
 156.231.112.27:443#JP - AKILE LTD
 156.231.115.96:443#JP - AKILE LTD
 209.248.45.230:8443#JP - Sakura Link Limited

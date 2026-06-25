@@ -1,96 +1,99 @@
-64.49.44.70:52231#香港 - ISIF OU 01
-191.101.132.157:20974#香港 - ISIF OU 02
-151.240.13.114:39180#香港 - ISIF OU 03
-131.143.242.134:44444#香港 - ISIF OU 04
-103.73.220.184:18443#香港 - Nearoute Limited 05
-23.189.248.78:52800#香港 - Neburst LLC 06
-23.146.4.2:50502#香港 - Neburst LLC 07
-23.149.108.144:20514#香港 - Neburst LLC 08
-23.146.4.20:51272#香港 - Neburst LLC 09
-64.49.44.47:34327#香港 - Prime Security Corp. 10
-23.249.19.69:443#香港 - Prime Security Corp. 11
-23.249.18.223:46800#香港 - Prime Security Corp. 12
-23.249.18.144:8523#香港 - Prime Security Corp. 13
-87.83.108.182:8443#香港 - Sakura Link Limited 14
-131.143.241.180:443#香港 - Sakura Link Limited 15
-131.143.241.164:443#香港 - Sakura Link Limited 16
-131.143.241.81:443#香港 - Sakura Link Limited 17
-87.83.105.24:10101#香港 - Sakura Link Limited 18
-131.143.240.22:10071#香港 - AKILE LTD 19
-166.0.199.161:11801#台湾 - AKILE LTD 01
-82.152.91.11:5374#台湾 - AKILE LTD 02
-151.242.164.227:41634#台湾 - Akari Networks 03
-151.242.165.193:41634#台湾 - Akari Networks 04
-140.235.39.192:443#台湾 - ByteVirt LLC 05
-60.249.21.30:443#台湾 - Data Communication Business Group 06
-131.143.241.251:50061#台湾 - Data Communication Business Group 07
-211.75.210.33:443#台湾 - Data Communication Business Group 08
-211.75.210.32:443#台湾 - Data Communication Business Group 09
-60.249.21.29:443#台湾 - Data Communication Business Group 10
-131.143.240.219:20723#泰国 - Siamdata Communication Co.,Ltd. 01
-131.143.240.156:20723#泰国 - Siamdata Communication Co.,Ltd. 02
+131.143.240.219:50060#香港 - AKILE LTD 01
+131.143.240.22:10071#香港 - AKILE LTD 02
+103.117.101.158:1794#香港 - DMIT Cloud Services 03
+103.135.248.144:37026#香港 - DMIT Cloud Services 04
+103.135.248.35:33561#香港 - DMIT Cloud Services 05
+103.135.248.95:36126#香港 - DMIT Cloud Services 06
+103.135.250.41:2083#香港 - DMIT Cloud Services 07
+103.73.220.184:35894#香港 - Eons Data Communications Limited 08
+103.73.220.50:20443#香港 - GoMami Networks 09
+191.101.132.190:443#香港 - GoMami Networks 10
+131.143.241.182:50002#香港 - Hytron Network Services Limited 11
+131.143.242.134:44444#香港 - ISIF OU 12
+151.240.13.114:39180#香港 - ISIF OU 13
+64.49.46.122:30704#香港 - ISIF OU 14
+23.146.4.20:25621#香港 - Neburst LLC 15
+23.146.4.2:50501#香港 - Neburst LLC 16
+23.149.108.144:20514#香港 - Neburst LLC 17
+23.149.108.148:45893#香港 - Neburst LLC 18
+23.189.248.78:52800#香港 - Neburst LLC 19
+23.249.18.144:8523#香港 - Prime Security Corp. 20
+23.249.18.223:46800#香港 - Prime Security Corp. 21
+64.49.44.47:34327#香港 - Prime Security Corp. 22
+131.143.240.155:10515#香港 - Sakura Link Limited 23
+131.143.241.164:443#香港 - Sakura Link Limited 24
+131.143.241.180:443#香港 - Sakura Link Limited 25
+87.83.104.179:20851#香港 - Sakura Link Limited 26
+87.83.105.24:10101#香港 - Sakura Link Limited 27
+87.83.108.182:8443#香港 - Sakura Link Limited 28
+154.16.248.234:20443#台湾 - AKILE LTD 01
+166.0.199.161:11801#台湾 - AKILE LTD 02
+211.75.210.32:443#台湾 - Data Communication Business Group 03
+211.75.210.33:443#台湾 - Data Communication Business Group 04
+60.249.21.29:443#台湾 - Data Communication Business Group 05
+191.101.132.56:18458#台湾 - GLOBAL COMMUNICATION NETWORK LIMITED 06
 54.180.233.241:443#韩国 - Amazon.com, Inc. 01
-121.169.206.244:35342#韩国 - Korea Telecom 02
-20.196.146.15:10443#韩国 - Microsoft Corporation 03
-168.107.1.207:443#韩国 - Oracle Corporation 04
-152.69.229.110:443#韩国 - Oracle Corporation 05
-131.186.24.124:587#韩国 - Oracle Corporation 06
-168.107.62.215:443#韩国 - Oracle Corporation 07
-132.226.169.245:587#韩国 - Oracle Corporation 08
-43.164.191.51:443#韩国 - Tencent Building, Kejizhongyi Avenue 09
+144.24.67.138:25282#韩国 - Oracle Corporation 02
+146.56.101.164:34237#韩国 - Oracle Corporation 03
+152.69.229.110:443#韩国 - Oracle Corporation 04
+191.101.132.157:51999#韩国 - Sakura Link Limited 05
+43.164.191.51:443#韩国 - Tencent Building, Kejizhongyi Avenue 06
 103.112.1.216:50007#新加坡 - AKILE LTD 01
 103.26.8.149:443#新加坡 - GoMami Networks 02
-194.231.149.56:23356#新加坡 - ISIF OU 03
-194.231.149.48:12801#新加坡 - ISIF OU 04
-140.235.10.219:443#新加坡 - ISIF OU 05
-194.156.162.151:443#新加坡 - Misaka Network, Inc. 06
-103.26.8.186:20015#新加坡 - Nearoute Limited 07
-87.83.107.118:19236#新加坡 - Onidel Pty Ltd 08
-87.83.97.33:443#新加坡 - Sakura Link Limited 09
-87.83.97.50:21245#新加坡 - Sakura Link Limited 10
-23.145.36.123:49892#日本 - Amazon.com, Inc. 01
-154.31.116.20:9443#日本 - DMIT Cloud Services 02
-154.31.117.96:39563#日本 - DMIT Cloud Services 03
-154.12.191.11:8443#日本 - DMIT Cloud Services 04
-154.12.191.222:443#日本 - DMIT Cloud Services 05
-154.31.116.61:21359#日本 - DMIT Cloud Services 06
-154.31.116.45:30019#日本 - DMIT Cloud Services 07
-154.31.116.228:39920#日本 - DMIT Cloud Services 08
-103.117.102.31:16378#日本 - DMIT Cloud Services 09
-151.244.134.69:5443#日本 - GLBB Japan KK 10
-142.248.150.69:30000#日本 - ISIF OU 11
-142.248.150.105:61850#日本 - ISIF OU 12
-45.95.212.21:52181#日本 - ISIF OU 13
-31.58.223.210:443#日本 - ISIF OU 14
-45.95.212.179:52113#日本 - ISIF OU 15
-23.145.36.45:42411#日本 - Neburst LLC 16
-172.81.102.137:49260#日本 - Prime Security Corp. 17
-82.40.32.92:443#日本 - Prime Security Corp. 18
-23.249.25.235:51058#日本 - Prime Security Corp. 19
-87.83.100.163:20938#日本 - Sakura Link Limited 20
-87.83.101.139:443#日本 - Sakura Link Limited 21
-87.83.100.1:443#日本 - Sakura Link Limited 22
-142.248.151.249:19959#日本 - Sakura Link Limited 23
+103.26.8.18:61097#新加坡 - GoMami Networks 03
+103.26.8.62:28888#新加坡 - GoMami Networks 04
+194.231.149.48:12801#新加坡 - ISIF OU 05
+194.231.149.56:23236#新加坡 - ISIF OU 06
+23.249.19.43:12693#新加坡 - JasTel Network 07
+194.156.162.151:443#新加坡 - Misaka Network, Inc. 08
+151.244.134.69:20015#新加坡 - Nearoute Limited 09
+87.83.107.118:19236#新加坡 - Onidel Pty Ltd 10
+140.235.10.38:33381#新加坡 - Prime Security Corp. 11
+103.26.8.186:23047#新加坡 - Streamline Servers Pty Ltd 12
+23.145.36.123:40369#日本 - Amazon.com, Inc. 01
+103.117.102.158:44831#日本 - DMIT Cloud Services 02
+103.117.102.178:12081#日本 - DMIT Cloud Services 03
+103.117.102.200:443#日本 - DMIT Cloud Services 04
+103.117.102.31:16378#日本 - DMIT Cloud Services 05
+154.12.191.11:8443#日本 - DMIT Cloud Services 06
+154.12.191.222:443#日本 - DMIT Cloud Services 07
+154.31.116.20:9443#日本 - DMIT Cloud Services 08
+154.31.116.228:57668#日本 - DMIT Cloud Services 09
+154.31.116.61:21359#日本 - DMIT Cloud Services 10
+154.31.116.97:18375#日本 - DMIT Cloud Services 11
+154.31.117.239:443#日本 - DMIT Cloud Services 12
+154.31.117.96:39563#日本 - DMIT Cloud Services 13
+191.101.132.181:8007#日本 - GMO GlobalSign Holdings K.K. 14
+142.248.150.69:30000#日本 - ISIF OU 15
+31.58.223.210:443#日本 - ISIF OU 16
+45.95.212.21:52181#日本 - ISIF OU 17
+64.49.44.70:52122#日本 - ISIF OU 18
+23.145.36.45:42411#日本 - Neburst LLC 19
+172.81.102.137:49260#日本 - Prime Security Corp. 20
+191.101.132.203:21112#日本 - Prime Security Corp. 21
+23.249.25.235:51058#日本 - Prime Security Corp. 22
+82.40.32.92:443#日本 - Prime Security Corp. 23
+87.83.100.163:20938#日本 - Sakura Link Limited 24
+87.83.100.1:443#日本 - Sakura Link Limited 25
+87.83.101.139:443#日本 - Sakura Link Limited 26
 154.17.23.9:58082#美国 - Cogent Communications, LLC 01
-64.186.236.107:23624#美国 - DMIT Cloud Services 02
-64.186.250.123:443#美国 - DMIT Cloud Services 03
-69.63.204.130:53085#美国 - DMIT Cloud Services 04
-64.186.249.53:35457#美国 - DMIT Cloud Services 05
+154.17.30.91:4433#美国 - DMIT Cloud Services 02
+154.21.80.10:50332#美国 - DMIT Cloud Services 03
+64.186.231.82:25679#美国 - DMIT Cloud Services 04
+64.186.236.107:23624#美国 - DMIT Cloud Services 05
 64.186.242.56:20437#美国 - DMIT Cloud Services 06
-64.186.250.83:20629#美国 - DMIT Cloud Services 07
-64.186.246.34:21013#美国 - DMIT Cloud Services 08
-69.63.212.183:24927#美国 - DMIT Cloud Services 09
-64.186.224.229:14095#美国 - DMIT Cloud Services 10
-64.186.240.12:443#美国 - DMIT Cloud Services 11
-64.186.241.10:18446#美国 - Eons Data Communications Limited 12
-38.59.245.78:48577#美国 - Kirino LLC 13
-103.136.185.14:46153#美国 - Kirino LLC 14
-185.148.14.123:44195#美国 - Kirino LLC 15
-185.148.13.71:14685#美国 - Kirino LLC 16
-185.148.13.126:20555#美国 - Kirino LLC 17
-103.136.185.200:19147#美国 - Kirino LLC 18
-38.59.246.45:443#美国 - Kirino LLC 19
-82.115.30.164:40975#德国 - Hk Cedoc Limited 01
-38.59.229.141:57801#德国 - Kirino LLC 02
-31.25.88.21:14239#德国 - Kirino LLC 03
-185.217.108.101:16915#德国 - Kirino LLC 04
+64.186.246.34:21013#美国 - DMIT Cloud Services 07
+64.186.250.123:443#美国 - DMIT Cloud Services 08
+64.186.250.83:20629#美国 - DMIT Cloud Services 09
+64.186.254.96:20317#美国 - DMIT Cloud Services 10
+69.63.197.70:443#美国 - DMIT Cloud Services 11
+69.63.204.68:29872#美国 - DMIT Cloud Services 12
+69.63.215.144:43762#美国 - DMIT Cloud Services 13
+69.63.217.202:443#美国 - DMIT Cloud Services 14
+69.63.218.13:38678#美国 - DMIT Cloud Services 15
+103.136.185.14:18874#美国 - Kirino LLC 16
+38.59.245.78:48577#美国 - Kirino LLC 17
+38.59.246.45:443#美国 - Kirino LLC 18
+82.115.30.223:11254#德国 - Kirino LLC 01
+31.25.88.21:14239#德国 - Kirino LLC 02
+38.59.229.141:57801#德国 - Kirino LLC 03

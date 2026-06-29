@@ -37,8 +37,3 @@
 185.217.108.101:31856#德国 - Kirino LLC 01
 31.25.88.21:14239#德国 - Kirino LLC 02
 38.59.229.141:57801#德国 - Kirino LLC 03
-185.217.111.59:38740#GB - Kirino LLC 01
-216.236.63.50:19923#IN - DigitalOcean, LLC 01
-216.236.63.57:19923#IN - DigitalOcean, LLC 02
-191.101.132.163:34659#MY - Terabix 01
-31.25.89.134:9443#TR - Mailbox Internet Hizmetleri Ltd. Sti. 01

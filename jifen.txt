@@ -1,0 +1,27 @@
+172.64.154.125:443#自适应CDN线路
+104.18.39.123:443#自适应CDN线路
+172.64.145.18:443#自适应CDN线路
+104.18.42.218:443#自适应CDN线路
+104.18.33.131:443#自适应CDN线路
+172.64.145.38:443#自适应CDN线路
+172.64.145.202:443#自适应CDN线路
+104.18.42.151:443#自适应CDN线路
+103.117.101.158:1818#香港 - DMIT Cloud Services
+103.117.101.158:1869#香港 - DMIT Cloud Services
+103.117.101.158:1833#香港 - DMIT Cloud Services
+103.117.101.158:1872#香港 - DMIT Cloud Services
+103.117.101.158:1798#香港 - DMIT Cloud Services
+103.117.101.158:1803#香港 - DMIT Cloud Services
+103.117.101.158:1858#香港 - DMIT Cloud Services
+154.12.188.210:2053#香港 - DMIT Cloud Services
+154.17.26.16:8461#美国 - DMIT Cloud Services
+69.63.222.124:443#美国 - DMIT Cloud Services
+154.21.83.8:443#美国 - DMIT Cloud Services
+69.63.213.13:12482#美国 - DMIT Cloud Services
+154.17.1.195:443#美国 - DMIT Cloud Services
+64.186.248.147:443#美国 - DMIT Cloud Services
+64.186.231.115:443#美国 - DMIT Cloud Services
+154.17.26.16:8472#美国 - DMIT Cloud Services
+154.21.90.122:443#美国 - DMIT Cloud Services
+154.26.182.220:2033#美国 - DMIT Cloud Services
+154.17.9.119:16378#美国 - DMIT Cloud Services

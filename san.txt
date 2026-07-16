@@ -1,8 +1,8 @@
 youxuan.cf.090227.xyz:443#默认使用VLESS协议
 youxuan.cf.090227.xyz:443#需其他协议请自行修改
 youxuan.cf.090227.xyz:443#上方是三种协议的示例
-youxuan.cf.090227.xyz:443#请填入正确的Host的Sni
-youxuan.cf.090227.xyz:443#支持多种代理落地Path路径
+youxuan.cf.090227.xyz:443#请填入正确的Host
+youxuan.cf.090227.xyz:443#支持多种落地Path路径
 nexusmods.com:443#♥哄哄公益请勿滥用♥
 da.mfa.gov.ua#♥哄哄TG交流群组@honghongtg♥
 cloudflare-ip.mofashi.ltd#♥哄哄TG通知频道@honghongll♥

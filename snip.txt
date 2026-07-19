@@ -1,0 +1,12 @@
+103.26.8.13:45872#新加坡 - Akari Networks
+103.26.8.13:31206#马来西亚 - Evoxt Sdn. Bhd.
+103.238.130.98:7443#台湾 - GoMami Networks
+103.26.8.18:60551#新加坡 - Coaxial Cable LLC
+103.26.8.62:28889#新加坡 - GoMami Networks
+191.101.132.203:21108#台湾 - Extra-Lan Technologies Co., LTD
+103.26.8.13:45873#新加坡 - Akari Networks
+103.26.8.13:31216#加拿大 - Misaka Network, Inc.
+103.26.8.62:28890#新加坡 - GoMami Networks
+103.26.8.62:2890#新加坡 - GoMami Networks
+151.244.134.243:46971#台湾 - Pittqiao Network Information Co.,Ltd.
+103.238.130.98:7443#台湾 - GoMami Networks

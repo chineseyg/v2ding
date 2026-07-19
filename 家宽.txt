@@ -1,0 +1,4 @@
+anytls://IuQSundefined6T9Yi@203.74.130.199:54699?security=reality&sni=assets.adobedtm.com&fp=chrome&pbk=Y6GsrllBHm5BNgYQ0jYzw5GodzWyRX0YgD2NcFN3MiI&sid=a3fc09&type=tcp&headerType=none#%E5%8F%B0%E6%B9%BE%E5%AE%B6%E5%AE%BD2
+anytls://xOEdHdxJYB@211.75.198.142:35772?security=reality&sni=xp.apple.com&fp=chrome&pbk=6fPW-PZZ9mGTZaXi28cOx7e1WYgdcG1e7-ymU8jTxi0&sid=353376690e&type=tcp&headerType=none#%E5%8F%B0%E6%B9%BE%E5%AE%B6%E5%AE%BD3
+anytls://SqC9vVzraP@61.216.35.200:57351?security=reality&sni=apps.apple.com&fp=chrome&pbk=bWM9cgTX9KJdHWso1NBuY-FCq8vg0h7xtIhwChoO0VQ&sid=b00e00&type=tcp&headerType=none#%E5%8F%B0%E6%B9%BE%E5%AE%B6%E5%AE%BD4
+anytls://OWBufiu8EZ@203.74.130.203:28764?security=reality&sni=ipv6.6sc.co&fp=chrome&pbk=rFEcDS9ODFbO4GarX2GVirdWF6dxwNZqxvheWVTxNig&sid=be&type=tcp&headerType=none#%E5%8F%B0%E6%B9%BE%E5%AE%B6%E5%AE%BD6

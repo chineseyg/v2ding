@@ -1,24 +1,24 @@
-64.90.10.219:443#香港NetLab Global
-103.27.77.140:443#香港NetLab Global
-191.222.216.227:443#香港DMIT Cloud Services
-154.12.189.241:443#香港DMIT Cloud Services
-103.135.249.92:8443#香港DMIT Cloud Services
-103.135.250.82:443#香港DMIT Cloud Services
-103.135.248.117:443#香港DMIT Cloud Services
-154.12.188.198:443#香港DMIT Cloud Services
-103.135.250.172:443#香港DMIT Cloud Services
-103.117.101.126:443#香港DMIT Cloud Services
-14.137.244.84:443#日本NetLab Global
-64.83.46.102:8443#日本NetLab Global
-14.137.255.148:443#日本NetLab Global
-64.83.46.107:443#日本NetLab Global
-64.83.37.149:443#日本NetLab Global
-64.83.46.12:443#日本NetLab Global
-154.31.116.202:443#日本DMIT Cloud Services
-179.253.252.80:443#日本DMIT Cloud Services
-191.223.221.1:443#日本DMIT Cloud Services
-154.12.191.206:8443#日本DMIT Cloud Services
-64.83.31.191:8443#美国NetLab Global
-38.207.163.224:443#美国NetLab Global
-64.186.239.66:443#美国DMIT Cloud Services
-64.186.235.109:443#美国DMIT Cloud Services
+64.90.10.219:443#香港💨NetLab Global
+103.27.77.140:443#香港💨NetLab Global
+191.222.216.227:443#香港💨DMIT Cloud Services
+154.12.189.241:443#香港💨DMIT Cloud Services
+103.135.249.92:8443#香港💨DMIT Cloud Services
+103.135.250.82:443#香港💨DMIT Cloud Services
+103.135.248.117:443#香港💨DMIT Cloud Services
+154.12.188.198:443#香港💨DMIT Cloud Services
+103.135.250.172:443#香港💨DMIT Cloud Services
+103.117.101.126:443#香港💨DMIT Cloud Services
+14.137.244.84:443#日本💨NetLab Global
+64.83.46.102:8443#日本💨NetLab Global
+14.137.255.148:443#日本💨NetLab Global
+64.83.46.107:443#日本💨NetLab Global
+64.83.37.149:443#日本💨NetLab Global
+64.83.46.12:443#日本💨NetLab Global
+154.31.116.202:443#日本💨DMIT Cloud Services
+179.253.252.80:443#日本💨DMIT Cloud Services
+191.223.221.1:443#日本💨DMIT Cloud Services
+154.12.191.206:8443#日本💨DMIT Cloud Services
+64.83.31.191:8443#美国💨NetLab Global
+38.207.163.224:443#美国💨NetLab Global
+64.186.239.66:443#美国💨DMIT Cloud Services
+64.186.235.109:443#美国💨DMIT Cloud Services

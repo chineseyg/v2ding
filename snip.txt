@@ -23,7 +23,7 @@
 23.249.18.144:8523#香港💨Prime Security Corp.
 23.249.18.189:443#香港💨Prime Security Corp.
 191.101.132.44:56789#香港💨GoMami Networks
-177.2.20.146:8443#香港💨Hong Kong Communications International Co., Limited
+177.2.20.146:8443#香港💨Hong Kong Communications
 23.249.18.223:15450#香港💨Prime Security Corp.
 191.222.216.74:443#香港💨DMIT Cloud Services
 23.249.18.72:56566#香港💨Prime Security Corp.

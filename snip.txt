@@ -31,8 +31,6 @@
 23.189.248.132:22000#香港💨Neburst LLC
 23.249.19.221:59016#香港💨Prime Security Corp.
 216.236.63.72:40191#香港💨GoMami Networks
-131.143.241.248:28236#香港💨SAKURA LINK LIMITED
-131.143.241.253:28336#香港💨SAKURA LINK LIMITED
 23.249.19.69:443#香港💨Prime Security Corp.
 23.249.18.223:46800#香港💨Prime Security Corp.
 23.249.18.144:8523#香港💨Prime Security Corp.

@@ -3,7 +3,7 @@
 23.189.248.132:22000#香港💨Neburst LLC
 103.135.250.82:443#香港💨DMIT Cloud Services
 103.73.220.184:13368#香港💨GoMami Networks
-177.2.20.146:8443#香港💨Hong Kong Communications International Co., Limited
+177.2.20.146:8443#香港💨Hong Kong Communications
 38.147.163.235:31417#香港💨XNNET LLC
 38.207.132.128:6879#香港💨XNNET LLC
 103.244.91.194:40400#香港💨XNNET LLC

@@ -8,7 +8,7 @@
 38.207.132.128:6879#香港💨XNNET LLC
 103.244.91.194:40400#香港💨XNNET LLC
 156.224.78.88:51941#香港💨AkileCloud Network
-47.76.60.217:7547#香港💨Alibaba (US) Technology Co., Ltd.
+47.76.60.217:7547#香港💨Alibaba (US) Technology
 38.147.185.143:555#香港💨XNNET LLC
 154.12.189.206:8454#香港💨DMIT Cloud Services
 211.75.210.34:443#台湾💨Data Communication Business Group
@@ -31,7 +31,7 @@
 23.249.17.25:443#日本💨Prime Security Corp.
 172.104.81.253:443#日本💨Akamai Connected Cloud
 140.235.37.114:443#日本💨ByteVirt LLC
-103.75.118.144:2053#日本💨BrainStorm Network, Inc
+103.75.118.144:2053#日本💨BrainStorm Network
 31.57.172.60:443#日本💨ByteVirt LLC
 38.47.124.77:43920#日本💨VMISS Inc.
 193.111.30.245:25535#日本💨xTom Japan Corporation
@@ -56,15 +56,15 @@
 103.26.8.222:443#新加坡💨GoMami Networks
 77.93.90.231:443#新加坡💨BAGE CLOUD LLC
 168.138.180.178:44443#新加坡💨Oracle Corporation
-13.212.19.68:56138#新加坡💨Amazon.com, Inc.
+13.212.19.68:56138#新加坡💨Amazon.com
 188.239.9.91:443#新加坡💨HUAWEI CLOUDS
 146.235.18.248:45137#新加坡💨Oracle Corporation
 168.138.180.178:44445#新加坡💨Oracle Corporation
 143.42.66.91:443#新加坡💨Akamai Connected Cloud
 188.239.17.75:2000#新加坡💨HUAWEI CLOUDS
-3.0.50.69:443#新加坡💨Amazon.com, Inc.
-8.222.185.236:443#新加坡💨Alibaba (US) Technology Co., Ltd.
-157.230.39.201:2053#新加坡💨DigitalOcean, LLC
+3.0.50.69:443#新加坡💨Amazon.com
+8.222.185.236:443#新加坡💨Alibaba (US) Technology
+157.230.39.201:2053#新加坡💨DigitalOcean
 20.6.12.145:443#新加坡💨Microsoft Corporation
 103.26.8.222:443#新加坡💨GoMami Networks
 154.26.181.85:443#美国💨DMIT Cloud Services

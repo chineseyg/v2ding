@@ -1,14 +1,14 @@
+103.73.220.184:13368#香港💨GoMami Networks
 191.222.216.74:443#香港💨DMIT Cloud Services
 154.12.188.247:443#香港💨DMIT Cloud Services
 103.135.250.82:443#香港💨DMIT Cloud Services
-103.73.220.184:13368#香港💨GoMami Networks
 154.12.189.206:8454#香港💨DMIT Cloud Services
+151.244.134.243:45873#日本💨GoMami Networks
 209.248.45.118:39481#日本💨SAKURA LINK LIMITED
 191.222.223.25:9443#日本💨DMIT Cloud Services
 179.253.252.52:443#日本💨DMIT Cloud Services
 191.222.212.123:32381#日本💨DMIT Cloud Services
 191.223.221.1:443#日本💨DMIT Cloud Services
-151.244.134.243:45873#日本💨GoMami Networks
 179.253.252.101:443#日本💨DMIT Cloud Services
 191.223.221.70:443#日本💨DMIT Cloud Services
 191.223.220.95:38273#日本💨DMIT Cloud Services
@@ -16,8 +16,8 @@
 103.26.8.186:443#新加坡💨GoMami Networks
 103.26.8.186:443#新加坡💨GoMami Networks
 103.26.8.222:443#新加坡💨GoMami Networks
-20.6.12.145:443#新加坡💨Microsoft Corporation
 103.26.8.222:443#新加坡💨GoMami Networks
+20.6.12.145:443#新加坡💨Microsoft Corporation
 154.26.181.85:443#美国💨DMIT Cloud Services
 154.17.3.148:443#美国💨DMIT Cloud Services
 64.186.239.202:443#美国💨DMIT Cloud Services

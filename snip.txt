@@ -1,70 +1,21 @@
 191.222.216.74:443#香港💨DMIT Cloud Services
 154.12.188.247:443#香港💨DMIT Cloud Services
-23.189.248.132:22000#香港💨Neburst LLC
 103.135.250.82:443#香港💨DMIT Cloud Services
 103.73.220.184:13368#香港💨GoMami Networks
-177.2.20.146:8443#香港💨Hong Kong Communications
-38.147.163.235:31417#香港💨XNNET LLC
-38.207.132.128:6879#香港💨XNNET LLC
-103.244.91.194:40400#香港💨XNNET LLC
-156.224.78.88:51941#香港💨AkileCloud Network
-47.76.60.217:7547#香港💨Alibaba (US) Technology
-38.147.185.143:555#香港💨XNNET LLC
 154.12.189.206:8454#香港💨DMIT Cloud Services
-211.75.210.34:443#台湾💨Data Communication Business Group
-125.228.236.138:443#台湾💨Data Communication Business Group
-114.35.70.162:8443#台湾💨Data Communication Business Group
-61.85.1.77:12150#韩国💨Korea Telecom
-121.190.133.107:14000#韩国💨Korea Telecom
-121.159.11.183:37020#韩国💨Korea Telecom
-115.22.166.208:27016#韩国💨Korea Telecom
-220.79.9.247:19222#韩国💨Korea Telecom
-218.150.34.228:20600#韩国💨Korea Telecom
-114.204.40.185:30001#韩国💨SK Broadband Co Ltd
-14.52.210.173:12312#韩国💨Korea Telecom
 209.248.45.118:39481#日本💨SAKURA LINK LIMITED
 191.222.223.25:9443#日本💨DMIT Cloud Services
 179.253.252.52:443#日本💨DMIT Cloud Services
 191.222.212.123:32381#日本💨DMIT Cloud Services
 191.223.221.1:443#日本💨DMIT Cloud Services
 151.244.134.243:45873#日本💨GoMami Networks
-23.249.17.25:443#日本💨Prime Security Corp.
-172.104.81.253:443#日本💨Akamai Connected Cloud
-140.235.37.114:443#日本💨ByteVirt LLC
-103.75.118.144:2053#日本💨BrainStorm Network
-31.57.172.60:443#日本💨ByteVirt LLC
-38.47.124.77:43920#日本💨VMISS Inc.
-193.111.30.245:25535#日本💨xTom Japan Corporation
-38.47.124.37:443#日本💨VMISS Inc.
-172.237.5.208:2053#日本💨Akamai Connected Cloud
-38.47.124.181:29458#日本💨VMISS Inc.
-118.156.166.251:443#日本💨KDDI CORPORATION
-45.192.241.147:7777#日本💨ACCK LLC
-193.32.151.205:51926#日本💨xTom Japan Corporation
-138.3.217.167:587#日本💨Oracle Corporation
-131.186.63.89:11655#日本💨Oracle Corporation
-38.47.105.76:443#日本💨VMISS Inc.
-38.47.105.107:443#日本💨VMISS Inc.
-140.235.37.85:443#日本💨ByteVirt LLC
 179.253.252.101:443#日本💨DMIT Cloud Services
 191.223.221.70:443#日本💨DMIT Cloud Services
 191.223.220.95:38273#日本💨DMIT Cloud Services
-23.249.16.230:21112#日本💨Prime Security Corp.
 103.26.8.18:60551#新加坡💨GoMami Networks
 103.26.8.186:443#新加坡💨GoMami Networks
 103.26.8.186:443#新加坡💨GoMami Networks
 103.26.8.222:443#新加坡💨GoMami Networks
-77.93.90.231:443#新加坡💨BAGE CLOUD LLC
-168.138.180.178:44443#新加坡💨Oracle Corporation
-13.212.19.68:56138#新加坡💨Amazon.com
-188.239.9.91:443#新加坡💨HUAWEI CLOUDS
-146.235.18.248:45137#新加坡💨Oracle Corporation
-168.138.180.178:44445#新加坡💨Oracle Corporation
-143.42.66.91:443#新加坡💨Akamai Connected Cloud
-188.239.17.75:2000#新加坡💨HUAWEI CLOUDS
-3.0.50.69:443#新加坡💨Amazon.com
-8.222.185.236:443#新加坡💨Alibaba (US) Technology
-157.230.39.201:2053#新加坡💨DigitalOcean
 20.6.12.145:443#新加坡💨Microsoft Corporation
 103.26.8.222:443#新加坡💨GoMami Networks
 154.26.181.85:443#美国💨DMIT Cloud Services
@@ -73,9 +24,6 @@
 64.186.230.172:443#美国💨DMIT Cloud Services
 154.17.13.158:443#美国💨DMIT Cloud Services
 64.186.238.108:8443#美国💨DMIT Cloud Services
-38.162.115.250:2053#美国💨FASTNET DATA INC
 154.17.21.156:8443#美国💨DMIT Cloud Services
-131.143.251.20:443#美国💨ByteVirt LLC
 154.26.189.91:443#美国💨DMIT Cloud Services
 64.186.226.79:443#美国💨DMIT Cloud Services
-38.207.171.182:443#美国💨NetLab Global

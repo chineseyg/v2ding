@@ -1,25 +1,42 @@
-45.136.14.61:2053#香港💨LUCIDACLOUD LIMITED
-207.57.134.73:2083#香港💨LUCIDACLOUD LIMITED
-83.229.124.100:443#香港💨LUCIDACLOUD LIMITED
-207.57.129.55:443#香港💨LUCIDACLOUD LIMITED
-207.57.132.183:443#香港💨LUCIDACLOUD LIMITED
-45.192.205.162:443#香港💨AkileCloud Network
 191.222.217.242:443#香港💨DMIT Cloud Services
-191.222.216.205:443#香港💨DMIT Cloud Services
-154.12.189.241:443#香港💨DMIT Cloud Services
-154.12.188.161:443#香港💨DMIT Cloud Services
-45.94.40.58:8443#日本💨xTom Japan Corporation
-45.153.247.119:443#日本💨xTom Japan Corporation
-45.89.234.115:443#日本💨xTom Japan Corporation
-45.89.235.139:443#日本💨xTom Japan Corporation
-45.94.40.79:8443#日本💨xTom Japan Corporation
-103.201.130.182:443#日本💨xTom Japan Corporation
-45.89.234.109:443#日本💨xTom Japan Corporation
-45.143.234.108:443#日本💨xTom Japan Corporation
-45.142.126.231:443#日本💨xTom Japan Corporation
+191.222.217.143:443#香港💨DMIT Cloud Services
+141.11.77.23:33378#香港💨GoMami Networks
+191.222.220.5:2053#香港💨DMIT Cloud Services
+141.11.77.23:45484#香港💨GoMami Networks
+191.222.217.173:8443#香港💨DMIT Cloud Services
+191.101.132.130:31306#香港💨GoMami Networks
+191.101.132.130:45972#香港💨GoMami Networks
+141.11.77.10:31403#香港💨GoMami Networks
+103.73.220.238:49472#香港💨GoMami Networks
+103.73.220.228:49472#香港💨GoMami Networks
+103.73.220.236:49472#香港💨GoMami Networks
+103.73.220.249:49472#香港💨GoMami Networks
+191.101.132.130:45971#香港💨GoMami Networks
+191.101.132.130:46271#香港💨GoMami Networks
+191.101.132.130:31317#香港💨GoMami Networks
+191.101.132.130:31320#香港💨GoMami Networks
+191.101.132.33:37924#香港💨GoMami Networks
+191.101.132.130:31316#香港💨GoMami Networks
+191.101.132.162:37924#香港💨GoMami Networks
+191.101.132.130:31318#香港💨GoMami Networks
+191.222.223.84:443#日本💨DMIT Cloud Services
+191.222.223.82:443#日本💨DMIT Cloud Services
+191.223.220.202:443#日本💨DMIT Cloud Services
+179.253.252.105:443#日本💨DMIT Cloud Services
+103.112.1.200:39874#日本💨GoMami Networks
+103.112.1.200:45871#日本💨GoMami Networks
+103.112.1.200:45872#日本💨GoMami Networks
+103.112.1.200:31216#日本💨GoMami Networks
+103.112.1.200:31220#日本💨GoMami Networks
+103.112.1.200:31217#日本💨GoMami Networks
+103.167.150.46:443#新加坡💨HostHatch, LLC
+45.132.75.122:443#新加坡💨HostHatch, LLC
+45.132.75.78:443#新加坡💨HostHatch, LLC
+103.3.61.43:443#新加坡💨Akamai Connected Cloud
+154.21.91.1:443#美国💨DMIT Cloud Services
+69.63.208.21:2053#美国💨DMIT Cloud Services
 154.17.17.165:443#美国💨DMIT Cloud Services
 179.255.104.35:443#美国💨DMIT Cloud Services
-69.63.223.254:443#美国💨DMIT Cloud Services
 179.255.97.43:443#美国💨DMIT Cloud Services
 154.21.93.48:8443#美国💨DMIT Cloud Services
 154.17.0.137:443#美国💨DMIT Cloud Services

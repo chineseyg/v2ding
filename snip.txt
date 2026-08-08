@@ -1,16 +1,11 @@
 141.11.77.23:33378#香港💨GoMami Networks
-141.11.77.23:45484#香港💨GoMami Networks
 191.101.132.130:31306#香港💨GoMami Networks
-191.101.132.130:45972#香港💨GoMami Networks
 141.11.77.10:31403#香港💨GoMami Networks
 103.73.220.238:49472#香港💨GoMami Networks
 103.73.220.228:49472#香港💨GoMami Networks
 103.73.220.236:49472#香港💨GoMami Networks
 103.73.220.249:49472#香港💨GoMami Networks
 191.101.132.130:45971#香港💨GoMami Networks
-191.101.132.130:46271#香港💨GoMami Networks
-191.101.132.130:31317#香港💨GoMami Networks
-191.101.132.130:31320#香港💨GoMami Networks
 191.101.132.33:37924#香港💨GoMami Networks
 191.101.132.130:31316#香港💨GoMami Networks
 191.101.132.162:37924#香港💨GoMami Networks
@@ -20,11 +15,6 @@
 191.222.217.173:8443#香港💨DMIT Cloud Services
 191.222.220.5:2053#香港💨DMIT Cloud Services
 103.112.1.200:39874#日本💨GoMami Networks
-103.112.1.200:45871#日本💨GoMami Networks
-103.112.1.200:45872#日本💨GoMami Networks
-103.112.1.200:31216#日本💨GoMami Networks
-103.112.1.200:31220#日本💨GoMami Networks
-103.112.1.200:31217#日本💨GoMami Networks
 191.222.223.84:443#日本💨DMIT Cloud Services
 191.222.223.82:443#日本💨DMIT Cloud Services
 191.223.220.202:443#日本💨DMIT Cloud Services

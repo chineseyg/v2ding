@@ -18,9 +18,9 @@
 191.222.223.82:443#日本💨DMIT Cloud Services
 191.223.220.202:443#日本💨DMIT Cloud Services
 179.253.252.105:443#日本💨DMIT Cloud Services
-103.167.150.46:443#新加坡💨HostHatch, LLC
-45.132.75.122:443#新加坡💨HostHatch, LLC
-45.132.75.78:443#新加坡💨HostHatch, LLC
+103.167.150.46:443#新加坡💨HostHatch
+45.132.75.122:443#新加坡💨HostHatch
+45.132.75.78:443#新加坡💨HostHatch
 103.3.61.43:443#新加坡💨Akamai Connected Cloud
 154.21.91.1:443#美国💨DMIT Cloud Services
 154.17.17.165:443#美国💨DMIT Cloud Services

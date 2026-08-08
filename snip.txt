@@ -17,9 +17,7 @@
 103.73.220.236:49472#香港💨GoMami Networks
 103.73.220.249:49472#香港💨GoMami Networks
 191.101.132.33:37924#香港💨GoMami Networks
-191.101.132.130:31316#香港💨GoMami Networks
 191.101.132.162:37924#香港💨GoMami Networks
-191.101.132.130:31318#香港💨GoMami Networks
 191.222.217.242:443#香港💨DMIT Cloud Services
 191.222.217.143:443#香港💨DMIT Cloud Services
 191.222.217.173:8443#香港💨DMIT Cloud Services
@@ -47,7 +45,6 @@
 178.157.58.37:443#日本💨IT7 Networks Inc
 212.50.245.142:443#日本💨IT7 Networks Inc
 133.18.142.122:8443#日本💨KAGOYA JAPAN Inc
-45.192.200.133:8443#日本💨ACCK LLC
 74.82.199.85:443#日本💨Fiber Logic Inc
 45.95.212.215:443#日本💨ISIF OU
 8.216.49.20:443#日本💨Alibaba (US) Technology

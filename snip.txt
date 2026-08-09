@@ -9,19 +9,6 @@
 156.226.173.183:443#香港💨AkileCloud Network
 193.134.211.209:443#香港💨LUCIDACLOUD LIMITED
 38.55.195.57:8443#香港💨LUCIDACLOUD LIMITED
-141.11.77.23:33378#香港💨GoMami Networks
-191.101.132.130:31306#香港💨GoMami Networks
-141.11.77.10:31403#香港💨GoMami Networks
-103.73.220.238:49472#香港💨GoMami Networks
-103.73.220.228:49472#香港💨GoMami Networks
-103.73.220.236:49472#香港💨GoMami Networks
-103.73.220.249:49472#香港💨GoMami Networks
-191.101.132.33:37924#香港💨GoMami Networks
-191.101.132.162:37924#香港💨GoMami Networks
-191.222.217.242:443#香港💨DMIT Cloud Services
-191.222.217.143:443#香港💨DMIT Cloud Services
-191.222.217.173:8443#香港💨DMIT Cloud Services
-191.222.220.5:2053#香港💨DMIT Cloud Services
 212.50.233.73:443#日本💨IT7 Networks Inc
 74.82.198.58:443#日本💨Fiber Logic Inc
 103.170.233.213:443#日本💨Misaka Network
@@ -34,7 +21,6 @@
 139.162.70.21:443#日本💨Akamai Connected Cloud
 166.88.14.223:443#日本💨Evoxt Sdn
 103.201.130.32:443#日本💨xTom Japan Corporation
-103.170.233.158:8443#日本💨Misaka Network
 172.105.225.6:443#日本💨Akamai Connected Cloud
 45.192.200.133:443#日本💨ACCK LLC
 35.213.5.250:443#日本💨Google LLC
@@ -44,7 +30,6 @@
 103.85.27.58:443#日本💨Starry Network Limited
 178.157.58.37:443#日本💨IT7 Networks Inc
 212.50.245.142:443#日本💨IT7 Networks Inc
-133.18.142.122:8443#日本💨KAGOYA JAPAN Inc
 74.82.199.85:443#日本💨Fiber Logic Inc
 45.95.212.215:443#日本💨ISIF OU
 8.216.49.20:443#日本💨Alibaba (US) Technology
@@ -52,7 +37,6 @@
 166.88.99.194:443#日本💨Evoxt Sdn. Bhd
 154.83.95.77:443#日本💨AkileCloud Network
 103.47.186.56:443#日本💨xTom Japan Corporation
-103.112.1.200:39874#日本💨GoMami Networks
 191.222.223.84:443#日本💨DMIT Cloud Services
 191.222.223.82:443#日本💨DMIT Cloud Services
 191.223.220.202:443#日本💨DMIT Cloud Services
@@ -65,10 +49,8 @@
 45.132.75.78:443#新加坡💨HostHatch
 103.3.61.43:443#新加坡💨Akamai Connected Cloud
 38.95.78.179:443#美国💨Zont LLC
-38.244.60.85:443#美国💨Zont LLC
 154.21.91.1:443#美国💨DMIT Cloud Services
 154.17.17.165:443#美国💨DMIT Cloud Services
-179.255.104.35:443#美国💨DMIT Cloud Services
 179.255.97.43:443#美国💨DMIT Cloud Services
 154.21.93.48:8443#美国💨DMIT Cloud Services
 154.17.0.137:443#美国💨DMIT Cloud Services

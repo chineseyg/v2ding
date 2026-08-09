@@ -1,24 +1,79 @@
 nexusmods.com:443#♥哄哄公益请勿滥用♥
 da.mfa.gov.ua#♥哄哄TG交流群组@honghongtg♥
 cloudflare-ip.mofashi.ltd#♥哄哄TG通知频道@honghongll♥
-cloudflare.seeck.cn:443#♥Seeck三网通用线路♥
-ctcc.cloudflare.seeck.cn:443#♥Seeck电信专用线路♥
-cmcc.cloudflare.seeck.cn:443#♥Seeck移动专用线路♥
-cucc.cloudflare.seeck.cn:443#♥Seeck联通专用线路♥
-www.shopify.com:443#♥哄哄CDN线路 A♥
-www.ntu.edu.sg:443#♥哄哄CDN线路 B♥
-nexusmods.com:443#♥哄哄CDN线路 C♥
-www.cnae.top:443#♥哄哄CDN线路 D♥
-cdn.9889888.xyz:443#♥哄哄CDN线路 E♥
-yx.cloudflare.182682.xyz:443#♥哄哄CDN线路 F♥
-cloudflare.czkcdn.cn:443#♥哄哄CDN线路 G♥
-mfa.gov.ua:443#♥哄哄CDN线路 H♥
-saas.sin.fan:443#♥哄哄CDN线路 I♥
-cf.008500.xyz:443#♥哄哄CDN线路 J♥
-cf.877774.xyz:443#♥哄哄CDN线路 K♥
-cf.zhetengsha.eu.org:443#♥哄哄CDN线路 L♥
-sub.danfeng.eu.org:443#♥哄哄CDN线路 M♥
-cf.130519.xyz:443#♥哄哄CDN线路 N♥
-store.ubi.com:443#♥哄哄CDN线路 O♥
-cdns.doon.eu.org:443#♥哄哄CDN线路 P♥
-cf.090227.xyz:443#♥哄哄CDN线路 Q♥
+cdn.cf.3666888.xyz:443#哄哄❤域名优选❤胡桃
+store.ubi.com:443#哄哄❤域名优选❤育碧商城
+serviceshub.samsclub.com:443#哄哄❤域名优选❤山姆会员
+www.allianz.com:443#哄哄❤域名优选❤安联集团
+www.decathlon.com:443#哄哄❤域名优选❤迪卡侬
+www.asda.com:443#哄哄❤域名优选❤阿斯达
+www.shopify.com:443#哄哄❤域名优选❤Shopify
+cookiebot.com:443#哄哄❤域名优选❤Cookiebot
+bluehost.com:443#哄哄❤域名优选❤BlueHost
+nexusmods.com:443#哄哄❤域名优选❤NexusMods
+glassdoor.com:443#哄哄❤域名优选❤Glassdoor
+www.jimdo.com:443#哄哄❤域名优选❤Jimdo
+openai.com:443#哄哄❤域名优选❤OpenAI
+www.sage.com:443#哄哄❤域名优选❤Sage
+www.speedtest.net:443#哄哄❤域名优选❤Ookla
+investor.apple.com:443#哄哄❤域名优选❤Apple
+markmonitor.com:443#哄哄❤域名优选❤MarkMonitor
+store.epicgames.com:443#哄哄❤域名优选❤Epicgames
+mycareer.verizon.com:443#哄哄❤域名优选❤Verizon
+onetrust.com:443#哄哄❤域名优选❤OneTrust
+www.affirm.com:443#哄哄❤域名优选❤Affirm
+www.zendesk.com:443#哄哄❤域名优选❤Zendesk
+www.doordash.com:443#哄哄❤域名优选❤DoorDash
+digitalocean.com:443#哄哄❤域名优选❤DigitalOcean
+ringcentral.com:443#哄哄❤域名优选❤RingCentral
+chrono24.com:443#哄哄❤域名优选❤Chrono24
+www.wto.org:443#哄哄❤域名优选❤WTO
+www.mskcc.org:443#哄哄❤域名优选❤MSKCC
+cdn.jsdelivr.net:443#哄哄❤域名优选❤jsDelivr
+www.broadcom.com:443#哄哄❤域名优选❤博通
+www.nestle.com:443#哄哄❤域名优选❤雀巢
+homecare.stryker.com:443#哄哄❤域名优选❤史赛克
+www.emerson.com:443#哄哄❤域名优选❤艾默生
+visit.honeywell.com:443#哄哄❤域名优选❤霍尼韦尔
+polestar.com:443#哄哄❤域名优选❤极星汽车
+auctions.ihg.com.cn:443#哄哄❤域名优选❤洲际酒店
+woodsbagot.com:443#哄哄❤域名优选❤伍兹贝格
+www.transunion.hk:443#哄哄❤域名优选❤香江环联
+www.hongkongairport.com:443#哄哄❤域名优选❤香江机场
+www.police.uk:443#哄哄❤域名优选❤英国警务
+www.leics.police.uk:443#哄哄❤域名优选❤莱斯特郡
+china.mfa.gov.ua:443#哄哄❤域名优选❤乌克兰驻华
+www.visa.cn:443#哄哄❤域名优选❤VISA中国
+visa.com:443#哄哄❤域名优选❤VISA美国
+www.tpg.com:443#哄哄❤域名优选❤TPG
+www.wilshire.com:443#哄哄❤域名优选❤Wilshire
+engage.cloudflareclient.com:443#哄哄❤域名优选❤WARP
+cloudflare.dev:443#哄哄❤域名优选❤Developers
+cloudflare.net:443#哄哄❤域名优选❤Business
+r2.dev:443#哄哄❤域名优选❤R2
+pages.dev:443#哄哄❤域名优选❤Pages
+cdnjs.com:443#哄哄❤域名优选❤CDNJS
+cloudflare❤ech.com:443#哄哄❤域名优选❤ECH
+static.cloudflareinsights.com:443#哄哄❤域名优选❤Analytics
+ln.edu.hk:443#哄哄❤域名优选❤岭南大学
+www.ntu.edu.sg:443#哄哄❤域名优选❤南洋理工
+www.ox.ac.uk:443#哄哄❤域名优选❤牛津大学
+columbia.edu:443#哄哄❤域名优选❤哥伦比亚
+www.udacity.com:443#哄哄❤域名优选❤Udacity
+for.edu.sg:443#哄哄❤域名优选❤ForEduSG
+www.researchgate.net:443#哄哄❤域名优选❤ResearchGate
+saas.sin.fan:443#哄哄❤域名优选❤MIYU
+cloudflare.182682.xyz:443#哄哄❤域名优选❤WeTest
+skk.moe:443#哄哄❤域名优选❤Sukka
+bestcf.030101.xyz:443#哄哄❤域名优选❤MingYu
+cf.877774.xyz:443#哄哄❤域名优选❤QMS
+cf.090227.xyz:443#哄哄❤域名优选❤CMLiu
+cf.3666888.xyz:443#哄哄❤域名优选❤HuTao
+cf.tencentapp.cn:443#哄哄❤域名优选❤KTFF
+ct.877774.xyz:443#哄哄❤域名优选❤电信QMS
+cu.877774.xyz:443#哄哄❤域名优选❤联通QMS
+cmcc.877774.xyz:443#哄哄❤域名优选❤移动QMS
+www.cnae.top:443#哄哄❤域名优选❤Cnae
+cdn.9889888.xyz:443#哄哄❤域名优选❤9889888
+cf.130519.xyz:443#哄哄❤域名优选❤130519
+cdns.doon.eu.org:443#哄哄❤域名优选❤doon

@@ -53,7 +53,7 @@
 38.207.160.40:443#香港💨XNNET LLC
 38.55.198.250:443#香港💨LUCIDACLOUD LIMITED
 38.147.173.236:443#香港💨LUCIDACLOUD LIMITED
-38.207.164.100:443#香港💨VMISS Inc.
+38.207.164.100:443#香港💨VMISS Inc
 156.226.173.183:443#香港💨AkileCloud Network
 193.134.211.209:443#香港💨LUCIDACLOUD LIMITED
 38.55.195.57:8443#香港💨LUCIDACLOUD LIMITED
@@ -99,32 +99,32 @@
 45.89.232.185:443#日本💨xTom Japan Corporation
 103.201.130.32:443#日本💨xTom Japan Corporation
 45.142.127.27:443#日本💨xTom Japan Corporation
-103.141.183.85:443#日本💨Kansuiun Co., Ltd
-82.40.33.134:28613#日本💨Prime Security Corp.
+103.141.183.85:443#日本💨Kansuiun
+82.40.33.134:28613#日本💨Prime Security Corp
 87.83.100.163:20938#日本💨SAKURA LINK LIMITED
-74.82.198.58:443#日本💨Fiber Logic Inc.
-103.170.233.213:443#日本💨Misaka Network, Inc.
+74.82.198.58:443#日本💨Fiber Logic Inc
+103.170.233.213:443#日本💨Misaka Network, Inc
 172.238.18.137:443#日本💨Akamai Connected Cloud
 185.200.64.193:8443#日本💨xTom Japan Corporation
-74.82.194.230:443#日本💨Fiber Logic Inc.
+74.82.194.230:443#日本💨Fiber Logic Inc
 172.104.120.92:443#日本💨Akamai Connected Cloud
 154.31.113.220:8443#日本💨DMIT Cloud Services
 139.162.70.21:443#日本💨Akamai Connected Cloud
-166.88.14.223:443#日本💨Evoxt Sdn. Bhd.
+166.88.14.223:443#日本💨Evoxt Sdn. Bhd
 103.201.130.32:443#日本💨xTom Japan Corporation
 172.105.225.6:443#日本💨Akamai Connected Cloud
 45.192.200.133:443#日本💨ACCK LLC
 35.213.5.250:443#日本💨Google LLC
 104.46.211.65:443#日本💨Microsoft Corporation
-8.216.56.16:443#日本💨Alibaba (US) Technology Co., Ltd.
+8.216.56.16:443#日本💨Alibaba (US) Technology
 45.192.241.12:443#日本💨ACCK LLC
 103.85.27.58:443#日本💨Starry Network Limited
 178.157.58.37:443#日本💨IT7 Networks Inc
 212.50.245.142:443#日本💨IT7 Networks Inc
-74.82.199.85:443#日本💨Fiber Logic Inc.
+74.82.199.85:443#日本💨Fiber Logic Inc
 45.95.212.215:443#日本💨ISIF OU
-8.216.49.20:443#日本💨Alibaba (US) Technology Co., Ltd.
-166.88.99.194:443#日本💨Evoxt Sdn. Bhd.
+8.216.49.20:443#日本💨Alibaba (US) Technology
+166.88.99.194:443#日本💨Evoxt Sdn
 154.83.95.77:443#日本💨AkileCloud Network
 103.47.186.56:443#日本💨xTom Japan Corporation
 191.222.223.84:443#日本💨DMIT Cloud Services
@@ -134,14 +134,14 @@
 149.104.30.51:443#新加坡💨LUCIDACLOUD LIMITED
 149.104.24.132:443#新加坡💨LUCIDACLOUD LIMITED
 149.104.31.208:443#新加坡💨LUCIDACLOUD LIMITED
-194.156.163.252:443#新加坡💨Misaka Network, Inc.
-194.156.162.151:443#新加坡💨Misaka Network, Inc.
+194.156.163.252:443#新加坡💨Misaka Network
+194.156.162.151:443#新加坡💨Misaka Network
 87.83.96.142:49395#新加坡💨SAKURA LINK LIMITED
-45.132.75.122:443#新加坡💨HostHatch, LLC
-194.156.162.151:443#新加坡💨Misaka Network, Inc.
-103.3.26.26:443#新加坡💨Nexusguard Pte. Ltd.
-103.167.150.46:443#新加坡💨HostHatch, LLC
-45.132.75.78:443#新加坡💨HostHatch, LLC
+45.132.75.122:443#新加坡💨HostHatch
+194.156.162.151:443#新加坡💨Misaka Network
+103.3.26.26:443#新加坡💨Nexusguard Pte
+103.167.150.46:443#新加坡💨HostHatch
+45.132.75.78:443#新加坡💨HostHatch
 103.3.61.43:443#新加坡💨Akamai Connected Cloud
 38.59.246.161:443#美国💨Kirino LLC
 185.148.14.174:443#美国💨Kirino LLC

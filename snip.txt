@@ -103,7 +103,7 @@
 82.40.33.134:28613#日本💨Prime Security Corp
 87.83.100.163:20938#日本💨SAKURA LINK LIMITED
 74.82.198.58:443#日本💨Fiber Logic Inc
-103.170.233.213:443#日本💨Misaka Network, Inc
+103.170.233.213:443#日本💨Misaka Network
 172.238.18.137:443#日本💨Akamai Connected Cloud
 185.200.64.193:8443#日本💨xTom Japan Corporation
 74.82.194.230:443#日本💨Fiber Logic Inc

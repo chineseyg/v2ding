@@ -1,0 +1,410 @@
+port: 7890
+socks-port: 7891
+allow-lan: false
+mode: rule
+log-level: info
+dns:
+  enable: true
+  enhanced-mode: fake-ip
+  ipv6: true
+  nameserver:
+    - https://120.53.53.53/dns-query
+    - https://223.5.5.5/dns-query
+  nameserver-policy:
+    geosite:cn,private:
+      - https://120.53.53.53/dns-query
+      - https://223.5.5.5/dns-query
+    geosite:geolocation-!cn:
+      - https://dns.cloudflare.com/dns-query
+      - https://8.8.8.8/dns-query
+  proxy-server-nameserver:
+    - https://120.53.53.53/dns-query
+    - https://223.5.5.5/dns-query
+  respect-rules: true
+proxies:
+  - name: 🇭🇰 香港濃香啡奶茶菠蘿油
+    type: ss
+    server: ali.gd.netsyo.online
+    port: 59701
+    cipher: 2022-blake3-chacha20-poly1305
+    password: Eqcsc5WCm8jopEV9Pnc33ss4UhS8a/55QV97HXIP2tI=
+    udp: true
+  - name: 🇹🇼 台灣古味滷肉飯配滷蛋
+    type: ss
+    server: ali.gd.netsyo.online
+    port: 59702
+    cipher: 2022-blake3-chacha20-poly1305
+    password: Eqcsc5WCm8jopEV9Pnc33ss4UhS8a/55QV97HXIP2tI=
+    udp: true
+  - name: 🇯🇵 日本精握壽司刺身拼盤
+    type: ss
+    server: ali.gd.netsyo.online
+    port: 59703
+    cipher: 2022-blake3-chacha20-poly1305
+    password: Eqcsc5WCm8jopEV9Pnc33ss4UhS8a/55QV97HXIP2tI=
+    udp: true
+  - name: 🇸🇬 獅城鮮香濃郁辣炒螃蟹
+    type: ss
+    server: ali.gd.netsyo.online
+    port: 59705
+    cipher: 2022-blake3-chacha20-poly1305
+    password: Eqcsc5WCm8jopEV9Pnc33ss4UhS8a/55QV97HXIP2tI=
+    udp: true
+  - name: 🇪🇺 歐盟焦香糖漿華夫薄餅
+    type: ss
+    server: ali.gd.netsyo.online
+    port: 59706
+    cipher: 2022-blake3-chacha20-poly1305
+    password: Eqcsc5WCm8jopEV9Pnc33ss4UhS8a/55QV97HXIP2tI=
+    udp: true
+  - name: 🇺🇸 美國牛肉芝士漢堡薯條
+    type: ss
+    server: ali.gd.netsyo.online
+    port: 59707
+    cipher: 2022-blake3-chacha20-poly1305
+    password: Eqcsc5WCm8jopEV9Pnc33ss4UhS8a/55QV97HXIP2tI=
+    udp: true
+  - name: 🇷🇺 俄國悶罐酸黃瓜沙威瑪
+    type: ss
+    server: ali.gd.netsyo.online
+    port: 59708
+    cipher: 2022-blake3-chacha20-poly1305
+    password: Eqcsc5WCm8jopEV9Pnc33ss4UhS8a/55QV97HXIP2tI=
+    udp: true
+  - name: 🇲🇴 澳門酥香葡撻配豬扒包
+    type: ss
+    server: ali.gd.netsyo.online
+    port: 59709
+    cipher: 2022-blake3-chacha20-poly1305
+    password: Eqcsc5WCm8jopEV9Pnc33ss4UhS8a/55QV97HXIP2tI=
+    udp: true
+  - name: 🇬🇧 英國香酥炸魚薯條牛肉
+    type: ss
+    server: ali.gd.netsyo.online
+    port: 59710
+    cipher: 2022-blake3-chacha20-poly1305
+    password: Eqcsc5WCm8jopEV9Pnc33ss4UhS8a/55QV97HXIP2tI=
+    udp: true
+  - name: 🇳🇿 紐國嫩烤羊排鮮果帕芙
+    type: ss
+    server: ali.gd.netsyo.online
+    port: 59711
+    cipher: 2022-blake3-chacha20-poly1305
+    password: Eqcsc5WCm8jopEV9Pnc33ss4UhS8a/55QV97HXIP2tI=
+    udp: true
+  - name: 🇸🇬 D_SGV6
+    type: anytls
+    server: 2a0a:d687:f007::61
+    port: 23496
+    password: 38419685-2782-438c-9212-cab24c0749ca
+    skip-cert-verify: true
+    sni: www.amd.com
+    udp: true
+proxy-groups:
+  - name: 🚀 节点选择
+    type: select
+    proxies:
+      - DIRECT
+      - REJECT
+      - ♻️ 自动选择
+      - 🇭🇰 香港濃香啡奶茶菠蘿油
+      - 🇹🇼 台灣古味滷肉飯配滷蛋
+      - 🇯🇵 日本精握壽司刺身拼盤
+      - 🇸🇬 獅城鮮香濃郁辣炒螃蟹
+      - 🇪🇺 歐盟焦香糖漿華夫薄餅
+      - 🇺🇸 美國牛肉芝士漢堡薯條
+      - 🇷🇺 俄國悶罐酸黃瓜沙威瑪
+      - 🇲🇴 澳門酥香葡撻配豬扒包
+      - 🇬🇧 英國香酥炸魚薯條牛肉
+      - 🇳🇿 紐國嫩烤羊排鮮果帕芙
+      - 🇸🇬 D_SGV6
+  - name: ♻️ 自动选择
+    type: url-test
+    proxies:
+      - 🇭🇰 香港濃香啡奶茶菠蘿油
+      - 🇹🇼 台灣古味滷肉飯配滷蛋
+      - 🇯🇵 日本精握壽司刺身拼盤
+      - 🇸🇬 獅城鮮香濃郁辣炒螃蟹
+      - 🇪🇺 歐盟焦香糖漿華夫薄餅
+      - 🇺🇸 美國牛肉芝士漢堡薯條
+      - 🇷🇺 俄國悶罐酸黃瓜沙威瑪
+      - 🇲🇴 澳門酥香葡撻配豬扒包
+      - 🇬🇧 英國香酥炸魚薯條牛肉
+      - 🇳🇿 紐國嫩烤羊排鮮果帕芙
+      - 🇸🇬 D_SGV6
+    url: https://www.gstatic.com/generate_204
+    interval: 300
+    lazy: false
+  - name: 🛑 广告拦截
+    type: select
+    proxies:
+      - 🚀 节点选择
+      - DIRECT
+      - REJECT
+      - ♻️ 自动选择
+      - 🇭🇰 香港濃香啡奶茶菠蘿油
+      - 🇹🇼 台灣古味滷肉飯配滷蛋
+      - 🇯🇵 日本精握壽司刺身拼盤
+      - 🇸🇬 獅城鮮香濃郁辣炒螃蟹
+      - 🇪🇺 歐盟焦香糖漿華夫薄餅
+      - 🇺🇸 美國牛肉芝士漢堡薯條
+      - 🇷🇺 俄國悶罐酸黃瓜沙威瑪
+      - 🇲🇴 澳門酥香葡撻配豬扒包
+      - 🇬🇧 英國香酥炸魚薯條牛肉
+      - 🇳🇿 紐國嫩烤羊排鮮果帕芙
+      - 🇸🇬 D_SGV6
+  - name: 🤖 AI 服务
+    type: select
+    proxies:
+      - 🚀 节点选择
+      - DIRECT
+      - REJECT
+      - ♻️ 自动选择
+      - 🇭🇰 香港濃香啡奶茶菠蘿油
+      - 🇹🇼 台灣古味滷肉飯配滷蛋
+      - 🇯🇵 日本精握壽司刺身拼盤
+      - 🇸🇬 獅城鮮香濃郁辣炒螃蟹
+      - 🇪🇺 歐盟焦香糖漿華夫薄餅
+      - 🇺🇸 美國牛肉芝士漢堡薯條
+      - 🇷🇺 俄國悶罐酸黃瓜沙威瑪
+      - 🇲🇴 澳門酥香葡撻配豬扒包
+      - 🇬🇧 英國香酥炸魚薯條牛肉
+      - 🇳🇿 紐國嫩烤羊排鮮果帕芙
+      - 🇸🇬 D_SGV6
+  - name: 📹 油管视频
+    type: select
+    proxies:
+      - 🚀 节点选择
+      - DIRECT
+      - REJECT
+      - ♻️ 自动选择
+      - 🇭🇰 香港濃香啡奶茶菠蘿油
+      - 🇹🇼 台灣古味滷肉飯配滷蛋
+      - 🇯🇵 日本精握壽司刺身拼盤
+      - 🇸🇬 獅城鮮香濃郁辣炒螃蟹
+      - 🇪🇺 歐盟焦香糖漿華夫薄餅
+      - 🇺🇸 美國牛肉芝士漢堡薯條
+      - 🇷🇺 俄國悶罐酸黃瓜沙威瑪
+      - 🇲🇴 澳門酥香葡撻配豬扒包
+      - 🇬🇧 英國香酥炸魚薯條牛肉
+      - 🇳🇿 紐國嫩烤羊排鮮果帕芙
+      - 🇸🇬 D_SGV6
+  - name: 🔍 谷歌服务
+    type: select
+    proxies:
+      - 🚀 节点选择
+      - DIRECT
+      - REJECT
+      - ♻️ 自动选择
+      - 🇭🇰 香港濃香啡奶茶菠蘿油
+      - 🇹🇼 台灣古味滷肉飯配滷蛋
+      - 🇯🇵 日本精握壽司刺身拼盤
+      - 🇸🇬 獅城鮮香濃郁辣炒螃蟹
+      - 🇪🇺 歐盟焦香糖漿華夫薄餅
+      - 🇺🇸 美國牛肉芝士漢堡薯條
+      - 🇷🇺 俄國悶罐酸黃瓜沙威瑪
+      - 🇲🇴 澳門酥香葡撻配豬扒包
+      - 🇬🇧 英國香酥炸魚薯條牛肉
+      - 🇳🇿 紐國嫩烤羊排鮮果帕芙
+      - 🇸🇬 D_SGV6
+  - name: 🏠 私有网络
+    type: select
+    proxies:
+      - DIRECT
+      - 🚀 节点选择
+      - REJECT
+      - ♻️ 自动选择
+      - 🇭🇰 香港濃香啡奶茶菠蘿油
+      - 🇹🇼 台灣古味滷肉飯配滷蛋
+      - 🇯🇵 日本精握壽司刺身拼盤
+      - 🇸🇬 獅城鮮香濃郁辣炒螃蟹
+      - 🇪🇺 歐盟焦香糖漿華夫薄餅
+      - 🇺🇸 美國牛肉芝士漢堡薯條
+      - 🇷🇺 俄國悶罐酸黃瓜沙威瑪
+      - 🇲🇴 澳門酥香葡撻配豬扒包
+      - 🇬🇧 英國香酥炸魚薯條牛肉
+      - 🇳🇿 紐國嫩烤羊排鮮果帕芙
+      - 🇸🇬 D_SGV6
+  - name: 🔒 国内服务
+    type: select
+    proxies:
+      - DIRECT
+      - 🚀 节点选择
+  - name: 📲 电报消息
+    type: select
+    proxies:
+      - 🚀 节点选择
+      - DIRECT
+      - REJECT
+      - ♻️ 自动选择
+      - 🇭🇰 香港濃香啡奶茶菠蘿油
+      - 🇹🇼 台灣古味滷肉飯配滷蛋
+      - 🇯🇵 日本精握壽司刺身拼盤
+      - 🇸🇬 獅城鮮香濃郁辣炒螃蟹
+      - 🇪🇺 歐盟焦香糖漿華夫薄餅
+      - 🇺🇸 美國牛肉芝士漢堡薯條
+      - 🇷🇺 俄國悶罐酸黃瓜沙威瑪
+      - 🇲🇴 澳門酥香葡撻配豬扒包
+      - 🇬🇧 英國香酥炸魚薯條牛肉
+      - 🇳🇿 紐國嫩烤羊排鮮果帕芙
+      - 🇸🇬 D_SGV6
+  - name: 🐱 Github
+    type: select
+    proxies:
+      - 🚀 节点选择
+      - DIRECT
+      - REJECT
+      - ♻️ 自动选择
+      - 🇭🇰 香港濃香啡奶茶菠蘿油
+      - 🇹🇼 台灣古味滷肉飯配滷蛋
+      - 🇯🇵 日本精握壽司刺身拼盤
+      - 🇸🇬 獅城鮮香濃郁辣炒螃蟹
+      - 🇪🇺 歐盟焦香糖漿華夫薄餅
+      - 🇺🇸 美國牛肉芝士漢堡薯條
+      - 🇷🇺 俄國悶罐酸黃瓜沙威瑪
+      - 🇲🇴 澳門酥香葡撻配豬扒包
+      - 🇬🇧 英國香酥炸魚薯條牛肉
+      - 🇳🇿 紐國嫩烤羊排鮮果帕芙
+      - 🇸🇬 D_SGV6
+  - name: 🐟 漏网之鱼
+    type: select
+    proxies:
+      - 🚀 节点选择
+      - DIRECT
+      - REJECT
+      - ♻️ 自动选择
+      - 🇭🇰 香港濃香啡奶茶菠蘿油
+      - 🇹🇼 台灣古味滷肉飯配滷蛋
+      - 🇯🇵 日本精握壽司刺身拼盤
+      - 🇸🇬 獅城鮮香濃郁辣炒螃蟹
+      - 🇪🇺 歐盟焦香糖漿華夫薄餅
+      - 🇺🇸 美國牛肉芝士漢堡薯條
+      - 🇷🇺 俄國悶罐酸黃瓜沙威瑪
+      - 🇲🇴 澳門酥香葡撻配豬扒包
+      - 🇬🇧 英國香酥炸魚薯條牛肉
+      - 🇳🇿 紐國嫩烤羊排鮮果帕芙
+      - 🇸🇬 D_SGV6
+rules:
+  - RULE-SET,category-ads-all,🛑 广告拦截
+  - RULE-SET,category-ai-!cn,🤖 AI 服务
+  - RULE-SET,openai,🤖 AI 服务
+  - RULE-SET,youtube,📹 油管视频
+  - RULE-SET,google,🔍 谷歌服务
+  - RULE-SET,geolocation-cn,🔒 国内服务
+  - RULE-SET,cn-domains,🔒 国内服务
+  - RULE-SET,telegram,📲 电报消息
+  - RULE-SET,github,🐱 Github
+  - RULE-SET,gitlab,🐱 Github
+  - RULE-SET,google-ip,🔍 谷歌服务,no-resolve
+  - RULE-SET,private,🏠 私有网络,no-resolve
+  - RULE-SET,cn,🔒 国内服务,no-resolve
+  - RULE-SET,telegram-ip,📲 电报消息,no-resolve
+  - MATCH,🐟 漏网之鱼
+geodata-mode: true
+geo-auto-update: true
+geodata-loader: standard
+geo-update-interval: 24
+geox-url:
+  asn: https://github.com/xishang0128/geoip/releases/download/latest/GeoLite2-ASN.mmdb
+  geoip: https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@release/geoip.dat
+  geosite: https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@release/geosite.dat
+  mmdb: https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@release/country.mmdb
+rule-providers:
+  category-ads-all:
+    behavior: domain
+    format: mrs
+    interval: 86400
+    path: ./ruleset/category-ads-all.mrs
+    type: http
+    url: https://gh-proxy.com/https://github.com/MetaCubeX/meta-rules-dat/raw/refs/heads/meta/geo/geosite/category-ads-all.mrs
+  category-ai-!cn:
+    behavior: domain
+    format: mrs
+    interval: 86400
+    path: ./ruleset/category-ai-!cn.mrs
+    type: http
+    url: https://gh-proxy.com/https://github.com/MetaCubeX/meta-rules-dat/raw/refs/heads/meta/geo/geosite/category-ai-!cn.mrs
+  cn:
+    behavior: ipcidr
+    format: mrs
+    interval: 86400
+    path: ./ruleset/cn.mrs
+    type: http
+    url: https://gh-proxy.com/https://github.com/MetaCubeX/meta-rules-dat/raw/refs/heads/meta/geo/geoip/cn.mrs
+  cn-domains:
+    behavior: domain
+    format: mrs
+    interval: 86400
+    path: ./ruleset/cn-domains.mrs
+    type: http
+    url: https://gh-proxy.com/https://github.com/MetaCubeX/meta-rules-dat/raw/refs/heads/meta/geo/geosite/cn.mrs
+  geolocation-cn:
+    behavior: domain
+    format: mrs
+    interval: 86400
+    path: ./ruleset/geolocation-cn.mrs
+    type: http
+    url: https://gh-proxy.com/https://github.com/MetaCubeX/meta-rules-dat/raw/refs/heads/meta/geo/geosite/geolocation-cn.mrs
+  github:
+    behavior: domain
+    format: mrs
+    interval: 86400
+    path: ./ruleset/github.mrs
+    type: http
+    url: https://gh-proxy.com/https://github.com/MetaCubeX/meta-rules-dat/raw/refs/heads/meta/geo/geosite/github.mrs
+  gitlab:
+    behavior: domain
+    format: mrs
+    interval: 86400
+    path: ./ruleset/gitlab.mrs
+    type: http
+    url: https://gh-proxy.com/https://github.com/MetaCubeX/meta-rules-dat/raw/refs/heads/meta/geo/geosite/gitlab.mrs
+  google:
+    behavior: domain
+    format: mrs
+    interval: 86400
+    path: ./ruleset/google.mrs
+    type: http
+    url: https://gh-proxy.com/https://github.com/MetaCubeX/meta-rules-dat/raw/refs/heads/meta/geo/geosite/google.mrs
+  google-ip:
+    behavior: ipcidr
+    format: mrs
+    interval: 86400
+    path: ./ruleset/google-ip.mrs
+    type: http
+    url: https://gh-proxy.com/https://github.com/MetaCubeX/meta-rules-dat/raw/refs/heads/meta/geo/geoip/google.mrs
+  openai:
+    behavior: domain
+    format: mrs
+    interval: 86400
+    path: ./ruleset/openai.mrs
+    type: http
+    url: https://gh-proxy.com/https://github.com/MetaCubeX/meta-rules-dat/raw/refs/heads/meta/geo/geosite/openai.mrs
+  private:
+    behavior: ipcidr
+    format: mrs
+    interval: 86400
+    path: ./ruleset/private.mrs
+    type: http
+    url: https://gh-proxy.com/https://github.com/MetaCubeX/meta-rules-dat/raw/refs/heads/meta/geo/geoip/private.mrs
+  telegram:
+    behavior: domain
+    format: mrs
+    interval: 86400
+    path: ./ruleset/telegram.mrs
+    type: http
+    url: https://gh-proxy.com/https://github.com/MetaCubeX/meta-rules-dat/raw/refs/heads/meta/geo/geosite/telegram.mrs
+  telegram-ip:
+    behavior: ipcidr
+    format: mrs
+    interval: 86400
+    path: ./ruleset/telegram.mrs
+    type: http
+    url: https://gh-proxy.com/https://github.com/MetaCubeX/meta-rules-dat/raw/refs/heads/meta/geo/geoip/telegram.mrs
+  youtube:
+    behavior: domain
+    format: mrs
+    interval: 86400
+    path: ./ruleset/youtube.mrs
+    type: http
+    url: https://gh-proxy.com/https://github.com/MetaCubeX/meta-rules-dat/raw/refs/heads/meta/geo/geosite/youtube.mrs

@@ -1,0 +1,11 @@
+trojan://18db0d93-e638-41c4-a285-64dc8882c30a@27.44.142.135:10001?security=tls&sni=feno39.xn--ghqp68hvpn1ka.com&fp=safari&type=ws&host=feno39.xn--ghqp68hvpn1ka.com&path=%2Fimages#%E9%A6%99%E6%B8%AFtrojan1
+trojan://18db0d93-e638-41c4-a285-64dc8882c30a@120.240.179.157:10001?security=tls&sni=9l3ysxf7rj3nz549.tkgogocsgo.top&fp=safari&type=ws&host=9l3ysxf7rj3nz549.tkgogocsgo.top&path=%2Fimages#%E9%A6%99%E6%B8%AFtrojan2
+trojan://18db0d93-e638-41c4-a285-64dc8882c30a@27.44.142.134:10001?security=tls&sni=9l3ysxf7rj3nz549.tkgogocsgo.top&fp=safari&type=ws&host=9l3ysxf7rj3nz549.tkgogocsgo.top&path=%2Fimages#%E9%A6%99%E6%B8%AFtrojan3
+trojan://18db0d93-e638-41c4-a285-64dc8882c30a@106.75.185.198:24442?allowInsecure=1&insecure=1&security=tls&sni=31eacogyh9.bpsg2026.top&fp=safari&type=ws&host=31eacogyh9.bpsg2026.top&path=%2Fimages#%E6%96%B0%E5%8A%A0%E5%9D%A1Trojan1
+trojan://18db0d93-e638-41c4-a285-64dc8882c30a@14.17.71.203:10001?allowInsecure=1&insecure=1&security=tls&sni=31eacogyh9.bpsg2026.top&fp=safari&type=ws&host=31eacogyh9.bpsg2026.top&path=%2Fimages#%E6%96%B0%E5%8A%A0%E5%9D%A1Trojan2
+trojan://18db0d93-e638-41c4-a285-64dc8882c30a@27.44.127.12:10001?security=tls&sni=jes0jv78u1.jptimecsgo.xyz&type=ws&host=jes0jv78u1.jptimecsgo.xyz&path=%2Fimages#%E6%97%A5%E6%9C%ACTrojan1
+trojan://18db0d93-e638-41c4-a285-64dc8882c30a@116.214.132.67:2222?security=tls&sni=jes0jv78u1.jptimecsgo.xyz&type=ws&host=jes0jv78u1.jptimecsgo.xyz&path=%2Fimages#%E6%97%A5%E6%9C%ACTrojan2
+trojan://18db0d93-e638-41c4-a285-64dc8882c30a@129.28.52.152:60001?security=tls&sni=bajorejho22.bpjp2027.top&fp=safari&type=ws&host=bajorejho22.bpjp2027.top&path=%2Fimages#%E6%97%A5%E6%9C%ACTrojan3
+trojan://18db0d93-e638-41c4-a285-64dc8882c30a@106.75.141.2:443?security=tls&sni=060514ouz77pthp4.bpusfaster2.top&type=ws&host=060514ouz77pthp4.bpusfaster2.top&path=%2Fimages#%E7%BE%8E%E5%9B%BDTrojan1
+trojan://18db0d93-e638-41c4-a285-64dc8882c30a@106.75.236.151:443?security=tls&sni=060514ouz77pthp4.bpusfaster2.top&fp=safari&type=ws&host=060514ouz77pthp4.bpusfaster2.top&path=%2Fimages#%E7%BE%8E%E5%9B%BDTrojan2
+trojan://18db0d93-e638-41c4-a285-64dc8882c30a@101.69.181.108:443?security=tls&sni=060514ouz77pthp4.bpusfaster2.top&fp=safari&type=ws&host=060514ouz77pthp4.bpusfaster2.top&path=%2Fimages#%E7%BE%8E%E5%9B%BDTrojan3

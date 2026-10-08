@@ -1,5 +1,8 @@
 youxuan.cf.090227.xyz:443#默认使用VLESS协议
 youxuan.cf.090227.xyz:443#需其他协议请自行修改
-youxuan.cf.090227.xyz:443#上方是三种协议的示例
-youxuan.cf.090227.xyz:443#请填入正确的Host
+youxuan.cf.090227.xyz:443此订阅是频道公开订阅
+youxuan.cf.090227.xyz:443#建议您加入哄哄交流群
+youxuan.cf.090227.xyz:443#在群内使用专享私人订阅
+youxuan.cf.090227.xyz:443#❤@honghongll❤哄哄TG频道 
+youxuan.cf.090227.xyz:443#❤@honghongtg❤哄哄TG群组
 youxuan.cf.090227.xyz:443#支持多种落地Path路径

@@ -13,7 +13,7 @@ vmess://ew0KICAidiI6ICIyIiwNCiAgInBzIjogIuaXpeacrC13OTF3IiwNCiAgImFkZCI6ICIxLjE1
 vless://620cae2d-66c0-43c4-8916-7fc4ff611f3c@121.204.253.33:10006?encryption=none&security=tls&sni=yfjc-jp1.777036.xyz&fp=chrome&type=ws&host=yfjc-jp1.777036.xyz&path=%2Fyfjc%2Fjp#%E6%97%A5%E6%9C%AC-YiFen
 trojan://18db0d93-e638-41c4-a285-64dc8882c30a@129.28.52.152:60001?security=tls&sni=bajorejho22.bpjp2027.top&fp=safari&type=ws&host=bajorejho22.bpjp2027.top&path=%2Fimages#%E6%97%A5%E6%9C%AC-BaiPiao
 vless://950a92b8-3d68-419e-acc3-63efff6e66e9@139.155.5.135:60001?encryption=none&security=tls&sni=ujp2.xn--ghqu5fm27b67w.com&fp=safari&type=ws&host=ujp2.xn--ghqu5fm27b67w.com&path=%2Fpq%2Fjp2#%E6%97%A5%E6%9C%AC-PeiQian
-vless://8772e871-9cea-4338-92e4-65fc71dbf89f@114.55.141.188:443?encryption=none&security=tls&sni=jp4-lx.7770006.xyz&fp=chrome&type=ws&host=jp4-lx.7770006.xyz&path=%2Fliangxin%2Fdownload%2Fjp#%E6%97%A5%E6%9C%AC-LiangXin
+vless://8772e871-9cea-4338-92e4-65fc71dbf89f@114.55.141.188:443?encryption=none&security=tls&sni=jp3-lx.7770006.xyz&fp=chrome&type=ws&host=jp3-lx.7770006.xyz&path=%2Fliangxin%2Fdash%2Fjp#%E6%97%A5%E6%9C%AC-LiangXin
 vless://620cae2d-66c0-43c4-8916-7fc4ff611f3c@106.75.141.2:443?encryption=none&security=tls&sni=yfjc-us1.777026.xyz&fp=safari&type=ws&host=yfjc-us1.777026.xyz&path=%2Fyfjc%2Fus1#%E7%BE%8E%E5%9B%BD-YiFen
 trojan://18db0d93-e638-41c4-a285-64dc8882c30a@106.75.236.151:443?security=tls&sni=060514ouz77pthp4.bpusfaster2.top&fp=safari&type=ws&host=060514ouz77pthp4.bpusfaster2.top&path=%2Fimages#%E7%BE%8E%E5%9B%BD-BaiPiao
 vless://f2ceb394-83e0-451d-9584-0828457733d9@8.134.80.111:443?encryption=none&security=tls&sni=alway.hhlldjc.kdns.fr&fp=chrome&type=ws&host=alway.hhlldjc.kdns.fr&path=%2Ff2ceb394#%E6%B3%95%E5%9B%BD-Always

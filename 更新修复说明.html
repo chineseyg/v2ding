@@ -1,0 +1,572 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Senflare Link Lite v4.4.5 更新修复说明</title>
+<style>
+  :root {
+    --bg: #0f1419;
+    --bg-card: #1a2030;
+    --bg-card-2: #212a3d;
+    --border: #2d3650;
+    --text: #e6edf3;
+    --text-dim: #8b949e;
+    --text-mute: #6e7681;
+    --accent: #2dd4bf;
+    --accent-2: #14b8a6;
+    --accent-bg: rgba(45, 212, 191, 0.08);
+    --danger: #f87171;
+    --danger-bg: rgba(248, 113, 113, 0.08);
+    --warn: #fbbf24;
+    --warn-bg: rgba(251, 191, 36, 0.08);
+    --info: #60a5fa;
+    --info-bg: rgba(96, 165, 250, 0.08);
+    --success: #4ade80;
+    --success-bg: rgba(74, 222, 128, 0.08);
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html { scroll-behavior: smooth; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans SC", "PingFang SC", "Microsoft YaHei", sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.7;
+    font-size: 15px;
+    -webkit-font-smoothing: antialiased;
+  }
+  .container { max-width: 920px; margin: 0 auto; padding: 0 24px; }
+
+  /* 顶部头图 */
+  .hero {
+    background: linear-gradient(135deg, #0f1419 0%, #1a2e3a 50%, #0d2a26 100%);
+    border-bottom: 1px solid var(--border);
+    padding: 32px 0 28px;
+    position: relative;
+    overflow: hidden;
+  }
+  .hero::before {
+    content: '';
+    position: absolute; top: -60%; left: 50%; transform: translateX(-50%);
+    width: 400px; height: 400px;
+    background: radial-gradient(circle, rgba(45,212,191,0.12) 0%, transparent 70%);
+    pointer-events: none;
+  }
+  .hero-inner { position: relative; text-align: center; }
+  .hero .badge {
+    display: inline-flex; align-items: center; gap: 6px;
+    background: var(--accent-bg); color: var(--accent);
+    border: 1px solid rgba(45,212,191,0.25);
+    padding: 3px 11px; border-radius: 999px;
+    font-size: 12px; font-weight: 600; letter-spacing: 0.5px;
+    margin-bottom: 10px;
+  }
+  .hero .badge .dot { width: 7px; height: 7px; background: var(--accent); border-radius: 50%; box-shadow: 0 0 8px var(--accent); }
+  .hero h1 {
+    font-size: 28px; font-weight: 800; letter-spacing: -0.5px;
+    margin-bottom: 6px;
+    background: linear-gradient(135deg, #fff 0%, #2dd4bf 100%);
+    -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+  .hero .subtitle { color: var(--text-dim); font-size: 14px; margin-bottom: 14px; }
+  .hero .meta { display: flex; flex-wrap: wrap; justify-content: center; gap: 12px; font-size: 12px; color: var(--text-mute); }
+  .hero .meta span { display: inline-flex; align-items: center; gap: 5px; }
+  .hero .meta svg { width: 14px; height: 14px; opacity: 0.7; }
+
+  /* 概览统计 */
+  .stats {
+    display: grid; grid-template-columns: repeat(4, 1fr); gap: 14px;
+    margin: 28px 0 8px;
+  }
+  .stat {
+    background: var(--bg-card); border: 1px solid var(--border);
+    border-radius: 12px; padding: 16px 14px; text-align: center;
+  }
+  .stat .num { font-size: 24px; font-weight: 800; color: var(--accent); line-height: 1.1; }
+  .stat .lbl { font-size: 11px; color: var(--text-dim); margin-top: 5px; letter-spacing: 0.3px; }
+
+  /* 章节标题 */
+  section { padding: 36px 0; border-bottom: 1px solid var(--border); }
+  section:last-of-type { border-bottom: none; }
+  .sec-head { display: flex; align-items: center; gap: 12px; margin-bottom: 24px; }
+  .sec-head .num {
+    flex-shrink: 0; width: 34px; height: 34px;
+    background: var(--accent-bg); color: var(--accent);
+    border: 1px solid rgba(45,212,191,0.3); border-radius: 9px;
+    display: flex; align-items: center; justify-content: center;
+    font-weight: 800; font-size: 15px;
+  }
+  .sec-head h2 { font-size: 23px; font-weight: 700; letter-spacing: -0.3px; }
+  .sec-head .tag { margin-left: auto; font-size: 12px; color: var(--text-mute); }
+
+  /* 变更卡片 */
+  .change {
+    background: var(--bg-card); border: 1px solid var(--border);
+    border-radius: 12px; padding: 20px 22px; margin-bottom: 14px;
+    transition: border-color .2s;
+  }
+  .change:hover { border-color: rgba(45,212,191,0.35); }
+  .change-head { display: flex; align-items: flex-start; gap: 12px; margin-bottom: 10px; flex-wrap: wrap; }
+  .change-type {
+    flex-shrink: 0; font-size: 11px; font-weight: 700; letter-spacing: 0.6px;
+    padding: 3px 9px; border-radius: 5px; text-transform: uppercase;
+    margin-top: 2px;
+  }
+  .type-refactor { background: rgba(168,85,247,0.15); color: #c084fc; }
+  .type-opt { background: var(--info-bg); color: var(--info); }
+  .type-trim { background: var(--warn-bg); color: var(--warn); }
+  .type-text { background: rgba(156,163,175,0.15); color: #d1d5db; }
+  .type-fix { background: var(--danger-bg); color: var(--danger); }
+  .type-feat { background: var(--success-bg); color: var(--success); }
+  .type-sec { background: rgba(251,146,60,0.12); color: #fb923c; }
+  .change-title { font-size: 16px; font-weight: 700; flex: 1; min-width: 200px; }
+  .change-id { font-size: 12px; color: var(--text-mute); font-family: ui-monospace, "SF Mono", Menlo, monospace; }
+  .change-body { color: var(--text-dim); font-size: 14px; padding-left: 0; }
+  .change-body p { margin-bottom: 8px; }
+  .change-body p:last-child { margin-bottom: 0; }
+  .change-body code {
+    font-family: ui-monospace, "SF Mono", Menlo, monospace;
+    background: rgba(45,212,191,0.1); color: var(--accent);
+    padding: 1px 6px; border-radius: 4px; font-size: 13px;
+  }
+  .change-body .detail {
+    background: var(--bg-card-2); border-left: 3px solid var(--accent);
+    padding: 10px 14px; border-radius: 0 8px 8px 0; margin: 10px 0;
+    font-size: 13px;
+  }
+  .change-body .detail.warn { border-left-color: var(--warn); }
+  .change-body .detail.danger { border-left-color: var(--danger); }
+  .change-body ul { padding-left: 18px; margin: 8px 0; }
+  .change-body ul li { margin-bottom: 4px; }
+
+  /* 对比表 */
+  .compare-table {
+    width: 100%; border-collapse: collapse; margin: 12px 0;
+    font-size: 13px; background: var(--bg-card-2); border-radius: 8px; overflow: hidden;
+  }
+  .compare-table th, .compare-table td {
+    padding: 10px 14px; text-align: left; border-bottom: 1px solid var(--border);
+  }
+  .compare-table th { background: rgba(45,212,191,0.06); color: var(--accent); font-weight: 600; font-size: 12px; letter-spacing: 0.3px; }
+  .compare-table tr:last-child td { border-bottom: none; }
+  .compare-table td.yes { color: var(--success); font-weight: 600; }
+  .compare-table td.no { color: var(--danger); font-weight: 600; }
+  .compare-table .mono { font-family: ui-monospace, "SF Mono", Menlo, monospace; font-size: 12px; }
+
+  /* 根因分析 */
+  .rootcause {
+    background: linear-gradient(135deg, var(--danger-bg) 0%, rgba(248,113,113,0.03) 100%);
+    border: 1px solid rgba(248,113,113,0.2);
+    border-radius: 12px; padding: 22px 24px; margin-bottom: 14px;
+  }
+  .rootcause .rc-label {
+    display: inline-block; font-size: 11px; font-weight: 700; letter-spacing: 0.6px;
+    color: var(--danger); margin-bottom: 8px;
+  }
+  .rootcause h4 { font-size: 16px; margin-bottom: 10px; color: var(--text); }
+  .rootcause .scenario {
+    background: rgba(0,0,0,0.25); border-radius: 8px; padding: 12px 16px;
+    margin: 10px 0; font-size: 13px; font-family: ui-monospace, "SF Mono", Menlo, monospace;
+    color: var(--text-dim); white-space: pre-wrap;
+  }
+
+  /* 部署清单 */
+  .deploy-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; margin: 16px 0; }
+  .deploy-card {
+    background: var(--bg-card); border: 1px solid var(--border); border-radius: 12px; padding: 18px;
+  }
+  .deploy-card .dc-title { font-weight: 700; margin-bottom: 10px; display: flex; align-items: center; gap: 8px; }
+  .deploy-card .dc-title .icon { width: 22px; height: 22px; border-radius: 6px; display: flex; align-items: center; justify-content: center; font-size: 13px; }
+  .deploy-card.must .icon { background: var(--danger-bg); color: var(--danger); }
+  .deploy-card.optional .icon { background: var(--warn-bg); color: var(--warn); }
+  .deploy-card.skip .icon { background: rgba(156,163,175,0.15); color: #d1d5db; }
+  .deploy-card .dc-file { font-family: ui-monospace, "SF Mono", Menlo, monospace; font-size: 12px; color: var(--accent); background: var(--accent-bg); padding: 6px 10px; border-radius: 6px; word-break: break-all; }
+  .deploy-card .dc-desc { font-size: 13px; color: var(--text-dim); margin-top: 10px; }
+  .deploy-card .dc-meta { font-size: 12px; color: var(--text-mute); margin-top: 6px; }
+
+  /* 提示框 */
+  .note {
+    background: var(--warn-bg); border: 1px solid rgba(251,191,36,0.25);
+    border-radius: 10px; padding: 14px 18px; margin: 16px 0;
+    font-size: 14px; color: #fde68a;
+  }
+  .note strong { color: var(--warn); }
+  .note.info { background: var(--info-bg); border-color: rgba(96,165,250,0.25); color: #bfdbfe; }
+  .note.info strong { color: var(--info); }
+
+  /* 页脚 */
+  footer { padding: 40px 0 56px; text-align: center; color: var(--text-mute); font-size: 13px; }
+  footer .sep { margin: 0 8px; opacity: 0.4; }
+
+  /* 响应式 */
+  @media (max-width: 720px) {
+    .stats { grid-template-columns: repeat(2, 1fr); }
+    .hero h1 { font-size: 28px; }
+    .deploy-grid { grid-template-columns: 1fr; }
+    .sec-head h2 { font-size: 20px; }
+    .container { padding: 0 16px; }
+  }
+</style>
+</head>
+<body>
+
+<header class="hero">
+  <div class="container hero-inner">
+    <div class="badge"><span class="dot"></span> RELEASE NOTES</div>
+    <h1>Senflare Link Lite v4.4.5</h1>
+    <div class="subtitle">更新修复说明 · 主后端 + 子后端 + 前端面板</div>
+    <div class="meta">
+      <span><svg viewBox="0 0 16 16" fill="currentColor"><path d="M8 0a8 8 0 100 16A8 8 0 008 0zm.8 4v4.6l2.8 2.8-1.1 1.1L7.2 9.2V4h1.6z"/></svg> 2026-10-10</span>
+      <span><svg viewBox="0 0 16 16" fill="currentColor"><path d="M2 2a1 1 0 011-1h10a1 1 0 011 1v12a1 1 0 01-1 1H3a1 1 0 01-1-1V2zm2 2v2h8V4H4zm0 4v2h8V8H4zm0 4v2h5v-2H4z"/></svg> 主后端 3123 行 · 子后端 1178 行</span>
+      <span><svg viewBox="0 0 16 16" fill="currentColor"><path d="M8 1l2 2-2 2-2-2 2-2zM3 6l2 2-2 2-2-2 2-2zm10 0l2 2-2 2-2-2 2-2z"/></svg> 融合版（4.4.4 定制 + 4.4.5 官方）</span>
+    </div>
+  </div>
+</header>
+
+<div class="container">
+
+  <!-- 概览统计 -->
+  <div class="stats">
+    <div class="stat"><div class="num">8</div><div class="lbl">Changelog 变更项</div></div>
+    <div class="stat"><div class="num">4</div><div class="lbl">后端 Bug 修复</div></div>
+    <div class="stat"><div class="num">4</div><div class="lbl">前端 UX 修复</div></div>
+    <div class="stat"><div class="num">13+</div><div class="lbl">保留定制功能</div></div>
+  </div>
+
+  <!-- 第一章：版本融合 -->
+  <section id="fusion">
+    <div class="sec-head">
+      <div class="num">一</div>
+      <h2>版本融合：原 4.4.4 + 原版 4.4.5 → 融合版 v4.4.5</h2>
+      <span class="tag">8 项变更</span>
+    </div>
+
+    <p style="color:var(--text-dim);margin-bottom:20px;font-size:14px;">
+      以原 4.4.4（深度定制版）为基底，应用原版 4.4.5 的 4 项 changelog 变更 + raw 安全校验，并完整保留 4.4.4 全部自定义功能。版本号统一升级为 <code style="background:var(--accent-bg);color:var(--accent);padding:1px 6px;border-radius:4px;font-family:ui-monospace,monospace;">v4.4.5</code>。
+    </p>
+
+    <h3 style="font-size:15px;color:var(--accent);margin:24px 0 14px;font-weight:700;">A. 继承自原版 4.4.5 的 Changelog 变更（4 项 + 1 安全加固）</h3>
+
+    <div class="change">
+      <div class="change-head">
+        <span class="change-type type-refactor">重构</span>
+        <div class="change-title">出站模式三并二：fixed 并入 global</div>
+        <span class="change-id">#CL-1</span>
+      </div>
+      <div class="change-body">
+        <p>原三模式（auto / global / fixed）精简为两模式，新语义：</p>
+        <div class="detail">
+          <strong>智能分流（auto）</strong>：CF 直连优先，直连失败自动切反代/链式中转，<strong>保留兜底反代回退</strong><br>
+          <strong>全局代理（global）</strong>：开启链式代理时出站流量全部走链式；否则 CF 直连优先、仅 CF 系网站固定 IP，<strong>不保留兜底反代回退</strong>
+        </div>
+        <p>主子后端同步变更：<code>applyOutboundRules</code>（fixed→global 归一 + 全局未开链式=固定IP语义）、<code>forceProxy</code>（全局+链式才走链式）、兜底反代仅智能分流保留、<code>pinExit</code>（fixed→global）、出站模式标签文案。</p>
+      </div>
+    </div>
+
+    <div class="change">
+      <div class="change-head">
+        <span class="change-type type-opt">优化</span>
+        <div class="change-title">部署推送 5s+8s 重试助手</div>
+        <span class="change-id">#CL-2</span>
+      </div>
+      <div class="change-body">
+        <p>一键/批量部署绑定新域名后，DNS 记录与边缘证书生效需时间，立即推送会失败。新增 <code>pushConfigAfterDeploy</code> 助手：</p>
+        <ul>
+          <li>推送前等 <strong>5 秒</strong>，日志标注「新绑域名等待 DNS 生效」</li>
+          <li>推送结果仍有失败域名时再等 <strong>8 秒</strong>重试一次，取最好结果</li>
+          <li>Worker / Pages 两部署链共用同一补推助手</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="change">
+      <div class="change-head">
+        <span class="change-type type-trim">精简</span>
+        <div class="change-title">删除订阅生成的节点数据源拉取缓存</div>
+        <span class="change-id">#CL-3</span>
+      </div>
+      <div class="change-body">
+        <p>移除 <code>ipListCache</code> / <code>ListTtl</code> / <code>remoteAllOk</code>，<code>resolveIpList</code> 改为即拉即用（保留并发去重）。优选/反代列表（含远端直链与 sub:// 探测）每次下发均为最新。配置保存处的 <code>ipListCache.clear()</code> 一并移除。</p>
+        <div class="detail warn"><strong>不受影响</strong>：配置加载缓存（nodeConf 5分钟TTL）与面板 Cache 开关的其他用途。</div>
+      </div>
+    </div>
+
+    <div class="change">
+      <div class="change-head">
+        <span class="change-type type-text">文案</span>
+        <div class="change-title">主子后端清理代理协议相关文案描述</div>
+        <span class="change-id">#CL-4</span>
+      </div>
+      <div class="change-body">
+        <p>出站模式注释更新为两模式语义；子后端 <code>Outbound</code> 注释更新；<code>outboundLabel</code> 去除 fixed 选项。</p>
+      </div>
+    </div>
+
+    <div class="change">
+      <div class="change-head">
+        <span class="change-type type-sec">安全</span>
+        <div class="change-title">raw 凭据安全校验（主子后端同步）</div>
+        <span class="change-id">#CL-5</span>
+      </div>
+      <div class="change-body">
+        <p><code>parseUpstreamAddr</code> 增加 <code>if (/[\s?]/.test(raw)) return null;</code> —— 空格破坏 HTTP 请求行、? 截断内联路径，凭据不支持。主后端 + 子后端均落地。</p>
+      </div>
+    </div>
+
+    <h3 style="font-size:15px;color:var(--accent);margin:32px 0 14px;font-weight:700;">B. 保留自原 4.4.4 的自定义功能（原版 4.4.5 没有）</h3>
+
+    <p style="color:var(--text-dim);margin-bottom:16px;font-size:14px;">这些功能原版 4.4.5 被精简掉了，但 4.4.4 用户依赖，融合版完整保留：</p>
+
+    <table class="compare-table">
+      <thead><tr><th>功能</th><th>原 4.4.4</th><th>原版 4.4.5</th><th>融合版 4.4.5</th></tr></thead>
+      <tbody>
+        <tr><td>BE_UUIDS 后端专属 UUID 映射</td><td class="yes">✓</td><td class="no">✕</td><td class="yes">✓</td></tr>
+        <tr><td>ProtocolWorker / ProtocolSnippet 按账号协议覆盖</td><td class="yes">✓</td><td class="no">✕</td><td class="yes">✓</td></tr>
+        <tr><td>AdminAvatar 管理员头像（D1 全端生效）</td><td class="yes">✓</td><td class="no">✕</td><td class="yes">✓</td></tr>
+        <tr><td>deployType / protocol 列（混合部署迁移）</td><td class="yes">✓</td><td class="no">✕</td><td class="yes">✓</td></tr>
+        <tr><td>GEO_CN 地理命名（159 国/地区，按大洲）</td><td class="yes">✓</td><td class="no">✕</td><td class="yes">✓</td></tr>
+        <tr><td>buildGeoNames + autoGroupList 自动选择组</td><td class="yes">✓</td><td class="no">✕</td><td class="yes">✓</td></tr>
+        <tr><td>D1 8s 超时兜底（防 hang 拖死入口）</td><td class="yes">✓</td><td class="no">✕</td><td class="yes">✓</td></tr>
+        <tr><td>/api/node-config 端点（Snippets 子端拉取）</td><td class="yes">✓</td><td class="no">✕</td><td class="yes">✓</td></tr>
+        <tr><td>/api/build 构建+自诊断探针</td><td class="yes">✓</td><td class="no">✕</td><td class="yes">✓</td></tr>
+        <tr><td>伪装页高级处理（白名单+404回落+缓存策略）</td><td class="yes">✓</td><td class="no">✕</td><td class="yes">✓</td></tr>
+        <tr><td>Snippets pullBased 同步提示</td><td class="yes">✓</td><td class="no">✕</td><td class="yes">✓</td></tr>
+        <tr><td>账号级协议覆盖（cfHostProto）</td><td class="yes">✓</td><td class="no">✕</td><td class="yes">✓</td></tr>
+        <tr><td>部署凭据（All-in-one / Ax36524@ / 原 SyncKey）</td><td class="yes">✓</td><td class="no">✕</td><td class="yes">✓</td></tr>
+      </tbody>
+    </table>
+
+    <div class="note info">
+      <strong>构建标记同步</strong>：<code class="mono">/api/build</code> 探针标记从 <code>fake-v15-444f-20261009</code> 更新为 <code>fake-v15-445f-20261010</code>，便于部署后排障确认版本。
+    </div>
+  </section>
+
+  <!-- 第二章：Snippets 同步 Bug 修复 -->
+  <section id="bugfix">
+    <div class="sec-head">
+      <div class="num">二</div>
+      <h2>Snippets 同步异常修复（线上排查 + 根治）</h2>
+      <span class="tag">后端 4 项 + 前端 4 项</span>
+    </div>
+
+    <p style="color:var(--text-dim);margin-bottom:20px;font-size:14px;">
+      线上问题：同账户同域名下不同 Snippets 子后端，面板同步数据<strong style="color:var(--danger);">只显示第一个成功</strong>；停用第一个后第二个<strong style="color:var(--danger);">报错无法同步</strong>。经 agent-browser 登录排查 + 代码审计，定位 3 处后端缺陷 + 1 处前端 UX 缺陷，双向根治。
+    </p>
+
+    <h3 style="font-size:15px;color:var(--danger);margin:24px 0 14px;font-weight:700;">根因分析（线上实测确认）</h3>
+
+    <div class="rootcause">
+      <span class="rc-label">缺陷 1 · getCfAllHosts 同域名去重丢协议</span>
+      <h4>同域名多 Snippets 第二个的 type/proto 被静默丢弃</h4>
+      <p style="color:var(--text-dim);font-size:14px;">全局 <code style="background:rgba(0,0,0,0.3);padding:1px 5px;border-radius:3px;font-family:monospace;">seenAll</code> 去重后，<code style="background:rgba(0,0,0,0.3);padding:1px 5px;border-radius:3px;font-family:monospace;">hostType</code>/<code style="background:rgba(0,0,0,0.3);padding:1px 5px;border-radius:3px;font-family:monospace;">hostProto</code> Map 只保留首个后端的值，第二个 Snippet 的协议（如 XHTTP）丢失。</p>
+    </div>
+
+    <div class="rootcause">
+      <span class="rc-label">缺陷 2 · pullBased 无 per-account 归属</span>
+      <h4>Snippets 同步结果不可见，前端无法区分哪个成功</h4>
+      <p style="color:var(--text-dim);font-size:14px;"><code style="background:rgba(0,0,0,0.3);padding:1px 5px;border-radius:3px;font-family:monospace;">pullBased</code> 是扁平域名数组无 account 归属；<code style="background:rgba(0,0,0,0.3);padding:1px 5px;border-radius:3px;font-family:monospace;">ok</code>/<code style="background:rgba(0,0,0,0.3);padding:1px 5px;border-radius:3px;font-family:monospace;">fail</code>/<code style="background:rgba(0,0,0,0.3);padding:1px 5px;border-radius:3px;font-family:monospace;">versions</code> 永不含 Snippets。同域名时前端按域名去重 → 只显示第一个。</p>
+    </div>
+
+    <div class="rootcause">
+      <span class="rc-label">缺陷 3 · Snippet domains 空被掩盖（报错根因）</span>
+      <h4>domains 空时零贡献，被其他账号掩盖；停用后暴露为 null</h4>
+      <div class="scenario">线上实测数据：
+  Snippet A (sfnode): domains=["sfnode.an226.pp.ua"] ✅ → 贡献 pullBased
+  Snippet B (cdqc4):  domains=[] ❌ syncDomains=["cdqc4.an226.pp.ua"] → 零贡献
+
+  · A 未停用：A 贡献 pullBased，B 被掩盖 → 只显示 A 成功
+  · 停用 A 后：A 被 skip，B domains 仍空 → pullBased=[] → return null → 400 报错</div>
+      <p style="color:var(--text-dim);font-size:14px;margin-top:10px;"><strong>根因</strong>：前端把节点域名填进了「数据同步域名」（标必填），但后端 Snippets 读 <code style="background:rgba(0,0,0,0.3);padding:1px 5px;border-radius:3px;font-family:monospace;">domains</code>（订阅生成域名）→ B 的 domains 一直为空。</p>
+    </div>
+
+    <h3 style="font-size:15px;color:var(--success);margin:32px 0 14px;font-weight:700;">后端修复（4 项，均在主后端 _worker.js）</h3>
+
+    <div class="change">
+      <div class="change-head">
+        <span class="change-type type-fix">修复</span>
+        <div class="change-title">getCfAllHosts 同域名多后端 type/proto 不丢失</div>
+        <span class="change-id">#FIX-1 · L509</span>
+      </div>
+      <div class="change-body">
+        <p>补录循环让同域名多后端的 type/proto 后到优先覆盖，避免第二个 Snippet 的协议丢失。</p>
+      </div>
+    </div>
+
+    <div class="change">
+      <div class="change-head">
+        <span class="change-type type-fix">修复</span>
+        <div class="change-title">pushConfigToNodes pullBased 改为 per-account 结构</div>
+        <span class="change-id">#FIX-2 · L1745</span>
+      </div>
+      <div class="change-body">
+        <p><code>pullBased</code> 从扁平域名数组改为 <code>[{id, name, domain}]</code>（带 account 归属 + 同域名去重保留首个 account）；新增 <code>snippets</code> 字段：所有 Snippets 账号明细 <code>[{id, name, status, domain}]</code>（含禁用），供前端精确归属。</p>
+      </div>
+    </div>
+
+    <div class="change">
+      <div class="change-head">
+        <span class="change-type type-fix">修复</span>
+        <div class="change-title">Snippet domains 空时回退读 syncDomains</div>
+        <span class="change-id">#FIX-3 · L1764</span>
+      </div>
+      <div class="change-body">
+        <p><code>if (!ds.length) ds = jsonOr(r.syncDomains, [])</code>，与 getCfAllHosts 已有的回退逻辑对齐，防 domains 空导致 Snippet 被 null 掩盖。<strong>兜底已有错数据，无需手动迁移。</strong></p>
+      </div>
+    </div>
+
+    <div class="change">
+      <div class="change-head">
+        <span class="change-type type-fix">修复</span>
+        <div class="change-title">apiNodesSync 正确语义 + 返回 per-Snippet 明细</div>
+        <span class="change-id">#FIX-4 · L2196</span>
+      </div>
+      <div class="change-body">
+        <p>纯 Snippets 场景不再返回 <code>total=0</code> 误导前端，改为按 Worker/Snippet 分别统计：</p>
+        <ul>
+          <li>仅 Snippets：<code>N 个 Snippets 节点为拉取模式，配置已就绪，子端每 5 分钟自动拉取</code></li>
+          <li>Worker + Snippets：<code>推送完成：Worker 成功 X/Y；N 个 Snippets 节点自动拉取</code></li>
+          <li>返回值增加 <code>pullBased</code> + <code>snippets</code> 字段；<code>push-config</code> 部署 action 同步返回</li>
+        </ul>
+      </div>
+    </div>
+
+    <h3 style="font-size:15px;color:var(--success);margin:32px 0 14px;font-weight:700;">前端修复（4 项，均在 js/admin-ui.js）</h3>
+
+    <div class="change">
+      <div class="change-head">
+        <span class="change-type type-feat">UX</span>
+        <div class="change-title">账号弹窗 deployType=snippet 字段联动（根因源头修复）</div>
+        <span class="change-id">#FE-A · L1580</span>
+      </div>
+      <div class="change-body">
+        <p>原弹窗「数据同步域名」标必填、「订阅生成域名」标选填，对 Worker/Snippets 一视同仁 → 用户误把节点域名填进 syncDomains。新增 <code>syncDeployFields()</code> 联动：</p>
+        <ul>
+          <li><strong>Snippets 模式</strong>：「订阅生成域名」升为<strong>必填</strong>（节点 Host/SNI 来源 · 子端拉取登记域名），「数据同步域名」降为<strong>选填</strong>（Snippets 无推送通道，可留空）</li>
+          <li><strong>Worker 模式</strong>：维持原语义（同步必填、订阅选填）</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="change">
+      <div class="change-head">
+        <span class="change-type type-feat">UX</span>
+        <div class="change-title">同步结果展示 per-Snippet 明细</div>
+        <span class="change-id">#FE-B · L1480</span>
+      </div>
+      <div class="change-body">
+        <p><code>__nodesSync</code> toast 新增 <code>snipDetail</code>，读后端 <code>pullBased [{id,name,domain}]</code>，展示「Snippets 拉取：name·domain、name·domain」，不再只显示第一个。后端结构前端读取完全匹配。</p>
+      </div>
+    </div>
+
+    <div class="change">
+      <div class="change-head">
+        <span class="change-type type-feat">UX</span>
+        <div class="change-title">账号卡片 Snippets 字段标注</div>
+        <span class="change-id">#FE-C · L1768</span>
+      </div>
+      <div class="change-body">
+        <p>Snippets 模式下「同步域名」标"选填"，「订阅域名」为空时标"待补"，引导用户补填节点域名。</p>
+      </div>
+    </div>
+
+    <div class="change">
+      <div class="change-head">
+        <span class="change-type type-feat">UX</span>
+        <div class="change-title">Snippets 保存确认文案对齐</div>
+        <span class="change-id">#FE-D · L1696</span>
+      </div>
+      <div class="change-body">
+        <p>原文案"无需同步域名"改为"对应「订阅生成域名」的 Snippets 中手动部署…（无需同步域名，订阅生成域名必填）"，强调节点域名才是 Snippets 必填项。</p>
+      </div>
+    </div>
+
+    <div class="note">
+      <strong>根因闭环</strong>：后端修复（domains 空回退 + pullBased 带 account 归属）兜底已有错数据 + 前端修复（字段联动引导正确填写 domains + 同步结果展示 per-Snippet 明细）从源头杜绝填错字段 = 双向根治。
+    </div>
+  </section>
+
+  <!-- 第三章：部署清单 -->
+  <section id="deploy">
+    <div class="sec-head">
+      <div class="num">三</div>
+      <h2>部署清单</h2>
+      <span class="tag">2 个文件需更新</span>
+    </div>
+
+    <div class="deploy-grid">
+      <div class="deploy-card must">
+        <div class="dc-title"><span class="icon">!</span> 必更 · 主后端</div>
+        <div class="dc-file">4.4.5主后端_worker.js（3123 行）</div>
+        <div class="dc-desc">上传到 Cloudflare Worker 脚本，覆盖旧 4.4.4 主后端。含全部 8 项 changelog + 4 项 Snippets 修复。</div>
+        <div class="dc-meta">路径：/home/z/my-project/output/4.4.5主后端_worker.js</div>
+      </div>
+      <div class="deploy-card must">
+        <div class="dc-title"><span class="icon">!</span> 必更 · 前端</div>
+        <div class="dc-file">js/admin-ui.js（220148 字节）</div>
+        <div class="dc-desc">覆盖 Worker/Pages 静态资源中的同名文件。仅此 1 个前端文件改动，其余前端文件未变。</div>
+        <div class="dc-meta">路径：/home/z/my-project/upload/frontend/js/admin-ui.js</div>
+      </div>
+      <div class="deploy-card skip">
+        <div class="dc-title"><span class="icon">○</span> 无需更新 · 子后端</div>
+        <div class="dc-file">4.4.5子后端_worker.js（1178 行）</div>
+        <div class="dc-desc">本次 Snippets 修复不涉及子后端（其 /api/node-config 拉取逻辑本身正确），仅含版本融合变更。</div>
+        <div class="dc-meta">如已部署融合版子后端则无需再动</div>
+      </div>
+      <div class="deploy-card skip">
+        <div class="dc-title"><span class="icon">○</span> 无需更新 · 其余前端</div>
+        <div class="dc-file">index/login/sf-admin.html · 其余 js/css</div>
+        <div class="dc-desc">本次未改动，覆盖也安全（内容与线上一致）。HTML 引用为裸路径无版本号。</div>
+        <div class="dc-meta">仅 js/admin-ui.js 有实质修改</div>
+      </div>
+    </div>
+
+    <div class="note">
+      <strong>缓存注意</strong>：前端引用为裸路径（<code>src="js/admin-ui.js"</code> 无 <code>?v=</code>），部署后浏览器/CF 边缘可能命中旧缓存。部署后请<strong>强刷浏览器</strong>（Ctrl+Shift+R）或在 Cloudflare 面板对 <code>js/admin-ui.js</code> 执行一次 Purge。
+    </div>
+
+    <div class="note info">
+      <strong>旧数据兜底</strong>：已有 domains 空的 Snippets 账号（如线上 cdqc4），部署后端修复后<strong>无需手动改数据</strong>——后端 syncDomains 回退逻辑会自动兜底读取。但建议编辑账号把域名从「数据同步域名」移到「订阅生成域名」（新弹窗已联动标注必填），从源头规范数据。
+    </div>
+  </section>
+
+  <!-- 第四章：版本对比 -->
+  <section id="version">
+    <div class="sec-head">
+      <div class="num">四</div>
+      <h2>三版本对比一览</h2>
+    </div>
+
+    <table class="compare-table">
+      <thead><tr><th>对比项</th><th>原 4.4.4</th><th>原版 4.4.5</th><th>融合版 4.4.5</th></tr></thead>
+      <tbody>
+        <tr><td>主后端行数</td><td class="mono">3083</td><td class="mono">2712</td><td class="mono yes">3123</td></tr>
+        <tr><td>子后端行数</td><td class="mono">1175</td><td class="mono">1178</td><td class="mono yes">1178</td></tr>
+        <tr><td>出站模式</td><td>三模式</td><td>两模式</td><td class="yes">两模式</td></tr>
+        <tr><td>部署推送重试</td><td class="no">无</td><td class="no">无</td><td class="yes">5s+8s 助手</td></tr>
+        <tr><td>IP 列表拉取缓存</td><td class="yes">有</td><td class="no">删除</td><td class="no">删除（即拉即用）</td></tr>
+        <tr><td>raw 凭据安全校验</td><td class="no">无</td><td class="yes">有</td><td class="yes">有</td></tr>
+        <tr><td>Snippets 同步 per-account 归属</td><td class="no">无</td><td class="no">无</td><td class="yes">有（pullBased+snippets）</td></tr>
+        <tr><td>Snippet domains 空回退</td><td class="no">无</td><td class="no">无</td><td class="yes">有（回退 syncDomains）</td></tr>
+        <tr><td>getCfAllHosts 同域名多后端补录</td><td class="no">无</td><td class="no">无</td><td class="yes">有</td></tr>
+        <tr><td>前端字段联动（Snippet 必填引导）</td><td class="no">无</td><td class="no">无</td><td class="yes">有</td></tr>
+        <tr><td>BE_UUIDS / ProtocolWorker·Snippet</td><td class="yes">有</td><td class="no">精简</td><td class="yes">保留</td></tr>
+        <tr><td>地理命名 GEO_CN / 自动选择组</td><td class="yes">有</td><td class="no">精简</td><td class="yes">保留</td></tr>
+        <tr><td>D1 8s 超时兜底 / /api/node-config / /api/build</td><td class="yes">有</td><td class="no">精简</td><td class="yes">保留</td></tr>
+      </tbody>
+    </table>
+  </section>
+
+  <footer>
+    <div>Senflare Link Lite v4.4.5 更新修复说明</div>
+    <div style="margin-top:8px;">
+      生成于 2026-10-10
+      <span class="sep">·</span> 主后端 3123 行
+      <span class="sep">·</span> 子后端 1178 行
+      <span class="sep">·</span> 前端 admin-ui.js 3693 行
+    </div>
+  </footer>
+
+</div>
+</body>
+</html>

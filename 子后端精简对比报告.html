@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>子后端精简对比报告 · 官方原版 v4.4.5 vs Snippet 精简版</title>
+<style>
+  :root {
+    --bg: #0f1419; --bg-card: #1a2030; --bg-card-2: #212a3d; --border: #2d3650;
+    --text: #e6edf3; --text-dim: #8b949e; --text-mute: #6e7681;
+    --accent: #2dd4bf; --accent-bg: rgba(45,212,191,0.08);
+    --danger: #f87171; --danger-bg: rgba(248,113,113,0.08);
+    --warn: #fbbf24; --warn-bg: rgba(251,191,36,0.08);
+    --info: #60a5fa; --info-bg: rgba(96,165,250,0.08);
+    --success: #4ade80; --success-bg: rgba(74,222,128,0.08);
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html { scroll-behavior: smooth; }
+  body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans SC", "PingFang SC", "Microsoft YaHei", sans-serif; background: var(--bg); color: var(--text); line-height: 1.7; font-size: 15px; -webkit-font-smoothing: antialiased; }
+  .container { max-width: 960px; margin: 0 auto; padding: 0 24px; }
+  .hero { background: linear-gradient(135deg, #0f1419 0%, #1a2e3a 50%, #0d2a26 100%); border-bottom: 1px solid var(--border); padding: 28px 0 24px; position: relative; overflow: hidden; }
+  .hero::before { content: ''; position: absolute; top: -60%; right: -10%; width: 400px; height: 400px; background: radial-gradient(circle, rgba(45,212,191,0.12) 0%, transparent 70%); pointer-events: none; }
+  .hero-inner { position: relative; }
+  .hero .badge { display: inline-flex; align-items: center; gap: 6px; background: var(--accent-bg); color: var(--accent); border: 1px solid rgba(45,212,191,0.25); padding: 3px 11px; border-radius: 999px; font-size: 12px; font-weight: 600; letter-spacing: 0.5px; margin-bottom: 10px; }
+  .hero .badge .dot { width: 7px; height: 7px; background: var(--accent); border-radius: 50%; box-shadow: 0 0 8px var(--accent); }
+  .hero h1 { font-size: 26px; font-weight: 800; letter-spacing: -0.5px; margin-bottom: 6px; background: linear-gradient(135deg, #fff 0%, #2dd4bf 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; }
+  .hero .subtitle { color: var(--text-dim); font-size: 14px; margin-bottom: 12px; }
+  .hero .meta { display: flex; flex-wrap: wrap; gap: 12px; font-size: 12px; color: var(--text-mute); }
+  .stats { display: grid; grid-template-columns: repeat(4, 1fr); gap: 14px; margin: 24px 0 8px; }
+  .stat { background: var(--bg-card); border: 1px solid var(--border); border-radius: 12px; padding: 16px 14px; text-align: center; }
+  .stat .num { font-size: 24px; font-weight: 800; color: var(--accent); line-height: 1.1; }
+  .stat .lbl { font-size: 11px; color: var(--text-dim); margin-top: 5px; letter-spacing: 0.3px; }
+  section { padding: 32px 0; border-bottom: 1px solid var(--border); }
+  section:last-of-type { border-bottom: none; }
+  .sec-head { display: flex; align-items: center; gap: 12px; margin-bottom: 20px; }
+  .sec-head .num { flex-shrink: 0; width: 32px; height: 32px; background: var(--accent-bg); color: var(--accent); border: 1px solid rgba(45,212,191,0.3); border-radius: 9px; display: flex; align-items: center; justify-content: center; font-weight: 800; font-size: 14px; }
+  .sec-head h2 { font-size: 21px; font-weight: 700; letter-spacing: -0.3px; }
+  .sec-head .tag { margin-left: auto; font-size: 12px; color: var(--text-mute); }
+  .card { background: var(--bg-card); border: 1px solid var(--border); border-radius: 12px; padding: 18px 20px; margin-bottom: 12px; transition: border-color .2s; }
+  .card:hover { border-color: rgba(45,212,191,0.35); }
+  .card-head { display: flex; align-items: flex-start; gap: 10px; margin-bottom: 8px; flex-wrap: wrap; }
+  .tag-badge { flex-shrink: 0; font-size: 11px; font-weight: 700; letter-spacing: 0.5px; padding: 3px 9px; border-radius: 5px; text-transform: uppercase; margin-top: 2px; }
+  .tag-keep { background: var(--success-bg); color: var(--success); }
+  .tag-del { background: var(--danger-bg); color: var(--danger); }
+  .tag-mod { background: var(--warn-bg); color: var(--warn); }
+  .card-title { font-size: 15px; font-weight: 700; flex: 1; min-width: 200px; }
+  .card-id { font-size: 12px; color: var(--text-mute); font-family: ui-monospace, "SF Mono", Menlo, monospace; }
+  .card-body { color: var(--text-dim); font-size: 13px; }
+  .card-body code { font-family: ui-monospace, "SF Mono", Menlo, monospace; background: rgba(45,212,191,0.1); color: var(--accent); padding: 1px 5px; border-radius: 4px; font-size: 12px; }
+  .card-body .detail { background: var(--bg-card-2); border-left: 3px solid var(--accent); padding: 8px 12px; border-radius: 0 8px 8px 0; margin: 8px 0; font-size: 12px; }
+  .card-body .detail.del { border-left-color: var(--danger); }
+  .card-body .detail.mod { border-left-color: var(--warn); }
+  .card-body ul { padding-left: 16px; margin: 6px 0; }
+  .card-body ul li { margin-bottom: 3px; }
+  .compare-table { width: 100%; border-collapse: collapse; margin: 12px 0; font-size: 13px; background: var(--bg-card-2); border-radius: 8px; overflow: hidden; }
+  .compare-table th, .compare-table td { padding: 9px 13px; text-align: left; border-bottom: 1px solid var(--border); }
+  .compare-table th { background: rgba(45,212,191,0.06); color: var(--accent); font-weight: 600; font-size: 12px; letter-spacing: 0.3px; }
+  .compare-table tr:last-child td { border-bottom: none; }
+  .compare-table td.yes { color: var(--success); font-weight: 600; }
+  .compare-table td.no { color: var(--danger); font-weight: 600; }
+  .compare-table td.mod { color: var(--warn); font-weight: 600; }
+  .compare-table .mono { font-family: ui-monospace, "SF Mono", Menlo, monospace; font-size: 12px; }
+  .note { background: var(--info-bg); border: 1px solid rgba(96,165,250,0.25); border-radius: 10px; padding: 12px 16px; margin: 14px 0; font-size: 13px; color: #bfdbfe; }
+  .note strong { color: var(--info); }
+  .note.warn { background: var(--warn-bg); border-color: rgba(251,191,36,0.25); color: #fde68a; }
+  .note.warn strong { color: var(--warn); }
+  .pie { display: flex; align-items: center; gap: 16px; margin: 16px 0; }
+  .pie-bar { flex: 1; height: 28px; background: var(--bg-card-2); border-radius: 8px; overflow: hidden; display: flex; }
+  .pie-keep { background: var(--success); height: 100%; }
+  .pie-del { background: var(--danger); height: 100%; }
+  .pie-label { font-size: 12px; color: var(--text-dim); white-space: nowrap; }
+  footer { padding: 32px 0 48px; text-align: center; color: var(--text-mute); font-size: 12px; }
+  footer .sep { margin: 0 8px; opacity: 0.4; }
+  @media (max-width: 720px) { .stats { grid-template-columns: repeat(2, 1fr); } .hero h1 { font-size: 22px; } .container { padding: 0 16px; } }
+</style>
+</head>
+<body>
+
+<header class="hero">
+  <div class="container hero-inner">
+    <div class="badge"><span class="dot"></span> 对比报告</div>
+    <h1>子后端精简对比报告</h1>
+    <div class="subtitle">官方原版 v4.4.5 vs Snippet 精简版 · 精简了哪些 / 保留了哪些</div>
+    <div class="meta">
+      <span>官方原版：59,487 字节 / 1,178 行</span>
+      <span>·</span>
+      <span>Snippet 精简版：32,763 字节 / 83 行</span>
+      <span>·</span>
+      <span>压缩率 45%</span>
+    </div>
+  </div>
+</header>
+
+<div class="container">
+
+  <div class="stats">
+    <div class="stat"><div class="num">45%</div><div class="lbl">体积压缩率</div></div>
+    <div class="stat"><div class="num">3</div><div class="lbl">删除功能模块</div></div>
+    <div class="stat"><div class="num">9</div><div class="lbl">完整保留功能</div></div>
+    <div class="stat"><div class="num">1</div><div class="lbl">改造功能（D1→拉取）</div></div>
+  </div>
+
+  <!-- 体积对比 -->
+  <section id="size">
+    <div class="sec-head">
+      <div class="num">一</div>
+      <h2>体积对比</h2>
+      <span class="tag">Snippets 32KB 限制</span>
+    </div>
+
+    <table class="compare-table">
+      <thead><tr><th>指标</th><th>官方原版</th><th>Snippet 精简版</th><th>变化</th></tr></thead>
+      <tbody>
+        <tr><td>字节数</td><td class="mono">59,487</td><td class="mono yes">32,763</td><td class="yes">-26,724 (-45%)</td></tr>
+        <tr><td>行数</td><td class="mono">1,178</td><td class="mono yes">83</td><td class="yes">-1,095</td></tr>
+        <tr><td>Snippets 32KB 限制</td><td class="no">❌ 超出 26,719</td><td class="yes">✅ 达标（余 5 字节）</td><td class="yes">达标</td></tr>
+        <tr><td>Worker 部署</td><td class="yes">✅ 支持</td><td class="yes">✅ 支持</td><td class="yes">兼容</td></tr>
+      </tbody>
+    </table>
+
+    <div class="pie">
+      <div class="pie-bar">
+        <div class="pie-keep" style="width:55%"></div>
+        <div class="pie-del" style="width:45%"></div>
+      </div>
+      <div class="pie-label">保留 55% · 删除 45%</div>
+    </div>
+  </section>
+
+  <!-- 删除的功能 -->
+  <section id="removed">
+    <div class="sec-head">
+      <div class="num">二</div>
+      <h2>精简删除的功能</h2>
+      <span class="tag">3 个模块</span>
+    </div>
+
+    <p style="color:var(--text-dim);margin-bottom:16px;font-size:14px;">以下功能在 Snippets 场景下不需要，已删除以适配 32KB 限制。如需这些功能，请使用官方原版 <code>4.4.5子后端_worker.js</code>（59KB，仅 Worker 部署）。</p>
+
+    <div class="card">
+      <div class="card-head">
+        <span class="tag-badge tag-del">删除</span>
+        <div class="card-title">链式代理（Socks5 / HTTP 上游）</div>
+        <span class="card-id">约 2,800 字节</span>
+      </div>
+      <div class="card-body">
+        <p>删除的函数：</p>
+        <div class="detail del">
+          <code>socks5Handshake</code> · <code>httpConnectHandshake</code> · <code>chainConnect</code><br>
+          <code>parseUpstreamAddr</code> · <code>parseUpstreamEntries</code><br>
+          <code>inlineChain</code> 路径内嵌链式（<code>/socks5=</code> / <code>/http=</code>）<br>
+          <code>ChainEnabled</code> / <code>Upstream</code> 配置项
+        </div>
+        <ul>
+          <li><strong>影响</strong>：失去 Socks5/HTTP 上游链式代理能力</li>
+          <li><strong>替代</strong>：Snippets 场景下反代/直连已足够；需链式用 Worker 版</li>
+          <li><strong>forceProxy</strong>：简化为 <code>outbound === 'global' || !!inlineExit</code>（去掉 chainOn 条件）</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-head">
+        <span class="tag-badge tag-del">删除</span>
+        <div class="card-title">D1 数据库绑定</div>
+        <span class="card-id">约 1,500 字节</span>
+      </div>
+      <div class="card-body">
+        <p>删除的机制：</p>
+        <div class="detail del">
+          <code>runtimeEnv</code> · <code>env.Senflare</code> · <code>db.prepare</code><br>
+          <code>confGeneration</code>（推送代数校验）<br>
+          <code>nodeConfFailUntil</code>（D1 故障退避）<br>
+          <code>ConfigKeys</code> 白名单 · <code>initDatabase</code>
+        </div>
+        <p><strong>原因</strong>：Snippets 无 D1 绑定能力，配置改为拉取主后端 <code>/api/node-config</code>（见改造章节）。</p>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-head">
+        <span class="tag-badge tag-del">删除</span>
+        <div class="card-title">配置推送接收（/api/sync/receive-config）</div>
+        <span class="card-id">约 900 字节</span>
+      </div>
+      <div class="card-body">
+        <p>删除的函数：</p>
+        <div class="detail del">
+          <code>handleSyncConfig</code> · <code>safeEqual</code> · <code>readCappedBody</code><br>
+          路由：<code>POST /api/sync/receive-config</code>
+        </div>
+        <p><strong>原因</strong>：Snippets 子端不接收主端推送，配置由子端每 5 分钟主动拉取 <code>/api/node-config</code>。推送通道仅 Worker 子后端需要。</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 改造的功能 -->
+  <section id="modified">
+    <div class="sec-head">
+      <div class="num">三</div>
+      <h2>改造的功能</h2>
+      <span class="tag">1 处</span>
+    </div>
+
+    <div class="card">
+      <div class="card-head">
+        <span class="tag-badge tag-mod">改造</span>
+        <div class="card-title">配置加载：D1 直读 → 拉取主后端</div>
+        <span class="card-id">loadNodeConfig</span>
+      </div>
+      <div class="card-body">
+        <table class="compare-table">
+          <thead><tr><th>对比项</th><th>官方原版</th><th>Snippet 精简版</th></tr></thead>
+          <tbody>
+            <tr><td>配置来源</td><td>D1 数据库 <code>SELECT key,value FROM config</code></td><td>主后端 <code>GET /api/node-config</code></td></tr>
+            <tr><td>鉴权</td><td>无需（D1 本地读）</td><td><code>X-Sync-Key</code> 请求头</td></tr>
+            <tr><td>缓存</td><td>5 分钟 + 推送代数失效</td><td class="mod">5 分钟（无推送失效）</td></tr>
+            <tr><td>故障退避</td><td>30s + D1 8s 超时兜底</td><td class="mod">失败沿用旧配置</td></tr>
+            <tr><td>配置键</td><td><code>ConfigKeys</code> 10 项（含 ChainEnabled/Upstream）</td><td class="mod"><code>DEFAULTS</code> 8 项（去链式）</td></tr>
+          </tbody>
+        </table>
+        <div class="detail mod">
+          <strong>CONFIG_URL</strong> 与 <strong>SYNC_KEY</strong> 在可编辑区，部署前需核对与主后端一致
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 保留的功能 -->
+  <section id="kept">
+    <div class="sec-head">
+      <div class="num">四</div>
+      <h2>完整保留的功能（官方原版原样）</h2>
+      <span class="tag">9 大模块</span>
+    </div>
+
+    <p style="color:var(--text-dim);margin-bottom:16px;font-size:14px;">以下功能与官方原版完全一致，未做任何精简或改动。</p>
+
+    <div class="card">
+      <div class="card-head">
+        <span class="tag-badge tag-keep">保留</span>
+        <div class="card-title">WS + XHTTP 双传输</div>
+        <span class="card-id">核心</span>
+      </div>
+      <div class="card-body">
+        <ul>
+          <li><strong>WS</strong>：<code>handleWebSocketConn</code>，含 0-RTT 早期数据（<code>sec-websocket-protocol</code> / <code>Referer</code> 双通道回退）</li>
+          <li><strong>XHTTP</strong>：<code>handleXwebPost</code>，POST <code>application/grpc</code>，stream-one 双向单流，1MB 桥</li>
+          <li>路由：<code>Upgrade: websocket</code> → WS；<code>POST + grpc</code> → XHTTP</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-head">
+        <span class="tag-badge tag-keep">保留</span>
+        <div class="card-title">VLESS 协议解析与认证</div>
+        <span class="card-id">parseProtocolChunk</span>
+      </div>
+      <div class="card-body">
+        <ul>
+          <li>协议头：Ver(1) + UUID(16) + OptLen(1) + Opt(N) + Cmd(1) + Port(2) + AddrType(1) + Addr(N)</li>
+          <li>UUID 恒时校验（<code>getUuidBytes</code>），支持 IPv4/域名/IPv6 三种地址类型</li>
+          <li>cmd=1 TCP / cmd=2 UDP（53 端口转 DoH）/ 其他 cmd 回挡板</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-head">
+        <span class="tag-badge tag-keep">保留</span>
+        <div class="card-title">官方反代池（拆字写法原样保留）</div>
+        <span class="card-id">OfficialProxyBase</span>
+      </div>
+      <div class="card-body">
+        <div class="detail">
+          <code>OfficialProxyBase = 'p'+'r'+'o'+'x'+'y'+'.'+'z'+'j'+'c'+'l'+'o'+'u'+'d'+'.'+'u'+'s'+'.'+'c'+'i'</code><br>
+          <code>officialProxyHost(colo)</code>：colo 子域 + 裸域双层<br>
+          <code>TierSub = 0, TierBase = 1</code>：colo 子域优先，失联回落裸域
+        </div>
+        <p>与官方原版完全一致，拆字避明文扫描的写法原样保留。</p>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-head">
+        <span class="tag-badge tag-keep">保留</span>
+        <div class="card-title">三方反代池（拆字写法原样保留）</div>
+        <span class="card-id">SenflareLink / ProxyIPPool</span>
+      </div>
+      <div class="card-body">
+        <div class="detail">
+          <code>SenflareLink = 'S'+'e'+'n'+'f'+'l'+'a'+'r'+'e'+'L'+'i'+'n'+'k'+'.'+'k'+'d'+'n'+'s'+'.'+'f'+'r'</code><br>
+          <code>ProxyIPPool</code>：18 地区（HK/TW/JP/KR/SG/IN/GB/FR/DE/NL/SE/FI/PL/RU/CH/LV/US/CA）<br>
+          <code>stickyShuffle</code>：同目标确定性乱序（会话粘住同出口）
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-head">
+        <span class="tag-badge tag-keep">保留</span>
+        <div class="card-title">两模式出站（auto / global，fixed 归一）</div>
+        <span class="card-id">applyOutboundRules</span>
+      </div>
+      <div class="card-body">
+        <ul>
+          <li><strong>auto 智能分流</strong>：CF 直连优先 → 失败切反代/链式 → 保留兜底反代</li>
+          <li><strong>global 全局代理</strong>：固定出口语义（须 CUSTOM/LOCAL 列表型），不保留兜底</li>
+          <li><code>fixed</code> 旧值自动归一为 <code>global</code>（两模式制）</li>
+          <li><code>forceProxy = outbound === 'global' || !!inlineExit</code></li>
+          <li>兜底反代仅 <code>outbound === 'auto'</code> 时保留</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-head">
+        <span class="tag-badge tag-keep">保留</span>
+        <div class="card-title">智能出站候选解析</div>
+        <span class="card-id">resolveProxyCandidates</span>
+      </div>
+      <div class="card-body">
+        <ul>
+          <li><strong>OFFICIAL</strong>：官方反代双层（colo 子域 + 裸域）</li>
+          <li><strong>CUSTOM / LOCAL</strong>：自定义出口池（内联 + API 直链，base64 自动解码，5min 缓存）</li>
+          <li><strong>固定地区码</strong>：18 地区池精确匹配</li>
+          <li><strong>AUTO</strong>：同区池域名（按 <code>cf.country</code> 筛选）</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-head">
+        <span class="tag-badge tag-keep">保留</span>
+        <div class="card-title">竞速拨号 + 失败记忆 + 看门狗</div>
+        <span class="card-id">raceDial / manualPipe</span>
+      </div>
+      <div class="card-body">
+        <ul>
+          <li><strong>竞速拨号</strong>：批 6 并发，3s 建连超时，首包写最快者，败者即关</li>
+          <li><strong>失败记忆</strong>：拨败 30s TTL + 指数退避（BlackholeBase 60s → 10min 上限）</li>
+          <li><strong>首字节看门狗</strong>：EMA 自适应阈值（10s 下限 / 20s 上限），黑洞标记</li>
+          <li><strong>BYOB 下行管道</strong>：32KB 聚合 / 1ms 刷出 / 448KB 水位</li>
+          <li><strong>上行写手</strong>：小包攒 32KB / 2ms 出帧，超帧直通</li>
+          <li><strong>微任务环形队列</strong>：2048 槽位，8MB 字节上限</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-head">
+        <span class="tag-badge tag-keep">保留</span>
+        <div class="card-title">DoH 劫持（53 端口 TCP/UDP）</div>
+        <span class="card-id">dohQuery / feedFrames</span>
+      </div>
+      <div class="card-body">
+        <ul>
+          <li>双端点竞速（Cloudflare + Google）+ 250ms 错峰</li>
+          <li>粘性端点（<code>dohPreferred</code>）：上次赢家优先单发，失败升级全端点竞速</li>
+          <li>TTL 缓存（60s）+ 过期缓存兜底（10s）</li>
+          <li>TCP-DNS 空闲 5 分钟发 1000 关闭</li>
+          <li>支持面板自定义 DoH URL（<code>Doh</code> 配置项）</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-head">
+        <span class="tag-badge tag-keep">保留</span>
+        <div class="card-title">首页伪装反代 + 版本查询</div>
+        <span class="card-id">handleFakePage / apiVersion</span>
+      </div>
+      <div class="card-body">
+        <ul>
+          <li><strong>伪装页</strong>：非代理请求反代到 <code>https://www.xinhuanet.com/</code>，域名重写</li>
+          <li><strong>版本查询</strong>：<code>GET /api/version</code> 返回 <code>v4.4.5-snippet</code>（免鉴权）</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- 功能矩阵 -->
+  <section id="matrix">
+    <div class="sec-head">
+      <div class="num">五</div>
+      <h2>功能矩阵对比</h2>
+    </div>
+
+    <table class="compare-table">
+      <thead><tr><th>功能</th><th>官方原版</th><th>Snippet 精简版</th><th>状态</th></tr></thead>
+      <tbody>
+        <tr><td>WS 传输（0-RTT 早期数据）</td><td class="yes">✅</td><td class="yes">✅</td><td>保留</td></tr>
+        <tr><td>XHTTP 传输（stream-one）</td><td class="yes">✅</td><td class="yes">✅</td><td>保留</td></tr>
+        <tr><td>VLESS 认证（UUID 校验）</td><td class="yes">✅</td><td class="yes">✅</td><td>保留</td></tr>
+        <tr><td>两模式出站（auto/global，fixed 归一）</td><td class="yes">✅</td><td class="yes">✅</td><td>保留</td></tr>
+        <tr><td>官方反代池（拆字写法）</td><td class="yes">✅</td><td class="yes">✅</td><td>保留</td></tr>
+        <tr><td>三方反代池（18 地区，拆字写法）</td><td class="yes">✅</td><td class="yes">✅</td><td>保留</td></tr>
+        <tr><td>CUSTOM/LOCAL 出口池（API 直链 + base64）</td><td class="yes">✅</td><td class="yes">✅</td><td>保留</td></tr>
+        <tr><td>竞速拨号（批6/3s）</td><td class="yes">✅</td><td class="yes">✅</td><td>保留</td></tr>
+        <tr><td>失败记忆（指数退避）</td><td class="yes">✅</td><td class="yes">✅</td><td>保留</td></tr>
+        <tr><td>首字节看门狗（EMA 自适应）</td><td class="yes">✅</td><td class="yes">✅</td><td>保留</td></tr>
+        <tr><td>DoH 劫持（TCP/UDP 53 端口）</td><td class="yes">✅</td><td class="yes">✅</td><td>保留</td></tr>
+        <tr><td>首页伪装反代</td><td class="yes">✅</td><td class="yes">✅</td><td>保留</td></tr>
+        <tr><td>版本查询 /api/version</td><td class="yes">✅</td><td class="yes">✅</td><td>保留</td></tr>
+        <tr><td>Worker 部署兼容</td><td class="yes">✅</td><td class="yes">✅</td><td>保留</td></tr>
+        <tr><td>Snippets 32KB 部署</td><td class="no">❌ 超出</td><td class="yes">✅ 达标</td><td>新增能力</td></tr>
+        <tr><td>链式代理（Socks5/HTTP 上游）</td><td class="yes">✅</td><td class="no">❌</td><td class="no">删除</td></tr>
+        <tr><td>D1 数据库绑定</td><td class="yes">✅</td><td class="no">❌</td><td class="no">删除</td></tr>
+        <tr><td>配置推送接收 /api/sync/receive-config</td><td class="yes">✅</td><td class="no">❌</td><td class="no">删除</td></tr>
+        <tr><td>配置来源</td><td>D1 直读</td><td class="mod">拉取主后端</td><td class="mod">改造</td></tr>
+        <tr><td>配置缓存失效（推送代数）</td><td class="yes">✅</td><td class="no">❌</td><td class="no">随 D1 删除</td></tr>
+      </tbody>
+    </table>
+  </section>
+
+  <!-- 部署建议 -->
+  <section id="deploy">
+    <div class="sec-head">
+      <div class="num">六</div>
+      <h2>选型与部署建议</h2>
+    </div>
+
+    <div class="card">
+      <div class="card-head">
+        <span class="tag-badge tag-keep">推荐</span>
+        <div class="card-title">何时用 Snippet 精简版</div>
+      </div>
+      <div class="card-body">
+        <ul>
+          <li>✅ 部署到 <strong>CF Snippets</strong>（32KB 限制场景）</li>
+          <li>✅ 不需要链式代理（反代/直连已足够）</li>
+          <li>✅ 配置由主后端统一管理（拉取模式）</li>
+          <li>✅ 需要 WS + XHTTP 双传输</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-head">
+        <span class="tag-badge tag-mod">替代</span>
+        <div class="card-title">何时用官方原版</div>
+      </div>
+      <div class="card-body">
+        <ul>
+          <li>⚠️ 部署到 <strong>Worker</strong>（无 32KB 限制）</li>
+          <li>⚠️ 需要<strong>链式代理</strong>（Socks5/HTTP 上游）</li>
+          <li>⚠️ 需要<strong>D1 直读</strong>（低延迟，不走 HTTP 拉取）</li>
+          <li>⚠�️ 需要<strong>推送接收</strong>（主端推送而非子端拉取）</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="note">
+      <strong>部署 Snippet 精简版前</strong>：核对可编辑区 <code>CONFIG_URL</code>（主后端 /api/node-config 地址）与 <code>SYNC_KEY</code>（与主后端 SyncKey 一致）。余量仅 5 字节，后续修改需谨慎。
+    </div>
+  </section>
+
+  <footer>
+    <div>子后端精简对比报告</div>
+    <div style="margin-top:8px;">
+      官方原版 v4.4.5（59,487 字节）
+      <span class="sep">·</span> Snippet 精简版（32,763 字节）
+      <span class="sep">·</span> 压缩率 45%
+    </div>
+  </footer>
+
+</div>
+</body>
+</html>

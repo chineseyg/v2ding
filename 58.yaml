@@ -1,0 +1,184 @@
+dns:
+    enable: true
+    ipv6: false
+    default-nameserver: [119.29.29.29, 114.114.114.114]
+    nameserver-policy: { 'geosite:cn': [119.29.29.29, 114.114.114.114], 'geosite:geolocation-!cn': [8.8.8.8, 1.1.1.1] }
+    proxy-server-nameserver: [119.29.29.29, 114.114.114.114]
+    nameserver: [119.29.29.29, 114.114.114.114]
+    fallback: [8.8.8.8, 1.1.1.1]
+proxies:
+    - { name: '🇭🇰 香港专线 01', type: ss, server: io.sparkcdn.cc, port: 43525, cipher: 2022-blake3-aes-256-gcm, password: 'Nzg2ZjAyYjQwOWY5NzliNTI3ODUxMjU3ZjQxOGM5MDY=:MTI2YjY2MjMtYzJjNi00ZTEyLTkyZjItODhmNTRhOTI=', udp: true }
+    - { name: '🇭🇰 香港专线 02', type: ss, server: io.sparkcdn.cc, port: 43501, cipher: 2022-blake3-aes-256-gcm, password: 'ODdkMTdlZjg1YjYyNTI1YWM0YzI0MzAwMDNlYjE0ODE=:MTI2YjY2MjMtYzJjNi00ZTEyLTkyZjItODhmNTRhOTI=', udp: true }
+    - { name: '🇭🇰 香港专线 03', type: ss, server: io.sparkcdn.cc, port: 43502, cipher: 2022-blake3-aes-256-gcm, password: 'ODdkMTdlZjg1YjYyNTI1YWM0YzI0MzAwMDNlYjE0ODE=:MTI2YjY2MjMtYzJjNi00ZTEyLTkyZjItODhmNTRhOTI=', udp: true }
+    - { name: '🇭🇰 香港专线 04', type: ss, server: io.sparkcdn.cc, port: 43503, cipher: 2022-blake3-aes-256-gcm, password: 'ODdkMTdlZjg1YjYyNTI1YWM0YzI0MzAwMDNlYjE0ODE=:MTI2YjY2MjMtYzJjNi00ZTEyLTkyZjItODhmNTRhOTI=', udp: true }
+    - { name: '🇭🇰 香港专线 05', type: ss, server: io.sparkcdn.cc, port: 43504, cipher: 2022-blake3-aes-256-gcm, password: 'ODdkMTdlZjg1YjYyNTI1YWM0YzI0MzAwMDNlYjE0ODE=:MTI2YjY2MjMtYzJjNi00ZTEyLTkyZjItODhmNTRhOTI=', udp: true }
+    - { name: '🇭🇰 香港实验 A｜0.2x', type: ss, server: xx.sparkcdn.cc, port: 43529, cipher: 2022-blake3-aes-256-gcm, password: 'ZWM2YmNkYzRjOGZhNWNiMWI1Yzk0ODk3Y2RlMjViYWU=:MTI2YjY2MjMtYzJjNi00ZTEyLTkyZjItODhmNTRhOTI=', udp: true }
+    - { name: '🇭🇰 香港实验 B｜0.2x', type: ss, server: xx.sparkcdn.cc, port: 43530, cipher: 2022-blake3-aes-256-gcm, password: 'MmFkMWU2MTVhOTIwN2MyYTA4Y2NkNGE4NWEyZjhkZGI=:MTI2YjY2MjMtYzJjNi00ZTEyLTkyZjItODhmNTRhOTI=', udp: true }
+    - { name: '🇹🇼 台湾专线 01', type: ss, server: io.sparkcdn.cc, port: 43531, cipher: 2022-blake3-aes-256-gcm, password: 'ZTBiZDE0OTFjMTk2MTU0YTMxNWUzNGI0YWVmYjM4M2U=:MTI2YjY2MjMtYzJjNi00ZTEyLTkyZjItODhmNTRhOTI=', udp: true }
+    - { name: '🇹🇼 台湾专线 02', type: ss, server: io.sparkcdn.cc, port: 43534, cipher: 2022-blake3-aes-256-gcm, password: 'OTIwMWJhZjljNzhhZGRmY2IwNzI3NTUwZTk1Y2I0M2Y=:MTI2YjY2MjMtYzJjNi00ZTEyLTkyZjItODhmNTRhOTI=', udp: true }
+    - { name: '🇹🇼 台湾专线 03', type: ss, server: io.sparkcdn.cc, port: 43537, cipher: 2022-blake3-aes-256-gcm, password: 'YzQyNGY4ZDVmNTY5NmViNmE1NGM1NDA5YzEyNWU3NjY=:MTI2YjY2MjMtYzJjNi00ZTEyLTkyZjItODhmNTRhOTI=', udp: true }
+    - { name: '🇹🇼 台湾专线 04', type: ss, server: io.sparkcdn.cc, port: 43505, cipher: 2022-blake3-aes-256-gcm, password: 'ODdkMTdlZjg1YjYyNTI1YWM0YzI0MzAwMDNlYjE0ODE=:MTI2YjY2MjMtYzJjNi00ZTEyLTkyZjItODhmNTRhOTI=', udp: true }
+    - { name: '🇹🇼 台湾专线 05', type: ss, server: io.sparkcdn.cc, port: 43506, cipher: 2022-blake3-aes-256-gcm, password: 'ODdkMTdlZjg1YjYyNTI1YWM0YzI0MzAwMDNlYjE0ODE=:MTI2YjY2MjMtYzJjNi00ZTEyLTkyZjItODhmNTRhOTI=', udp: true }
+    - { name: '🇹🇼 台湾实验 A｜0.2x', type: ss, server: xx.sparkcdn.cc, port: 43540, cipher: 2022-blake3-aes-256-gcm, password: 'YWEyNjI3NmExNWY4NTQ4M2MzMmNmOGQ3NWM2ZmI1YmQ=:MTI2YjY2MjMtYzJjNi00ZTEyLTkyZjItODhmNTRhOTI=', udp: true }
+    - { name: '🇹🇼 台湾实验 B｜0.2x', type: ss, server: xx.sparkcdn.cc, port: 43541, cipher: 2022-blake3-aes-256-gcm, password: 'MjFmYmU3NGMwMWQ4MzdmZTBlODZlYmUyY2EzM2VhNWE=:MTI2YjY2MjMtYzJjNi00ZTEyLTkyZjItODhmNTRhOTI=', udp: true }
+    - { name: '🇸🇬 新加坡专线 01', type: ss, server: io.sparkcdn.cc, port: 43526, cipher: 2022-blake3-aes-256-gcm, password: 'NTUyYWU5ZmViOGRkYTdkOGNhNjE4NGU0Y2Q3NGUyM2M=:MTI2YjY2MjMtYzJjNi00ZTEyLTkyZjItODhmNTRhOTI=', udp: true }
+    - { name: '🇸🇬 新加坡专线 02', type: ss, server: io.sparkcdn.cc, port: 43509, cipher: 2022-blake3-aes-256-gcm, password: 'ODdkMTdlZjg1YjYyNTI1YWM0YzI0MzAwMDNlYjE0ODE=:MTI2YjY2MjMtYzJjNi00ZTEyLTkyZjItODhmNTRhOTI=', udp: true }
+    - { name: '🇸🇬 新加坡专线 03', type: ss, server: io.sparkcdn.cc, port: 43510, cipher: 2022-blake3-aes-256-gcm, password: 'ODdkMTdlZjg1YjYyNTI1YWM0YzI0MzAwMDNlYjE0ODE=:MTI2YjY2MjMtYzJjNi00ZTEyLTkyZjItODhmNTRhOTI=', udp: true }
+    - { name: '🇸🇬 新加坡专线 04', type: ss, server: io.sparkcdn.cc, port: 43507, cipher: 2022-blake3-aes-256-gcm, password: 'ODdkMTdlZjg1YjYyNTI1YWM0YzI0MzAwMDNlYjE0ODE=:MTI2YjY2MjMtYzJjNi00ZTEyLTkyZjItODhmNTRhOTI=', udp: true }
+    - { name: '🇸🇬 新加坡专线 05', type: ss, server: io.sparkcdn.cc, port: 43508, cipher: 2022-blake3-aes-256-gcm, password: 'ODdkMTdlZjg1YjYyNTI1YWM0YzI0MzAwMDNlYjE0ODE=:MTI2YjY2MjMtYzJjNi00ZTEyLTkyZjItODhmNTRhOTI=', udp: true }
+    - { name: '🇸🇬 新加坡实验 A｜0.2x', type: ss, server: xx.sparkcdn.cc, port: 43532, cipher: 2022-blake3-aes-256-gcm, password: 'ODFmMDNiMjM3NjM5YjJmYjU4ZTg2OWYxM2U1ZjViODM=:MTI2YjY2MjMtYzJjNi00ZTEyLTkyZjItODhmNTRhOTI=', udp: true }
+    - { name: '🇸🇬 新加坡实验 B｜0.2x', type: ss, server: xx.sparkcdn.cc, port: 43533, cipher: 2022-blake3-aes-256-gcm, password: 'MDhmODQxOGRhNDNmZWE0Y2M0YjMzMzM3YTRjNjFjNjk=:MTI2YjY2MjMtYzJjNi00ZTEyLTkyZjItODhmNTRhOTI=', udp: true }
+    - { name: '🇯🇵 日本专线 01', type: ss, server: io.sparkcdn.cc, port: 43527, cipher: 2022-blake3-aes-256-gcm, password: 'ZmNiYjhlZWU3ODI2ZjZlMGZmZDY2MDI0OGFkOGExNzQ=:MTI2YjY2MjMtYzJjNi00ZTEyLTkyZjItODhmNTRhOTI=', udp: true }
+    - { name: '🇯🇵 日本专线 02', type: ss, server: io.sparkcdn.cc, port: 43513, cipher: 2022-blake3-aes-256-gcm, password: 'ODdkMTdlZjg1YjYyNTI1YWM0YzI0MzAwMDNlYjE0ODE=:MTI2YjY2MjMtYzJjNi00ZTEyLTkyZjItODhmNTRhOTI=', udp: true }
+    - { name: '🇯🇵 日本专线 03', type: ss, server: io.sparkcdn.cc, port: 43514, cipher: 2022-blake3-aes-256-gcm, password: 'ODdkMTdlZjg1YjYyNTI1YWM0YzI0MzAwMDNlYjE0ODE=:MTI2YjY2MjMtYzJjNi00ZTEyLTkyZjItODhmNTRhOTI=', udp: true }
+    - { name: '🇯🇵 日本专线 04', type: ss, server: io.sparkcdn.cc, port: 43511, cipher: 2022-blake3-aes-256-gcm, password: 'ODdkMTdlZjg1YjYyNTI1YWM0YzI0MzAwMDNlYjE0ODE=:MTI2YjY2MjMtYzJjNi00ZTEyLTkyZjItODhmNTRhOTI=', udp: true }
+    - { name: '🇯🇵 日本专线 05', type: ss, server: io.sparkcdn.cc, port: 43512, cipher: 2022-blake3-aes-256-gcm, password: 'ODdkMTdlZjg1YjYyNTI1YWM0YzI0MzAwMDNlYjE0ODE=:MTI2YjY2MjMtYzJjNi00ZTEyLTkyZjItODhmNTRhOTI=', udp: true }
+    - { name: '🇯🇵 日本实验 A｜0.2x', type: ss, server: xx.sparkcdn.cc, port: 43535, cipher: 2022-blake3-aes-256-gcm, password: 'MDQ1ODkxMjA1Yjk3YWJkOWEzYzQzOTllZjhiNGUwMWM=:MTI2YjY2MjMtYzJjNi00ZTEyLTkyZjItODhmNTRhOTI=', udp: true }
+    - { name: '🇯🇵 日本实验 B｜0.2x', type: ss, server: xx.sparkcdn.cc, port: 43536, cipher: 2022-blake3-aes-256-gcm, password: 'MGY5ZWJkODA5ODYzZDgxYjI0ZDQ3ZmFiYjk2MjRiOTk=:MTI2YjY2MjMtYzJjNi00ZTEyLTkyZjItODhmNTRhOTI=', udp: true }
+    - { name: '🇺🇸 美国专线 01', type: ss, server: io.sparkcdn.cc, port: 43528, cipher: 2022-blake3-aes-256-gcm, password: 'YzFmOTM0N2Q4ZGY5YzJlZTQ0YjkyZTliYjc2YjJiYTA=:MTI2YjY2MjMtYzJjNi00ZTEyLTkyZjItODhmNTRhOTI=', udp: true }
+    - { name: '🇺🇸 美国专线 02', type: ss, server: io.sparkcdn.cc, port: 43517, cipher: 2022-blake3-aes-256-gcm, password: 'ODdkMTdlZjg1YjYyNTI1YWM0YzI0MzAwMDNlYjE0ODE=:MTI2YjY2MjMtYzJjNi00ZTEyLTkyZjItODhmNTRhOTI=', udp: true }
+    - { name: '🇺🇸 美国专线 03', type: ss, server: io.sparkcdn.cc, port: 43518, cipher: 2022-blake3-aes-256-gcm, password: 'ODdkMTdlZjg1YjYyNTI1YWM0YzI0MzAwMDNlYjE0ODE=:MTI2YjY2MjMtYzJjNi00ZTEyLTkyZjItODhmNTRhOTI=', udp: true }
+    - { name: '🇺🇸 美国专线 04', type: ss, server: io.sparkcdn.cc, port: 43515, cipher: 2022-blake3-aes-256-gcm, password: 'ODdkMTdlZjg1YjYyNTI1YWM0YzI0MzAwMDNlYjE0ODE=:MTI2YjY2MjMtYzJjNi00ZTEyLTkyZjItODhmNTRhOTI=', udp: true }
+    - { name: '🇺🇸 美国专线 05', type: ss, server: io.sparkcdn.cc, port: 43516, cipher: 2022-blake3-aes-256-gcm, password: 'ODdkMTdlZjg1YjYyNTI1YWM0YzI0MzAwMDNlYjE0ODE=:MTI2YjY2MjMtYzJjNi00ZTEyLTkyZjItODhmNTRhOTI=', udp: true }
+    - { name: '🇺🇸 美国实验 A｜0.2x', type: ss, server: xx.sparkcdn.cc, port: 43538, cipher: 2022-blake3-aes-256-gcm, password: 'ZWU5NzkwYWNkYjkxMzlmOGZjZDdmNzAyZWRmYWViNzY=:MTI2YjY2MjMtYzJjNi00ZTEyLTkyZjItODhmNTRhOTI=', udp: true }
+    - { name: '🇺🇸 美国实验 B｜0.2x', type: ss, server: xx.sparkcdn.cc, port: 43539, cipher: 2022-blake3-aes-256-gcm, password: 'YTRiNTM0MmU0OGY4ZmEzM2VjZGJkNDU5NGZhYjMxZGM=:MTI2YjY2MjMtYzJjNi00ZTEyLTkyZjItODhmNTRhOTI=', udp: true }
+    - { name: '🇲🇴 澳门专线', type: ss, server: io.sparkcdn.cc, port: 43523, cipher: 2022-blake3-aes-256-gcm, password: 'ODdkMTdlZjg1YjYyNTI1YWM0YzI0MzAwMDNlYjE0ODE=:MTI2YjY2MjMtYzJjNi00ZTEyLTkyZjItODhmNTRhOTI=', udp: true }
+    - { name: '🇰🇷 韩国专线', type: ss, server: io.sparkcdn.cc, port: 43519, cipher: 2022-blake3-aes-256-gcm, password: 'ODdkMTdlZjg1YjYyNTI1YWM0YzI0MzAwMDNlYjE0ODE=:MTI2YjY2MjMtYzJjNi00ZTEyLTkyZjItODhmNTRhOTI=', udp: true }
+    - { name: '🇩🇪 德国专线', type: ss, server: io.sparkcdn.cc, port: 43524, cipher: 2022-blake3-aes-256-gcm, password: 'ODdkMTdlZjg1YjYyNTI1YWM0YzI0MzAwMDNlYjE0ODE=:MTI2YjY2MjMtYzJjNi00ZTEyLTkyZjItODhmNTRhOTI=', udp: true }
+    - { name: '🇳🇱 荷兰专线', type: ss, server: io.sparkcdn.cc, port: 43521, cipher: 2022-blake3-aes-256-gcm, password: 'ODdkMTdlZjg1YjYyNTI1YWM0YzI0MzAwMDNlYjE0ODE=:MTI2YjY2MjMtYzJjNi00ZTEyLTkyZjItODhmNTRhOTI=', udp: true }
+    - { name: '🇮🇹 意大利专线', type: ss, server: io.sparkcdn.cc, port: 43522, cipher: 2022-blake3-aes-256-gcm, password: 'ODdkMTdlZjg1YjYyNTI1YWM0YzI0MzAwMDNlYjE0ODE=:MTI2YjY2MjMtYzJjNi00ZTEyLTkyZjItODhmNTRhOTI=', udp: true }
+    - { name: '🇬🇧 英国专线', type: ss, server: io.sparkcdn.cc, port: 43520, cipher: 2022-blake3-aes-256-gcm, password: 'ODdkMTdlZjg1YjYyNTI1YWM0YzI0MzAwMDNlYjE0ODE=:MTI2YjY2MjMtYzJjNi00ZTEyLTkyZjItODhmNTRhOTI=', udp: true }
+proxy-groups:
+    - { name: '🌍 国外媒体', type: select, proxies: ['🇭🇰 香港专线 01', '🇭🇰 香港专线 02', '🇭🇰 香港专线 03', '🇭🇰 香港专线 04', '🇭🇰 香港专线 05', '🇭🇰 香港实验 A｜0.2x', '🇭🇰 香港实验 B｜0.2x', '🇹🇼 台湾专线 01', '🇹🇼 台湾专线 02', '🇹🇼 台湾专线 03', '🇹🇼 台湾专线 04', '🇹🇼 台湾专线 05', '🇹🇼 台湾实验 A｜0.2x', '🇹🇼 台湾实验 B｜0.2x', '🇸🇬 新加坡专线 01', '🇸🇬 新加坡专线 02', '🇸🇬 新加坡专线 03', '🇸🇬 新加坡专线 04', '🇸🇬 新加坡专线 05', '🇸🇬 新加坡实验 A｜0.2x', '🇸🇬 新加坡实验 B｜0.2x', '🇯🇵 日本专线 01', '🇯🇵 日本专线 02', '🇯🇵 日本专线 03', '🇯🇵 日本专线 04', '🇯🇵 日本专线 05', '🇯🇵 日本实验 A｜0.2x', '🇯🇵 日本实验 B｜0.2x', '🇺🇸 美国专线 01', '🇺🇸 美国专线 02', '🇺🇸 美国专线 03', '🇺🇸 美国专线 04', '🇺🇸 美国专线 05', '🇺🇸 美国实验 A｜0.2x', '🇺🇸 美国实验 B｜0.2x', '🇲🇴 澳门专线', '🇰🇷 韩国专线', '🇩🇪 德国专线', '🇳🇱 荷兰专线', '🇮🇹 意大利专线', '🇬🇧 英国专线', '🎯 全球直连'] }
+    - { name: '💬 人工智能', type: select, proxies: ['🇭🇰 香港专线 01', '🇭🇰 香港专线 02', '🇭🇰 香港专线 03', '🇭🇰 香港专线 04', '🇭🇰 香港专线 05', '🇭🇰 香港实验 A｜0.2x', '🇭🇰 香港实验 B｜0.2x', '🇹🇼 台湾专线 01', '🇹🇼 台湾专线 02', '🇹🇼 台湾专线 03', '🇹🇼 台湾专线 04', '🇹🇼 台湾专线 05', '🇹🇼 台湾实验 A｜0.2x', '🇹🇼 台湾实验 B｜0.2x', '🇸🇬 新加坡专线 01', '🇸🇬 新加坡专线 02', '🇸🇬 新加坡专线 03', '🇸🇬 新加坡专线 04', '🇸🇬 新加坡专线 05', '🇸🇬 新加坡实验 A｜0.2x', '🇸🇬 新加坡实验 B｜0.2x', '🇯🇵 日本专线 01', '🇯🇵 日本专线 02', '🇯🇵 日本专线 03', '🇯🇵 日本专线 04', '🇯🇵 日本专线 05', '🇯🇵 日本实验 A｜0.2x', '🇯🇵 日本实验 B｜0.2x', '🇺🇸 美国专线 01', '🇺🇸 美国专线 02', '🇺🇸 美国专线 03', '🇺🇸 美国专线 04', '🇺🇸 美国专线 05', '🇺🇸 美国实验 A｜0.2x', '🇺🇸 美国实验 B｜0.2x', '🇲🇴 澳门专线', '🇰🇷 韩国专线', '🇩🇪 德国专线', '🇳🇱 荷兰专线', '🇮🇹 意大利专线', '🇬🇧 英国专线', '🎯 全球直连'] }
+    - { name: '📲 电报信息', type: select, proxies: ['🇭🇰 香港专线 01', '🇭🇰 香港专线 02', '🇭🇰 香港专线 03', '🇭🇰 香港专线 04', '🇭🇰 香港专线 05', '🇭🇰 香港实验 A｜0.2x', '🇭🇰 香港实验 B｜0.2x', '🇹🇼 台湾专线 01', '🇹🇼 台湾专线 02', '🇹🇼 台湾专线 03', '🇹🇼 台湾专线 04', '🇹🇼 台湾专线 05', '🇹🇼 台湾实验 A｜0.2x', '🇹🇼 台湾实验 B｜0.2x', '🇸🇬 新加坡专线 01', '🇸🇬 新加坡专线 02', '🇸🇬 新加坡专线 03', '🇸🇬 新加坡专线 04', '🇸🇬 新加坡专线 05', '🇸🇬 新加坡实验 A｜0.2x', '🇸🇬 新加坡实验 B｜0.2x', '🇯🇵 日本专线 01', '🇯🇵 日本专线 02', '🇯🇵 日本专线 03', '🇯🇵 日本专线 04', '🇯🇵 日本专线 05', '🇯🇵 日本实验 A｜0.2x', '🇯🇵 日本实验 B｜0.2x', '🇺🇸 美国专线 01', '🇺🇸 美国专线 02', '🇺🇸 美国专线 03', '🇺🇸 美国专线 04', '🇺🇸 美国专线 05', '🇺🇸 美国实验 A｜0.2x', '🇺🇸 美国实验 B｜0.2x', '🇲🇴 澳门专线', '🇰🇷 韩国专线', '🇩🇪 德国专线', '🇳🇱 荷兰专线', '🇮🇹 意大利专线', '🇬🇧 英国专线', '🎯 全球直连'] }
+    - { name: 'Ⓜ️ 微软服务', type: select, proxies: ['🎯 全球直连', '🇭🇰 香港专线 01', '🇭🇰 香港专线 02', '🇭🇰 香港专线 03', '🇭🇰 香港专线 04', '🇭🇰 香港专线 05', '🇭🇰 香港实验 A｜0.2x', '🇭🇰 香港实验 B｜0.2x', '🇹🇼 台湾专线 01', '🇹🇼 台湾专线 02', '🇹🇼 台湾专线 03', '🇹🇼 台湾专线 04', '🇹🇼 台湾专线 05', '🇹🇼 台湾实验 A｜0.2x', '🇹🇼 台湾实验 B｜0.2x', '🇸🇬 新加坡专线 01', '🇸🇬 新加坡专线 02', '🇸🇬 新加坡专线 03', '🇸🇬 新加坡专线 04', '🇸🇬 新加坡专线 05', '🇸🇬 新加坡实验 A｜0.2x', '🇸🇬 新加坡实验 B｜0.2x', '🇯🇵 日本专线 01', '🇯🇵 日本专线 02', '🇯🇵 日本专线 03', '🇯🇵 日本专线 04', '🇯🇵 日本专线 05', '🇯🇵 日本实验 A｜0.2x', '🇯🇵 日本实验 B｜0.2x', '🇺🇸 美国专线 01', '🇺🇸 美国专线 02', '🇺🇸 美国专线 03', '🇺🇸 美国专线 04', '🇺🇸 美国专线 05', '🇺🇸 美国实验 A｜0.2x', '🇺🇸 美国实验 B｜0.2x', '🇲🇴 澳门专线', '🇰🇷 韩国专线', '🇩🇪 德国专线', '🇳🇱 荷兰专线', '🇮🇹 意大利专线', '🇬🇧 英国专线'] }
+    - { name: '🍎 苹果服务', type: select, proxies: ['🎯 全球直连', '🇭🇰 香港专线 01', '🇭🇰 香港专线 02', '🇭🇰 香港专线 03', '🇭🇰 香港专线 04', '🇭🇰 香港专线 05', '🇭🇰 香港实验 A｜0.2x', '🇭🇰 香港实验 B｜0.2x', '🇹🇼 台湾专线 01', '🇹🇼 台湾专线 02', '🇹🇼 台湾专线 03', '🇹🇼 台湾专线 04', '🇹🇼 台湾专线 05', '🇹🇼 台湾实验 A｜0.2x', '🇹🇼 台湾实验 B｜0.2x', '🇸🇬 新加坡专线 01', '🇸🇬 新加坡专线 02', '🇸🇬 新加坡专线 03', '🇸🇬 新加坡专线 04', '🇸🇬 新加坡专线 05', '🇸🇬 新加坡实验 A｜0.2x', '🇸🇬 新加坡实验 B｜0.2x', '🇯🇵 日本专线 01', '🇯🇵 日本专线 02', '🇯🇵 日本专线 03', '🇯🇵 日本专线 04', '🇯🇵 日本专线 05', '🇯🇵 日本实验 A｜0.2x', '🇯🇵 日本实验 B｜0.2x', '🇺🇸 美国专线 01', '🇺🇸 美国专线 02', '🇺🇸 美国专线 03', '🇺🇸 美国专线 04', '🇺🇸 美国专线 05', '🇺🇸 美国实验 A｜0.2x', '🇺🇸 美国实验 B｜0.2x', '🇲🇴 澳门专线', '🇰🇷 韩国专线', '🇩🇪 德国专线', '🇳🇱 荷兰专线', '🇮🇹 意大利专线', '🇬🇧 英国专线'] }
+    - { name: '📢 谷歌推送', type: select, proxies: ['🎯 全球直连', '🇭🇰 香港专线 01', '🇭🇰 香港专线 02', '🇭🇰 香港专线 03', '🇭🇰 香港专线 04', '🇭🇰 香港专线 05', '🇭🇰 香港实验 A｜0.2x', '🇭🇰 香港实验 B｜0.2x', '🇹🇼 台湾专线 01', '🇹🇼 台湾专线 02', '🇹🇼 台湾专线 03', '🇹🇼 台湾专线 04', '🇹🇼 台湾专线 05', '🇹🇼 台湾实验 A｜0.2x', '🇹🇼 台湾实验 B｜0.2x', '🇸🇬 新加坡专线 01', '🇸🇬 新加坡专线 02', '🇸🇬 新加坡专线 03', '🇸🇬 新加坡专线 04', '🇸🇬 新加坡专线 05', '🇸🇬 新加坡实验 A｜0.2x', '🇸🇬 新加坡实验 B｜0.2x', '🇯🇵 日本专线 01', '🇯🇵 日本专线 02', '🇯🇵 日本专线 03', '🇯🇵 日本专线 04', '🇯🇵 日本专线 05', '🇯🇵 日本实验 A｜0.2x', '🇯🇵 日本实验 B｜0.2x', '🇺🇸 美国专线 01', '🇺🇸 美国专线 02', '🇺🇸 美国专线 03', '🇺🇸 美国专线 04', '🇺🇸 美国专线 05', '🇺🇸 美国实验 A｜0.2x', '🇺🇸 美国实验 B｜0.2x', '🇲🇴 澳门专线', '🇰🇷 韩国专线', '🇩🇪 德国专线', '🇳🇱 荷兰专线', '🇮🇹 意大利专线', '🇬🇧 英国专线'] }
+    - { name: '🎯 全球直连', type: select, proxies: [DIRECT, '🇭🇰 香港专线 01', '🇭🇰 香港专线 02', '🇭🇰 香港专线 03', '🇭🇰 香港专线 04', '🇭🇰 香港专线 05', '🇭🇰 香港实验 A｜0.2x', '🇭🇰 香港实验 B｜0.2x', '🇹🇼 台湾专线 01', '🇹🇼 台湾专线 02', '🇹🇼 台湾专线 03', '🇹🇼 台湾专线 04', '🇹🇼 台湾专线 05', '🇹🇼 台湾实验 A｜0.2x', '🇹🇼 台湾实验 B｜0.2x', '🇸🇬 新加坡专线 01', '🇸🇬 新加坡专线 02', '🇸🇬 新加坡专线 03', '🇸🇬 新加坡专线 04', '🇸🇬 新加坡专线 05', '🇸🇬 新加坡实验 A｜0.2x', '🇸🇬 新加坡实验 B｜0.2x', '🇯🇵 日本专线 01', '🇯🇵 日本专线 02', '🇯🇵 日本专线 03', '🇯🇵 日本专线 04', '🇯🇵 日本专线 05', '🇯🇵 日本实验 A｜0.2x', '🇯🇵 日本实验 B｜0.2x', '🇺🇸 美国专线 01', '🇺🇸 美国专线 02', '🇺🇸 美国专线 03', '🇺🇸 美国专线 04', '🇺🇸 美国专线 05', '🇺🇸 美国实验 A｜0.2x', '🇺🇸 美国实验 B｜0.2x', '🇲🇴 澳门专线', '🇰🇷 韩国专线', '🇩🇪 德国专线', '🇳🇱 荷兰专线', '🇮🇹 意大利专线', '🇬🇧 英国专线'] }
+    - { name: '🛑 全球拦截', type: select, proxies: [REJECT, DIRECT] }
+    - { name: '🍃 应用净化', type: select, proxies: [REJECT, DIRECT] }
+    - { name: '🐟 漏网之鱼', type: select, proxies: ['🇭🇰 香港专线 01', '🇭🇰 香港专线 02', '🇭🇰 香港专线 03', '🇭🇰 香港专线 04', '🇭🇰 香港专线 05', '🇭🇰 香港实验 A｜0.2x', '🇭🇰 香港实验 B｜0.2x', '🇹🇼 台湾专线 01', '🇹🇼 台湾专线 02', '🇹🇼 台湾专线 03', '🇹🇼 台湾专线 04', '🇹🇼 台湾专线 05', '🇹🇼 台湾实验 A｜0.2x', '🇹🇼 台湾实验 B｜0.2x', '🇸🇬 新加坡专线 01', '🇸🇬 新加坡专线 02', '🇸🇬 新加坡专线 03', '🇸🇬 新加坡专线 04', '🇸🇬 新加坡专线 05', '🇸🇬 新加坡实验 A｜0.2x', '🇸🇬 新加坡实验 B｜0.2x', '🇯🇵 日本专线 01', '🇯🇵 日本专线 02', '🇯🇵 日本专线 03', '🇯🇵 日本专线 04', '🇯🇵 日本专线 05', '🇯🇵 日本实验 A｜0.2x', '🇯🇵 日本实验 B｜0.2x', '🇺🇸 美国专线 01', '🇺🇸 美国专线 02', '🇺🇸 美国专线 03', '🇺🇸 美国专线 04', '🇺🇸 美国专线 05', '🇺🇸 美国实验 A｜0.2x', '🇺🇸 美国实验 B｜0.2x', '🇲🇴 澳门专线', '🇰🇷 韩国专线', '🇩🇪 德国专线', '🇳🇱 荷兰专线', '🇮🇹 意大利专线', '🇬🇧 英国专线', '🎯 全球直连'] }
+rules:
+    - 'RULE-SET,LocalAreaNetwork (Domain),🎯 全球直连'
+    - 'RULE-SET,LocalAreaNetwork (IP-CIDR),🎯 全球直连,no-resolve'
+    - 'RULE-SET,UnBan (Domain),🎯 全球直连'
+    - 'DOMAIN,www.sparkcloud.uk,🎯 全球直连'
+    - 'DOMAIN-KEYWORD,admarvel,🛑 全球拦截'
+    - 'DOMAIN-KEYWORD,admaster,🛑 全球拦截'
+    - 'DOMAIN-KEYWORD,adsage,🛑 全球拦截'
+    - 'DOMAIN-KEYWORD,adsensor,🛑 全球拦截'
+    - 'DOMAIN-KEYWORD,adsmogo,🛑 全球拦截'
+    - 'DOMAIN-KEYWORD,adsrvmedia,🛑 全球拦截'
+    - 'DOMAIN-KEYWORD,adsserving,🛑 全球拦截'
+    - 'DOMAIN-KEYWORD,adsystem,🛑 全球拦截'
+    - 'DOMAIN-KEYWORD,adwords,🛑 全球拦截'
+    - 'DOMAIN-KEYWORD,applovin,🛑 全球拦截'
+    - 'DOMAIN-KEYWORD,appsflyer,🛑 全球拦截'
+    - 'DOMAIN-KEYWORD,domob,🛑 全球拦截'
+    - 'DOMAIN-KEYWORD,duomeng,🛑 全球拦截'
+    - 'DOMAIN-KEYWORD,dwtrack,🛑 全球拦截'
+    - 'DOMAIN-KEYWORD,guanggao,🛑 全球拦截'
+    - 'DOMAIN-KEYWORD,omgmta,🛑 全球拦截'
+    - 'DOMAIN-KEYWORD,omniture,🛑 全球拦截'
+    - 'DOMAIN-KEYWORD,openx,🛑 全球拦截'
+    - 'DOMAIN-KEYWORD,partnerad,🛑 全球拦截'
+    - 'DOMAIN-KEYWORD,pingfore,🛑 全球拦截'
+    - 'DOMAIN-KEYWORD,socdm,🛑 全球拦截'
+    - 'DOMAIN-KEYWORD,supersonicads,🛑 全球拦截'
+    - 'DOMAIN-KEYWORD,wlmonitor,🛑 全球拦截'
+    - 'DOMAIN-KEYWORD,zjtoolbar,🛑 全球拦截'
+    - 'RULE-SET,BanAD (Domain),🛑 全球拦截'
+    - 'DOMAIN-KEYWORD,omgmtaw,🍃 应用净化'
+    - 'RULE-SET,BanProgramAD (Domain),🍃 应用净化'
+    - 'RULE-SET,BanProgramAD (IP-CIDR),🍃 应用净化,no-resolve'
+    - 'RULE-SET,GoogleFCM (Domain),📢 谷歌推送'
+    - 'RULE-SET,GoogleFCM (IP-CIDR),📢 谷歌推送,no-resolve'
+    - 'RULE-SET,GoogleCN (Domain),🎯 全球直连'
+    - 'RULE-SET,GoogleGemini (Domain),💬 人工智能'
+    - 'RULE-SET,SteamCN (Domain),🎯 全球直连'
+    - 'DOMAIN-KEYWORD,1drv,Ⓜ️ 微软服务'
+    - 'DOMAIN-KEYWORD,microsoft,Ⓜ️ 微软服务'
+    - 'RULE-SET,Microsoft (Domain),Ⓜ️ 微软服务'
+    - 'RULE-SET,Apple (Domain),🍎 苹果服务'
+    - 'RULE-SET,Apple (IP-CIDR),🍎 苹果服务,no-resolve'
+    - 'DOMAIN-KEYWORD,anthropic,💬 人工智能'
+    - 'DOMAIN-KEYWORD,claude,💬 人工智能'
+    - 'DOMAIN-KEYWORD,openai,💬 人工智能'
+    - 'DOMAIN-KEYWORD,chatgpt,💬 人工智能'
+    - 'RULE-SET,AI (Domain),💬 人工智能'
+    - 'RULE-SET,OpenAi (Domain),💬 人工智能'
+    - 'RULE-SET,MetaAi (Domain),💬 人工智能'
+    - 'RULE-SET,Telegram (Domain),📲 电报信息'
+    - 'RULE-SET,Telegram (IP-CIDR),📲 电报信息,no-resolve'
+    - 'DOMAIN-KEYWORD,abematv.akamaized.net,🌍 国外媒体'
+    - 'DOMAIN-KEYWORD,avoddashs,🌍 国外媒体'
+    - 'DOMAIN-KEYWORD,bbcfmt,🌍 国外媒体'
+    - 'DOMAIN-KEYWORD,uk-live,🌍 国外媒体'
+    - 'DOMAIN-KEYWORD,voddazn,🌍 国外媒体'
+    - 'DOMAIN-KEYWORD,hbogoasia,🌍 国外媒体'
+    - 'DOMAIN-KEYWORD,jooxweb-api,🌍 国外媒体'
+    - 'DOMAIN-KEYWORD,japonx,🌍 国外媒体'
+    - 'DOMAIN-KEYWORD,japronx,🌍 国外媒体'
+    - 'DOMAIN-KEYWORD,nowtv100,🌍 国外媒体'
+    - 'DOMAIN-KEYWORD,rthklive,🌍 国外媒体'
+    - 'DOMAIN-KEYWORD,apiproxy-device-prod-nlb-,🌍 国外媒体'
+    - 'DOMAIN-KEYWORD,dualstack.apiproxy-,🌍 国外媒体'
+    - 'DOMAIN-KEYWORD,netflixdnstest,🌍 国外媒体'
+    - 'DOMAIN-KEYWORD,nivod,🌍 国外媒体'
+    - 'DOMAIN-KEYWORD,olevod,🌍 国外媒体'
+    - 'DOMAIN-KEYWORD,-spotify-,🌍 国外媒体'
+    - 'DOMAIN-KEYWORD,spotify.com,🌍 国外媒体'
+    - 'DOMAIN-KEYWORD,tiktokcdn,🌍 国外媒体'
+    - 'DOMAIN-KEYWORD,ttvnw,🌍 国外媒体'
+    - 'DOMAIN-KEYWORD,youtube,🌍 国外媒体'
+    - 'RULE-SET,ProxyMedia (Domain),🌍 国外媒体'
+    - 'RULE-SET,ProxyMedia (IP-CIDR),🌍 国外媒体,no-resolve'
+    - 'DOMAIN-KEYWORD,360buy,🎯 全球直连'
+    - 'DOMAIN-KEYWORD,alicdn,🎯 全球直连'
+    - 'DOMAIN-KEYWORD,alimama,🎯 全球直连'
+    - 'DOMAIN-KEYWORD,alipay,🎯 全球直连'
+    - 'DOMAIN-KEYWORD,appzapp,🎯 全球直连'
+    - 'DOMAIN-KEYWORD,baidupcs,🎯 全球直连'
+    - 'DOMAIN-KEYWORD,bilibili,🎯 全球直连'
+    - 'DOMAIN-KEYWORD,ccgslb,🎯 全球直连'
+    - 'DOMAIN-KEYWORD,chinacache,🎯 全球直连'
+    - 'DOMAIN-KEYWORD,duobao,🎯 全球直连'
+    - 'DOMAIN-KEYWORD,jdpay,🎯 全球直连'
+    - 'DOMAIN-KEYWORD,moke,🎯 全球直连'
+    - 'DOMAIN-KEYWORD,qhimg,🎯 全球直连'
+    - 'DOMAIN-KEYWORD,vpimg,🎯 全球直连'
+    - 'DOMAIN-KEYWORD,xiami,🎯 全球直连'
+    - 'DOMAIN-KEYWORD,xiaomi,🎯 全球直连'
+    - 'RULE-SET,ChinaDomain (Domain),🎯 全球直连'
+    - 'RULE-SET,ChinaDomain (IP-CIDR),🎯 全球直连,no-resolve'
+    - 'RULE-SET,ChinaCompanyIp (IP-CIDR),🎯 全球直连,no-resolve'
+    - 'GEOIP,CN,🎯 全球直连'
+    - 'MATCH,🐟 漏网之鱼'
+rule-providers:
+    'LocalAreaNetwork (Domain)': { type: http, behavior: domain, url: 'https://api.asailor.org/getruleset?type=3&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0FDTDRTU1IvQUNMNFNTUi9tYXN0ZXIvQ2xhc2gvTG9jYWxBcmVhTmV0d29yay5saXN0', path: ./providers/7156953299935574564_domain.yaml, interval: 86400 }
+    'LocalAreaNetwork (IP-CIDR)': { type: http, behavior: ipcidr, url: 'https://api.asailor.org/getruleset?type=4&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0FDTDRTU1IvQUNMNFNTUi9tYXN0ZXIvQ2xhc2gvTG9jYWxBcmVhTmV0d29yay5saXN0', path: ./providers/7156953299935574564_ipcidr.yaml, interval: 86400 }
+    'UnBan (Domain)': { type: http, behavior: domain, url: 'https://api.asailor.org/getruleset?type=3&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0FDTDRTU1IvQUNMNFNTUi9tYXN0ZXIvQ2xhc2gvVW5CYW4ubGlzdA', path: ./providers/7573362162235439048_domain.yaml, interval: 86400 }
+    'BanAD (Domain)': { type: http, behavior: domain, url: 'https://api.asailor.org/getruleset?type=3&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0FDTDRTU1IvQUNMNFNTUi9tYXN0ZXIvQ2xhc2gvQmFuQUQubGlzdA', path: ./providers/5345470858595246832_domain.yaml, interval: 86400 }
+    'BanProgramAD (Domain)': { type: http, behavior: domain, url: 'https://api.asailor.org/getruleset?type=3&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0FDTDRTU1IvQUNMNFNTUi9tYXN0ZXIvQ2xhc2gvQmFuUHJvZ3JhbUFELmxpc3Q', path: ./providers/12627286518854712958_domain.yaml, interval: 86400 }
+    'BanProgramAD (IP-CIDR)': { type: http, behavior: ipcidr, url: 'https://api.asailor.org/getruleset?type=4&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0FDTDRTU1IvQUNMNFNTUi9tYXN0ZXIvQ2xhc2gvQmFuUHJvZ3JhbUFELmxpc3Q', path: ./providers/12627286518854712958_ipcidr.yaml, interval: 86400 }
+    'GoogleFCM (Domain)': { type: http, behavior: domain, url: 'https://api.asailor.org/getruleset?type=3&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0FDTDRTU1IvQUNMNFNTUi9tYXN0ZXIvQ2xhc2gvUnVsZXNldC9Hb29nbGVGQ00ubGlzdA', path: ./providers/13526767378282193442_domain.yaml, interval: 86400 }
+    'GoogleFCM (IP-CIDR)': { type: http, behavior: ipcidr, url: 'https://api.asailor.org/getruleset?type=4&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0FDTDRTU1IvQUNMNFNTUi9tYXN0ZXIvQ2xhc2gvUnVsZXNldC9Hb29nbGVGQ00ubGlzdA', path: ./providers/13526767378282193442_ipcidr.yaml, interval: 86400 }
+    'GoogleCN (Domain)': { type: http, behavior: domain, url: 'https://api.asailor.org/getruleset?type=3&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0FDTDRTU1IvQUNMNFNTUi9tYXN0ZXIvQ2xhc2gvR29vZ2xlQ04ubGlzdA', path: ./providers/18094093153187793194_domain.yaml, interval: 86400 }
+    'GoogleGemini (Domain)': { type: http, behavior: domain, url: 'https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/classical/google-gemini.yaml', path: ./providers/77453868553965243050_domain.yaml, interval: 86400 }
+    'SteamCN (Domain)': { type: http, behavior: domain, url: 'https://api.asailor.org/getruleset?type=3&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0FDTDRTU1IvQUNMNFNTUi9tYXN0ZXIvQ2xhc2gvUnVsZXNldC9TdGVhbUNOLmxpc3Q', path: ./providers/9218514496462299588_domain.yaml, interval: 86400 }
+    'Microsoft (Domain)': { type: http, behavior: domain, url: 'https://api.asailor.org/getruleset?type=3&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0FDTDRTU1IvQUNMNFNTUi9tYXN0ZXIvQ2xhc2gvTWljcm9zb2Z0Lmxpc3Q', path: ./providers/10538434793549721944_domain.yaml, interval: 86400 }
+    'Apple (Domain)': { type: http, behavior: domain, url: 'https://api.asailor.org/getruleset?type=3&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0FDTDRTU1IvQUNMNFNTUi9tYXN0ZXIvQ2xhc2gvQXBwbGUubGlzdA', path: ./providers/14560487744959213540_domain.yaml, interval: 86400 }
+    'Apple (IP-CIDR)': { type: http, behavior: ipcidr, url: 'https://api.asailor.org/getruleset?type=4&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0FDTDRTU1IvQUNMNFNTUi9tYXN0ZXIvQ2xhc2gvQXBwbGUubGlzdA', path: ./providers/14560487744959213540_ipcidr.yaml, interval: 86400 }
+    'AI (Domain)': { type: http, behavior: domain, url: 'https://api.asailor.org/getruleset?type=3&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0FDTDRTU1IvQUNMNFNTUi9tYXN0ZXIvQ2xhc2gvUnVsZXNldC9BSS5saXN0', path: ./providers/7329684518282624683_domain.yaml, interval: 86400 }
+    'OpenAi (Domain)': { type: http, behavior: domain, url: 'https://api.asailor.org/getruleset?type=3&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0FDTDRTU1IvQUNMNFNTUi9tYXN0ZXIvQ2xhc2gvUnVsZXNldC9PcGVuQWkubGlzdA', path: ./providers/3258957679647165343_domain.yaml, interval: 86400 }
+    'MetaAi (Domain)': { type: http, behavior: domain, url: 'https://raw.githubusercontent.com/VPSDance/ai-proxy-rules/refs/heads/main/rules/clash/meta-ai.yaml', path: ./providers/28303761772062873535_domain.yaml, interval: 86400 }
+    'Telegram (Domain)': { type: http, behavior: domain, url: 'https://api.asailor.org/getruleset?type=3&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0FDTDRTU1IvQUNMNFNTUi9tYXN0ZXIvQ2xhc2gvVGVsZWdyYW0ubGlzdA', path: ./providers/6502624741183612233_domain.yaml, interval: 86400 }
+    'Telegram (IP-CIDR)': { type: http, behavior: ipcidr, url: 'https://api.asailor.org/getruleset?type=4&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0FDTDRTU1IvQUNMNFNTUi9tYXN0ZXIvQ2xhc2gvVGVsZWdyYW0ubGlzdA', path: ./providers/6502624741183612233_ipcidr.yaml, interval: 86400 }
+    'ProxyMedia (Domain)': { type: http, behavior: domain, url: 'https://api.asailor.org/getruleset?type=3&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0FDTDRTU1IvQUNMNFNTUi9tYXN0ZXIvQ2xhc2gvUHJveHlNZWRpYS5saXN0', path: ./providers/11865208451954205364_domain.yaml, interval: 86400 }
+    'ProxyMedia (IP-CIDR)': { type: http, behavior: ipcidr, url: 'https://api.asailor.org/getruleset?type=4&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0FDTDRTU1IvQUNMNFNTUi9tYXN0ZXIvQ2xhc2gvUHJveHlNZWRpYS5saXN0', path: ./providers/11865208451954205364_ipcidr.yaml, interval: 86400 }
+    'ChinaDomain (Domain)': { type: http, behavior: domain, url: 'https://api.asailor.org/getruleset?type=3&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0FDTDRTU1IvQUNMNFNTUi9tYXN0ZXIvQ2xhc2gvQ2hpbmFEb21haW4ubGlzdA', path: ./providers/4162648423616508953_domain.yaml, interval: 86400 }
+    'ChinaDomain (IP-CIDR)': { type: http, behavior: ipcidr, url: 'https://api.asailor.org/getruleset?type=4&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0FDTDRTU1IvQUNMNFNTUi9tYXN0ZXIvQ2xhc2gvQ2hpbmFEb21haW4ubGlzdA', path: ./providers/4162648423616508953_ipcidr.yaml, interval: 86400 }
+    'ChinaCompanyIp (IP-CIDR)': { type: http, behavior: ipcidr, url: 'https://api.asailor.org/getruleset?type=4&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0FDTDRTU1IvQUNMNFNTUi9tYXN0ZXIvQ2xhc2gvQ2hpbmFDb21wYW55SXAubGlzdA', path: ./providers/2560834305431378741_ipcidr.yaml, interval: 86400 }
+ipv6: false
+unified-delay: true
